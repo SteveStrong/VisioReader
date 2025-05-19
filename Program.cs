@@ -12,7 +12,7 @@ public static class ShapeRegistry
     public static Dictionary<string, Shape2D> Shape2DMap { get; } = new();
 }
 
-class Program
+public class Program
 {
     static void Main(string[] args)
     {
@@ -25,6 +25,7 @@ class Program
             Console.WriteLine($"Drawing directory not found: {drawingDir}");
             return;
         }
+
         foreach (var vsdxPath in Directory.GetFiles(drawingDir, "*.vsdx"))
         {
             string drawingName = Path.GetFileNameWithoutExtension(vsdxPath);
@@ -38,9 +39,23 @@ class Program
 
             $"Processing: {vsdxPath}".WriteNote(1);
             var shapes = ExtractShapesFromVsdx(vsdxPath);
-
             //place the shape from the global registry into the shapes list
             //into an instance of ShapeKnowledgeModel
+            // Post-processing: Populate connection names for all Shape1D objects
+            Console.WriteLine("Post-processing: Populating connection names for all Shape1D objects...");
+            foreach (var shape1D in ShapeRegistry.Shape1DMap.Values)
+            {
+                // Log connection information for debugging
+                Console.WriteLine($"Shape1D ID={shape1D.ID}, Name={shape1D.Name}, BeginConnectedTo={shape1D.BeginConnectedTo ?? "none"}, EndConnectedTo={shape1D.EndConnectedTo ?? "none"}, FromPart={shape1D.FromPart ?? "none"}, ToPart={shape1D.ToPart ?? "none"}");
+                
+                // Only call PopulateConnectionNames if connection information exists
+                if (!string.IsNullOrEmpty(shape1D.BeginConnectedTo) || !string.IsNullOrEmpty(shape1D.EndConnectedTo))
+                {
+                    shape1D.PopulateConnectionNames(ShapeRegistry.Shape2DMap);
+                    Console.WriteLine($"Populated connections for {shape1D.Name}: BeginConnectedName={shape1D.BeginConnectedName ?? "none"}, EndConnectedName={shape1D.EndConnectedName ?? "none"}");
+                }
+            }
+            
             var shapeKnowledgeModel = new ShapeKnowledgeModel
             {
                 Filename = drawingName,
@@ -51,16 +66,18 @@ class Program
 
 
             // Save as C# model (for now, just serialize to JSON for demonstration)
-            //define the serilizer options
+            // Define the serializer options
             var serializerOptions = new System.Text.Json.JsonSerializerOptions
             {
                 WriteIndented = true,
-                DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull | JsonIgnoreCondition.WhenWritingDefault,
+                // Only ignore null values, but include default values (like empty strings)
+                DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
             };
-            //now serialize ShapeKnowledgeModel to JSON
+            
+            // Serialize ShapeKnowledgeModel to JSON
             string json = System.Text.Json.JsonSerializer.Serialize(shapeKnowledgeModel, serializerOptions);
 
-            //now write the JSON to the output directory
+            // Write the JSON to the output directory
             string jsonFilePath = Path.Combine(outputDir, $"{drawingName}.json");
             File.WriteAllText(jsonFilePath, json);
             $"Shape knowledge model saved to: {jsonFilePath}".WriteSuccess(1);
@@ -70,6 +87,11 @@ class Program
     static List<VisioShape> ExtractShapesFromVsdx(string vsdxPath)
     {
         var shapes = new List<VisioShape>();
+        // Dictionary to store connections: key = FromSheet ID, value = List of connection details
+        var connectionsMap = new Dictionary<string, List<(string ToSheet, string FromPart, string ToPart)>>();
+        
+        Console.WriteLine("Starting connection extraction...");
+
         using (var package = Package.Open(vsdxPath, FileMode.Open, FileAccess.Read))
         {
             // Get all page parts from the package
@@ -78,7 +100,35 @@ class Program
                 part.Uri.ToString().EndsWith(".xml"));
 
             XNamespace ns = "http://schemas.microsoft.com/office/visio/2012/main";
-
+            
+            // First pass: Extract all connections from all pages
+            foreach (var pagePart in pageParts)
+            {
+                var xdoc = XDocument.Load(pagePart.GetStream());
+                var connects = xdoc.Descendants(ns + "Connect");
+                
+                foreach (var connect in connects)
+                {
+                    string fromSheet = connect.Attribute("FromSheet")?.Value ?? "";
+                    string toSheet = connect.Attribute("ToSheet")?.Value ?? "";
+                    string fromPart = connect.Attribute("FromPart")?.Value ?? "";
+                    string toPart = connect.Attribute("ToPart")?.Value ?? "";
+                    
+                    if (!string.IsNullOrEmpty(fromSheet) && !string.IsNullOrEmpty(toSheet))
+                    {
+                        if (!connectionsMap.ContainsKey(fromSheet))
+                        {
+                            connectionsMap[fromSheet] = new List<(string, string, string)>();
+                        }
+                        connectionsMap[fromSheet].Add((toSheet, fromPart, toPart));
+                        $"Found connection: {fromSheet} -> {toSheet} (FromPart={fromPart}, ToPart={toPart})".WriteSuccess();
+                    }
+                }
+            }
+            
+            $"Total connections found: {connectionsMap.Count} shapes with connections".WriteSuccess();
+            
+            // Process all pages and extract all shapes
             foreach (var pagePart in pageParts)
             {
                 // Extract page name from the URI - e.g., page1.xml becomes Page1
@@ -99,18 +149,58 @@ class Program
                     foreach (var shapeElem in shapesElement.Elements(ns + "Shape"))
                     {
                         var shape = ParseShape(shapeElem, ns);
-
+                        
                         // Ensure the page name is set correctly
                         if (string.IsNullOrEmpty(shape.PageName) || shape.PageName == "Page1" || shape.PageName == "Unknown")
                         {
                             shape.PageName = pageName;
                         }
+                        
+                // Apply connection information from the map we built earlier
+                        if (shape.ID != null && connectionsMap.TryGetValue(shape.ID, out var connections))
+                        {
+                            foreach (var (toSheet, fromPart, toPart) in connections)
+                            {
+                                // FromPart = 3, 9 and similar small values typically indicate the beginning of a 1D shape
+                                if (fromPart == "3" || fromPart == "9")
+                                {
+                                    shape.BeginConnectedTo = toSheet;
+                                    // Store FromPart value for enhanced information
+                                    shape.FromPart = fromPart;
+                                }
+                                // FromPart = 6, 12 and similar values typically indicate the end of a 1D shape
+                                else if (fromPart == "6" || fromPart == "12")
+                                {
+                                    shape.EndConnectedTo = toSheet;
+                                    // Store ToPart value for enhanced information
+                                    shape.ToPart = toPart;
+                                }
+                                
+                                // Store detailed connection information
+                                string connectionInfo = $"FromPart:{fromPart};ToPart:{toPart};ToSheet:{toSheet}";
+                                if (string.IsNullOrEmpty(shape.ConnectionPoints))
+                                {
+                                    shape.ConnectionPoints = connectionInfo;
+                                }
+                                else
+                                {
+                                    shape.ConnectionPoints += "|" + connectionInfo;
+                                }
 
+                                $"Debug: Applied connection for shape {shape.ID}: FromPart={fromPart}, ToPart={toPart}, ToSheet={toSheet}".WriteInfo();
+                            }
+                        }
+                        
                         shapes.Add(shape);
                     }
                 }
             }
+            
+            // Print count of shapes in registry
+            Console.WriteLine($"Registered 2D shapes: {ShapeRegistry.Shape2DMap.Count}");
+            Console.WriteLine($"Registered 1D shapes: {ShapeRegistry.Shape1DMap.Count}");
         }
+        
         return shapes;
     }
 
@@ -123,8 +213,7 @@ class Program
             // Fallback: Check for a cell named "BeginX" to determine if shape is 1D
             var beginXCell = shape.Cells.Find(c => c.Name == "BeginX");
             is1D = beginXCell != null;
-        }        if (is1D)
-        {
+        }        if (is1D)        {
             // 1D shape
             var s1d = new Shape1D
             {
@@ -135,13 +224,64 @@ class Program
                 BeginX = double.TryParse(shape.Cells.Find(c => c.Name == "BeginX")?.Value, out var bx) ? bx : null,
                 BeginY = double.TryParse(shape.Cells.Find(c => c.Name == "BeginY")?.Value, out var by) ? by : null,
                 EndX = double.TryParse(shape.Cells.Find(c => c.Name == "EndX")?.Value, out var ex) ? ex : null,
-                EndY = double.TryParse(shape.Cells.Find(c => c.Name == "EndY")?.Value, out var ey) ? ey : null,
-                // Copy connection-related properties
+                EndY = double.TryParse(shape.Cells.Find(c => c.Name == "EndY")?.Value, out var ey) ? ey : null,                // Copy connection-related properties
                 BeginConnectedTo = shape.BeginConnectedTo,
                 EndConnectedTo = shape.EndConnectedTo,
                 ConnectionPoints = shape.ConnectionPoints,
+                FromPart = shape.FromPart,
+                ToPart = shape.ToPart,
                 PageName = shape.PageName
             };
+              // Debug connection information
+            if (!string.IsNullOrEmpty(shape.BeginConnectedTo))
+            {
+                if (ShapeRegistry.Shape2DMap.ContainsKey(shape.BeginConnectedTo))
+                {
+                    Console.WriteLine($"Debug: Shape {shape.ID} has BeginConnectedTo = {shape.BeginConnectedTo} (will be populated later)");
+                }
+                else
+                {
+                    Console.WriteLine($"Debug: Shape {shape.ID} has BeginConnectedTo = {shape.BeginConnectedTo} but no matching 2D shape found!");
+                }
+            }
+            
+            if (!string.IsNullOrEmpty(shape.EndConnectedTo))
+            {
+                if (ShapeRegistry.Shape2DMap.ContainsKey(shape.EndConnectedTo))
+                {
+                    Console.WriteLine($"Debug: Shape {shape.ID} has EndConnectedTo = {shape.EndConnectedTo} (will be populated later)");
+                }
+                else
+                {
+                    Console.WriteLine($"Debug: Shape {shape.ID} has EndConnectedTo = {shape.EndConnectedTo} but no matching 2D shape found!");
+                }
+            }
+            
+            // Extract FromPart and ToPart from ConnectionPoints if available
+            if (!string.IsNullOrEmpty(shape.ConnectionPoints))
+            {
+                var parts = shape.ConnectionPoints.Split('|');
+                foreach (var part in parts)
+                {
+                    if (part.Contains("FromPart:"))
+                    {
+                        var match = System.Text.RegularExpressions.Regex.Match(part, @"FromPart:([^;]+)");
+                        if (match.Success)
+                        {
+                            s1d.FromPart = match.Groups[1].Value;
+                        }
+                    }
+                    if (part.Contains("ToPart:"))
+                    {
+                        var match = System.Text.RegularExpressions.Regex.Match(part, @"ToPart:([^;]+)");
+                        if (match.Success)
+                        {
+                            s1d.ToPart = match.Groups[1].Value;
+                        }
+                    }
+                }
+            }
+            
             if (shape.ID != null)
                 ShapeRegistry.Shape1DMap[shape.ID] = s1d;
             $"Shape 1D {shape.Name}: {shape.Text}".WriteSuccess(depth);
@@ -210,12 +350,7 @@ class Program
                 section.Rows.Add(row);
             }            shape.Sections.Add(section);
         }
-        
-        // Extract connection information for the shape
-        if (shape.Is1DShape())
-        {
-            ExtractConnectionInfo(shape, shapeElem, ns);
-        }
+          // No need to extract connection info here anymore, as it's handled in ExtractShapesFromVsdx
         
         // Recursively process subshapes
         var shapesElem = shapeElem.Element(ns + "Shapes");

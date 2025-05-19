@@ -13,5 +13,37 @@ public class Shape1D
     public string? BeginConnectedTo { get; set; }
     public string? EndConnectedTo { get; set; }
     public string? ConnectionPoints { get; set; }
+    
+    // Enhanced connection information
+    public string? BeginConnectedName { get; set; }  // Name of the shape connected at the beginning
+    public string? EndConnectedName { get; set; }    // Name of the shape connected at the end
+    public string? FromPart { get; set; }           // FromPart value from the connection
+    public string? ToPart { get; set; }             // ToPart value from the connection
     public string? PageName { get; set; }
+    
+    // Helper method to populate connection names
+    public void PopulateConnectionNames(Dictionary<string, Shape2D> shape2DMap)
+    {
+        if (!string.IsNullOrEmpty(BeginConnectedTo) && shape2DMap.ContainsKey(BeginConnectedTo))
+        {
+            BeginConnectedName = shape2DMap[BeginConnectedTo].Name;
+            
+            // Include connected shape text if available
+            if (!string.IsNullOrEmpty(shape2DMap[BeginConnectedTo].Text))
+            {
+                BeginConnectedName += $" ({shape2DMap[BeginConnectedTo].Text})";
+            }
+        }
+        
+        if (!string.IsNullOrEmpty(EndConnectedTo) && shape2DMap.ContainsKey(EndConnectedTo))
+        {
+            EndConnectedName = shape2DMap[EndConnectedTo].Name;
+            
+            // Include connected shape text if available
+            if (!string.IsNullOrEmpty(shape2DMap[EndConnectedTo].Text))
+            {
+                EndConnectedName += $" ({shape2DMap[EndConnectedTo].Text})";
+            }
+        }
+    }
 }
