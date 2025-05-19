@@ -71,16 +71,43 @@ class Program
     {
         var shapes = new List<VisioShape>();
         using (var package = Package.Open(vsdxPath, FileMode.Open, FileAccess.Read))
-        {            var pagePart = package.GetPart(new Uri("/visio/pages/page1.xml", UriKind.Relative));
-            var xdoc = XDocument.Load(pagePart.GetStream());
+        {
+            // Get all page parts from the package
+            var pageParts = package.GetParts().Where(part =>
+                part.Uri.ToString().StartsWith("/visio/pages/page") &&
+                part.Uri.ToString().EndsWith(".xml"));
+
             XNamespace ns = "http://schemas.microsoft.com/office/visio/2012/main";
-            var shapesElement = xdoc.Root?.Element(ns + "Shapes");
-            if (shapesElement != null)
+
+            foreach (var pagePart in pageParts)
             {
-                foreach (var shapeElem in shapesElement.Elements(ns + "Shape"))
+                // Extract page name from the URI - e.g., page1.xml becomes Page1
+                string pageName = Path.GetFileNameWithoutExtension(pagePart.Uri.ToString());
+                pageName = char.ToUpper(pageName[0]) + pageName.Substring(1);
+
+                var xdoc = XDocument.Load(pagePart.GetStream());
+                // Try to get the actual page name from the XML if available
+                var pageElement = xdoc.Root;
+                if (pageElement?.Attribute("Name") != null)
                 {
-                    var shape = ParseShape(shapeElem, ns);
-                    shapes.Add(shape);
+                    pageName = pageElement.Attribute("Name")?.Value ?? pageName;
+                }
+
+                var shapesElement = xdoc.Root?.Element(ns + "Shapes");
+                if (shapesElement != null)
+                {
+                    foreach (var shapeElem in shapesElement.Elements(ns + "Shape"))
+                    {
+                        var shape = ParseShape(shapeElem, ns);
+
+                        // Ensure the page name is set correctly
+                        if (string.IsNullOrEmpty(shape.PageName) || shape.PageName == "Page1" || shape.PageName == "Unknown")
+                        {
+                            shape.PageName = pageName;
+                        }
+
+                        shapes.Add(shape);
+                    }
                 }
             }
         }
