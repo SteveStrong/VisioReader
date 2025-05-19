@@ -40,19 +40,38 @@ public class Program
             $"Processing: {vsdxPath}".WriteNote(1);
             var shapes = ExtractShapesFromVsdx(vsdxPath);
             //place the shape from the global registry into the shapes list
-            //into an instance of ShapeKnowledgeModel
-            // Post-processing: Populate connection names for all Shape1D objects
+            //into an instance of ShapeKnowledgeModel            // Post-processing: Populate connection names for all Shape1D objects
             Console.WriteLine("Post-processing: Populating connection names for all Shape1D objects...");
+            
+            // First, populate the Shape2D.IncomingConnections lists
+            foreach (var shape1D in ShapeRegistry.Shape1DMap.Values)
+            {
+                // For each connection in the Shape1D
+                foreach (var connection in shape1D.Connections)
+                {
+                    // If the ToSheet refers to a Shape2D, add this connection to that shape's IncomingConnections
+                    if (!string.IsNullOrEmpty(connection.ToSheet) && ShapeRegistry.Shape2DMap.ContainsKey(connection.ToSheet))
+                    {
+                        ShapeRegistry.Shape2DMap[connection.ToSheet].IncomingConnections.Add(connection);
+                        Console.WriteLine($"Added connection from {shape1D.Name} to Shape2D {ShapeRegistry.Shape2DMap[connection.ToSheet].Name}");
+                    }
+                }
+            }
+            
+            // Now populate both legacy and new connection information
             foreach (var shape1D in ShapeRegistry.Shape1DMap.Values)
             {
                 // Log connection information for debugging
-                Console.WriteLine($"Shape1D ID={shape1D.ID}, Name={shape1D.Name}, BeginConnectedTo={shape1D.BeginConnectedTo ?? "none"}, EndConnectedTo={shape1D.EndConnectedTo ?? "none"}, FromPart={shape1D.FromPart ?? "none"}, ToPart={shape1D.ToPart ?? "none"}");
+                Console.WriteLine($"Shape1D ID={shape1D.ID}, Name={shape1D.Name}, ConnectionCount={shape1D.Connections.Count}, BeginConnectedTo={shape1D.BeginConnectedTo ?? "none"}, EndConnectedTo={shape1D.EndConnectedTo ?? "none"}, FromPart={shape1D.FromPart ?? "none"}, ToPart={shape1D.ToPart ?? "none"}");
                 
-                // Only call PopulateConnectionNames if connection information exists
-                if (!string.IsNullOrEmpty(shape1D.BeginConnectedTo) || !string.IsNullOrEmpty(shape1D.EndConnectedTo))
+                // Populate both legacy and new connection information
+                shape1D.PopulateConnectionNames(ShapeRegistry.Shape2DMap);
+                Console.WriteLine($"Populated connections for {shape1D.Name}: BeginConnectedName={shape1D.BeginConnectedName ?? "none"}, EndConnectedName={shape1D.EndConnectedName ?? "none"}");
+                
+                // Log details of ConnectionPoint objects
+                foreach (var connection in shape1D.Connections)
                 {
-                    shape1D.PopulateConnectionNames(ShapeRegistry.Shape2DMap);
-                    Console.WriteLine($"Populated connections for {shape1D.Name}: BeginConnectedName={shape1D.BeginConnectedName ?? "none"}, EndConnectedName={shape1D.EndConnectedName ?? "none"}");
+                    Console.WriteLine($"  ConnectionPoint: FromSheet={connection.FromSheet}, ToSheet={connection.ToSheet}, FromShapeName={connection.FromShapeName}, ToShapeName={connection.ToShapeName}");
                 }
             }
             
@@ -87,8 +106,11 @@ public class Program
     static List<VisioShape> ExtractShapesFromVsdx(string vsdxPath)
     {
         var shapes = new List<VisioShape>();
-        // Dictionary to store connections: key = FromSheet ID, value = List of connection details
+        // Dictionary to store connections: key = FromSheet ID, value = List of connection details (for backward compatibility)
         var connectionsMap = new Dictionary<string, List<(string ToSheet, string FromPart, string ToPart)>>();
+        
+        // Dictionary to store connection points that will be added to Shape1D objects later
+        var shape1DConnectionPointsMap = new Dictionary<string, List<ConnectionPoint>>();
         
         Console.WriteLine("Starting connection extraction...");
 
@@ -116,11 +138,30 @@ public class Program
                     
                     if (!string.IsNullOrEmpty(fromSheet) && !string.IsNullOrEmpty(toSheet))
                     {
+                        // Create a ConnectionPoint object
+                        var connectionPoint = new ConnectionPoint
+                        {
+                            Id = $"{fromSheet}-{toSheet}",
+                            FromSheet = fromSheet,
+                            ToSheet = toSheet,
+                            FromPart = fromPart,
+                            ToPart = toPart
+                        };
+                        
+                        // Store the ConnectionPoint object for later use
+                        if (!shape1DConnectionPointsMap.ContainsKey(fromSheet))
+                        {
+                            shape1DConnectionPointsMap[fromSheet] = new List<ConnectionPoint>();
+                        }
+                        shape1DConnectionPointsMap[fromSheet].Add(connectionPoint);
+                        
+                        // For backward compatibility, still maintain the old connections map
                         if (!connectionsMap.ContainsKey(fromSheet))
                         {
                             connectionsMap[fromSheet] = new List<(string, string, string)>();
                         }
                         connectionsMap[fromSheet].Add((toSheet, fromPart, toPart));
+                        
                         $"Found connection: {fromSheet} -> {toSheet} (FromPart={fromPart}, ToPart={toPart})".WriteSuccess();
                     }
                 }
@@ -156,27 +197,26 @@ public class Program
                             shape.PageName = pageName;
                         }
                         
-                // Apply connection information from the map we built earlier
+                        // Apply connection information from the map we built earlier
                         if (shape.ID != null && connectionsMap.TryGetValue(shape.ID, out var connections))
                         {
                             foreach (var (toSheet, fromPart, toPart) in connections)
                             {
+                                // For backward compatibility, still maintain the old properties
                                 // FromPart = 3, 9 and similar small values typically indicate the beginning of a 1D shape
                                 if (fromPart == "3" || fromPart == "9")
                                 {
                                     shape.BeginConnectedTo = toSheet;
-                                    // Store FromPart value for enhanced information
                                     shape.FromPart = fromPart;
                                 }
                                 // FromPart = 6, 12 and similar values typically indicate the end of a 1D shape
                                 else if (fromPart == "6" || fromPart == "12")
                                 {
                                     shape.EndConnectedTo = toSheet;
-                                    // Store ToPart value for enhanced information
                                     shape.ToPart = toPart;
                                 }
                                 
-                                // Store detailed connection information
+                                // Store detailed connection information for backward compatibility
                                 string connectionInfo = $"FromPart:{fromPart};ToPart:{toPart};ToSheet:{toSheet}";
                                 if (string.IsNullOrEmpty(shape.ConnectionPoints))
                                 {
@@ -186,13 +226,24 @@ public class Program
                                 {
                                     shape.ConnectionPoints += "|" + connectionInfo;
                                 }
-
+                                
                                 $"Debug: Applied connection for shape {shape.ID}: FromPart={fromPart}, ToPart={toPart}, ToSheet={toSheet}".WriteInfo();
                             }
                         }
                         
                         shapes.Add(shape);
                     }
+                }
+            }
+            
+            // After all shapes have been processed and registered, add the ConnectionPoint objects to the Shape1D objects
+            Console.WriteLine("Post-processing: Adding ConnectionPoint objects to Shape1D objects...");
+            foreach (var shapeID in shape1DConnectionPointsMap.Keys)
+            {
+                if (ShapeRegistry.Shape1DMap.TryGetValue(shapeID, out var shape1D))
+                {
+                    shape1D.Connections = shape1DConnectionPointsMap[shapeID];
+                    Console.WriteLine($"Added {shape1D.Connections.Count} ConnectionPoint objects to Shape1D {shapeID}");
                 }
             }
             
@@ -213,7 +264,10 @@ public class Program
             // Fallback: Check for a cell named "BeginX" to determine if shape is 1D
             var beginXCell = shape.Cells.Find(c => c.Name == "BeginX");
             is1D = beginXCell != null;
-        }        if (is1D)        {
+        }
+        
+        if (is1D)
+        {
             // 1D shape
             var s1d = new Shape1D
             {
@@ -224,15 +278,21 @@ public class Program
                 BeginX = double.TryParse(shape.Cells.Find(c => c.Name == "BeginX")?.Value, out var bx) ? bx : null,
                 BeginY = double.TryParse(shape.Cells.Find(c => c.Name == "BeginY")?.Value, out var by) ? by : null,
                 EndX = double.TryParse(shape.Cells.Find(c => c.Name == "EndX")?.Value, out var ex) ? ex : null,
-                EndY = double.TryParse(shape.Cells.Find(c => c.Name == "EndY")?.Value, out var ey) ? ey : null,                // Copy connection-related properties
+                EndY = double.TryParse(shape.Cells.Find(c => c.Name == "EndY")?.Value, out var ey) ? ey : null,
+                // Copy legacy connection-related properties
                 BeginConnectedTo = shape.BeginConnectedTo,
                 EndConnectedTo = shape.EndConnectedTo,
                 ConnectionPoints = shape.ConnectionPoints,
-                FromPart = shape.FromPart,
-                ToPart = shape.ToPart,
-                PageName = shape.PageName
+                FromPart = shape.FromPart,                ToPart = shape.ToPart,
+                PageName = shape.PageName,
+                // Copy the new ConnectionPoint objects
+                Connections = new List<ConnectionPoint>(shape.Connections)
             };
-              // Debug connection information
+            
+            // Debug to see if shape.Connections has any items
+            Console.WriteLine($"Debug: Shape {shape.ID} has {shape.Connections.Count} ConnectionPoint objects in VisioShape");
+            
+            // Debug connection information
             if (!string.IsNullOrEmpty(shape.BeginConnectedTo))
             {
                 if (ShapeRegistry.Shape2DMap.ContainsKey(shape.BeginConnectedTo))
@@ -257,7 +317,7 @@ public class Program
                 }
             }
             
-            // Extract FromPart and ToPart from ConnectionPoints if available
+            // For backward compatibility, still extract FromPart and ToPart from ConnectionPoints if available
             if (!string.IsNullOrEmpty(shape.ConnectionPoints))
             {
                 var parts = shape.ConnectionPoints.Split('|');
@@ -280,6 +340,12 @@ public class Program
                         }
                     }
                 }
+            }
+            
+            // Debug ConnectionPoint objects
+            foreach (var connection in s1d.Connections)
+            {
+                Console.WriteLine($"Debug: Shape1D {s1d.ID} has ConnectionPoint: FromSheet={connection.FromSheet}, ToSheet={connection.ToSheet}, FromPart={connection.FromPart}, ToPart={connection.ToPart}");
             }
             
             if (shape.ID != null)

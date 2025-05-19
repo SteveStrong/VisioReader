@@ -11,4 +11,8 @@ public class Shape2D
     
     // Include page name for all shapes
     public string? PageName { get; set; }
+    
+    // ConnectionPoint objects for this shape
+    // This will be populated with connections where this shape is a target
+    public List<ConnectionPoint> IncomingConnections { get; set; } = new();
 }
