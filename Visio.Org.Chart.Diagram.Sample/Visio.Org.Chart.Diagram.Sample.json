@@ -3,61 +3,46 @@
   "Shape2DList": [
     {
       "ID": "655",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "656",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "657",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "654",
-      "PinY": -0.1041414123535156,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "659",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "660",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "658",
-      "PinY": -0.1041414123535156,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "653",
       "Text": "Amani Birke",
-      "Height": 0.1667171752929687,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "150",
-      "PinY": 0.5555555555555555,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "652",
       "Name": "Executive Belt",
       "Text": "President",
       "Master": "137",
-      "PinX": 6.375,
-      "PinY": 6.75,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -112,60 +97,45 @@
     },
     {
       "ID": "664",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "665",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "666",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "663",
-      "PinY": -0.1041414123535156,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "668",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "669",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "667",
-      "PinY": -0.1041414123535156,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "662",
       "Text": "Darvin Vance",
-      "Height": 0.1667171752929687,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "151",
-      "PinY": 0.5555555555555555,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "661",
       "Text": "VP of Marketing",
       "Master": "137",
-      "PinX": 6.375,
-      "PinY": 4.3,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -196,60 +166,45 @@
     },
     {
       "ID": "673",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "674",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "675",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "672",
-      "PinY": -0.1041414123535156,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "677",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "678",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "676",
-      "PinY": -0.1041414123535156,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "671",
       "Text": "Isabel Wolve",
-      "Height": 0.1667171752929687,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "152",
-      "PinY": 0.5555555555555555,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "670",
       "Text": "VP of Production",
       "Master": "137",
-      "PinX": 8.625,
-      "PinY": 4.3,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -280,60 +235,45 @@
     },
     {
       "ID": "682",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "683",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "684",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "681",
-      "PinY": -0.1041414123535156,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "686",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "687",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "685",
-      "PinY": -0.1041414123535156,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "680",
       "Text": "Jane Smith",
-      "Height": 0.1667171752929687,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "153",
-      "PinY": 0.5555555555555555,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "679",
       "Text": "VP of Sales",
       "Master": "137",
-      "PinX": 4.125,
-      "PinY": 4.3,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -388,60 +328,45 @@
     },
     {
       "ID": "691",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "692",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "693",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "690",
-      "PinY": -0.1041414123535156,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "695",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "696",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "694",
-      "PinY": -0.1041414123535156,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "689",
       "Text": "Jane Smith",
-      "Height": 0.1667171752929687,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "154",
-      "PinY": 0.5555555555555555,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "688",
       "Text": "Global Sales Manager",
       "Master": "137",
-      "PinX": 4.4375,
-      "PinY": 3.075,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -472,60 +397,45 @@
     },
     {
       "ID": "700",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "701",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "702",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "699",
-      "PinY": -0.1041414123535156,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "704",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "705",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "703",
-      "PinY": -0.1041414123535156,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "698",
       "Text": "Robert Smith",
-      "Height": 0.1667171752929687,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "155",
-      "PinY": 0.5555555555555555,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "697",
       "Text": "Consultant",
       "Master": "137",
-      "PinX": 4.4375,
-      "PinY": 0.725,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -544,64 +454,45 @@
     },
     {
       "ID": "709",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "710",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "711",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "708",
-      "PinY": -0.4291664123535156,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "713",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "714",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "712",
-      "PinY": -0.4291664123535156,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "707",
       "Text": "Vacant Position",
-      "PinY": 0.4291664123535156,
-      "Height": 0.1667171752929687,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "156",
-      "PinX": 0,
-      "PinY": 0.4375,
-      "Width": 0,
-      "Height": 0,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "706",
       "Text": "Title",
       "Master": "137",
-      "PinX": 4.4375,
-      "PinY": 1.85,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -620,60 +511,45 @@
     },
     {
       "ID": "718",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "719",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "720",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "717",
-      "PinY": -0.1041414123535156,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "722",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "723",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "721",
-      "PinY": -0.1041414123535156,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "716",
       "Text": "Andrea Roberts",
-      "Height": 0.1667171752929687,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "157",
-      "PinY": 0.5555555555555555,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "715",
       "Text": "Global Manager of Marketing",
       "Master": "137",
-      "PinX": 6.6875,
-      "PinY": 3.075,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -704,60 +580,45 @@
     },
     {
       "ID": "727",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "728",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "729",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "726",
-      "PinY": -0.1041414123535156,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "731",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "732",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "730",
-      "PinY": -0.1041414123535156,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "725",
       "Text": "Robert Sidiqqe",
-      "Height": 0.1667171752929687,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "158",
-      "PinY": 0.5555555555555555,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "724",
       "Text": "Manager of Production",
       "Master": "137",
-      "PinX": 8.9375,
-      "PinY": 3.075,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -788,60 +649,45 @@
     },
     {
       "ID": "736",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "737",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "738",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "735",
-      "PinY": -0.1041414123535156,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "740",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "741",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "739",
-      "PinY": -0.1041414123535156,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "734",
       "Text": "Antonio Bonderoz",
-      "Height": 0.1667171752929687,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "159",
-      "PinY": 0.5555555555555555,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "733",
       "Text": "Production Operator",
       "Master": "137",
-      "PinX": 8.9375,
-      "PinY": 1.85,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -860,60 +706,45 @@
     },
     {
       "ID": "745",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "746",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "747",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "744",
-      "PinY": -0.1041414123535156,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "749",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "750",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "748",
-      "PinY": -0.1041414123535156,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "743",
       "Text": "Leslie Hernandez",
-      "Height": 0.1667171752929687,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "160",
-      "PinY": 0.5555555555555555,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "742",
       "Text": "Assistant",
       "Master": "137",
-      "PinX": 7.8125,
-      "PinY": 5.75,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -932,124 +763,74 @@
     },
     {
       "ID": "540",
-      "PinX": 4.65625,
-      "Width": 4.625,
-      "Height": 0.625,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "541",
-      "PinX": 4.640625,
-      "Width": 4.625,
-      "Height": 0.625,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "542",
-      "PinY": 0.546875,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "543",
-      "PinY": 0.390625,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "544",
-      "PinY": 0.234375,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "545",
-      "PinY": 0.078125,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "546",
-      "PinX": 4.625,
-      "Width": 4.625,
-      "Height": 0.625,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "547",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "548",
-      "PinX": 4.625,
-      "PinY": 0.625,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "549",
-      "Width": 4.625,
-      "Height": 0.625,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "550",
-      "PinX": 2.3125,
-      "PinY": 0.3125,
-      "Width": 4.875,
-      "Height": 0.875,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "551",
-      "PinY": 0.546875,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "552",
-      "PinY": 0.390625,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "553",
-      "PinY": 0.234375,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "554",
-      "PinY": 0.078125,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "555",
       "Text": "ABC Manufacturing Company",
-      "PinX": 2.3125,
-      "PinY": 0.3125,
-      "Width": 4.513398050587673,
-      "Height": 0.5111595852322048,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "539",
       "Name": "Title/Date",
       "Master": "120",
-      "PinX": 7.125,
-      "PinY": 7.9375,
-      "Width": 4.625,
-      "Height": 0.625,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     }
   ],
   "Shape1DList": [
@@ -1057,10 +838,6 @@
       "ID": "22",
       "Name": "Dynamic connector",
       "Master": "15",
-      "BeginX": 6.375,
-      "BeginY": 6.3125,
-      "EndX": 6.375,
-      "EndY": 4.7375,
       "PageName": "Page1",
       "Connections": [
         {
@@ -1092,10 +869,6 @@
     {
       "ID": "33",
       "Master": "15",
-      "BeginX": 6.375,
-      "BeginY": 6.3125,
-      "EndX": 8.625,
-      "EndY": 4.7375,
       "PageName": "Page1",
       "Connections": [
         {
@@ -1127,10 +900,6 @@
     {
       "ID": "44",
       "Master": "15",
-      "BeginX": 6.375,
-      "BeginY": 6.3125,
-      "EndX": 4.125,
-      "EndY": 4.7375,
       "PageName": "Page1",
       "Connections": [
         {
@@ -1162,10 +931,6 @@
     {
       "ID": "55",
       "Master": "15",
-      "BeginX": 4.125,
-      "BeginY": 3.8625,
-      "EndX": 3.625,
-      "EndY": 3.075,
       "PageName": "Page1",
       "Connections": [
         {
@@ -1197,10 +962,6 @@
     {
       "ID": "66",
       "Master": "15",
-      "BeginX": 4.125,
-      "BeginY": 3.8625,
-      "EndX": 3.625,
-      "EndY": 0.725,
       "PageName": "Page1",
       "Connections": [
         {
@@ -1232,10 +993,6 @@
     {
       "ID": "83",
       "Master": "15",
-      "BeginX": 4.4375,
-      "BeginY": 2.6375,
-      "EndX": 4.4375,
-      "EndY": 2.2875,
       "PageName": "Page1",
       "Connections": [
         {
@@ -1267,10 +1024,6 @@
     {
       "ID": "104",
       "Master": "15",
-      "BeginX": 8.625,
-      "BeginY": 3.8625,
-      "EndX": 8.125,
-      "EndY": 3.075,
       "PageName": "Page1",
       "Connections": [
         {
@@ -1302,10 +1055,6 @@
     {
       "ID": "115",
       "Master": "15",
-      "BeginX": 8.9375,
-      "BeginY": 2.6375,
-      "EndX": 8.9375,
-      "EndY": 2.2875,
       "PageName": "Page1",
       "Connections": [
         {
@@ -1337,10 +1086,6 @@
     {
       "ID": "127",
       "Master": "15",
-      "BeginX": 6.375,
-      "BeginY": 6.3125,
-      "EndX": 7,
-      "EndY": 5.75,
       "PageName": "Page1",
       "Connections": [
         {
@@ -1372,10 +1117,6 @@
     {
       "ID": "129",
       "Master": "15",
-      "BeginX": 6.375,
-      "BeginY": 3.8625,
-      "EndX": 5.875,
-      "EndY": 3.075,
       "PageName": "Page1",
       "Connections": [
         {
@@ -1408,10 +1149,6 @@
       "ID": "650",
       "Name": "Dotted-line report",
       "Master": "122",
-      "BeginX": 4.125,
-      "BeginY": 3.8625,
-      "EndX": 5.875,
-      "EndY": 3.075,
       "PageName": "Page1",
       "Connections": [
         {

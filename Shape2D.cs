@@ -8,11 +8,20 @@ public class Shape2D
     public double? PinY { get; set; }
     public double? Width { get; set; }
     public double? Height { get; set; }
-    
+
     // Include page name for all shapes
     public string? PageName { get; set; }
-    
+
     // ConnectionPoint objects for this shape
     // This will be populated with connections where this shape is a target
-    public List<ConnectionPoint> IncomingConnections { get; set; } = new();
+    public List<ConnectionPoint>? IncomingConnections { get; set; }
+    
+    public void AddIncomingConnection(ConnectionPoint connection)
+    {
+        if (IncomingConnections == null)
+        {
+            IncomingConnections = new List<ConnectionPoint>();
+        }
+        IncomingConnections.Add(connection);
+    }
 }

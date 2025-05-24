@@ -6,8 +6,6 @@
       "Name": "Process",
       "Text": "Submit the registration form",
       "Master": "6",
-      "PinX": 4.125000016763803,
-      "PinY": 5.893292807098558,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -53,8 +51,6 @@
       "Name": "Decision",
       "Text": "Form Complete?",
       "Master": "7",
-      "PinX": 4.125000016763803,
-      "PinY": 4.125000041909514,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -99,8 +95,6 @@
       "ID": "9",
       "Text": "Verify Details of Submission",
       "Master": "6",
-      "PinX": 4.125000016763803,
-      "PinY": 2.625000041909514,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -133,8 +127,6 @@
       "ID": "11",
       "Text": "Accept Submission?",
       "Master": "7",
-      "PinX": 6.24999993853271,
-      "PinY": 2.624999983236194,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -179,8 +171,6 @@
       "ID": "13",
       "Text": "Write Acceptance Letter",
       "Master": "6",
-      "PinX": 7.74999993853271,
-      "PinY": 2.624999983236194,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -214,8 +204,6 @@
       "Name": "Document",
       "Text": "Acceptance Letter",
       "Master": "8",
-      "PinX": 7.74999993853271,
-      "PinY": 5.893292748425237,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -248,8 +236,6 @@
       "ID": "18",
       "Text": "Notify Student on the Rejection",
       "Master": "6",
-      "PinX": 6.24999993853271,
-      "PinY": 4.527438716760858,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -283,8 +269,6 @@
       "Name": "Start/End",
       "Text": "Start",
       "Master": "11",
-      "PinX": 2.625000050291416,
-      "PinY": 5.893292807098558,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -306,8 +290,6 @@
       "Name": "Start/End.64",
       "Text": "End",
       "Master": "11",
-      "PinX": 6.24999993853271,
-      "PinY": 5.893292748425237,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -342,10 +324,6 @@
       "ID": "3",
       "Name": "Dynamic connector",
       "Master": "5",
-      "BeginX": 4.125000016763803,
-      "BeginY": 5.518292807098558,
-      "EndX": 4.125000016763803,
-      "EndY": 4.500000041909514,
       "PageName": "Page1",
       "Connections": [
         {
@@ -378,10 +356,6 @@
       "ID": "4",
       "Text": "No",
       "Master": "5",
-      "BeginX": 4.625000016763803,
-      "BeginY": 4.125000041909514,
-      "EndX": 4.625000016763803,
-      "EndY": 5.893292807098558,
       "PageName": "Page1",
       "Connections": [
         {
@@ -414,10 +388,6 @@
       "ID": "6",
       "Text": "Yes",
       "Master": "5",
-      "BeginX": 4.125000016763803,
-      "BeginY": 3.750000041909514,
-      "EndX": 4.125000016763803,
-      "EndY": 3.000000041909514,
       "PageName": "Page1",
       "Connections": [
         {
@@ -449,10 +419,6 @@
     {
       "ID": "12",
       "Master": "5",
-      "BeginX": 4.625000016763803,
-      "BeginY": 2.625000041909514,
-      "EndX": 5.74999993853271,
-      "EndY": 2.624999983236194,
       "PageName": "Page1",
       "Connections": [
         {
@@ -485,10 +451,6 @@
       "ID": "14",
       "Text": "Yes",
       "Master": "5",
-      "BeginX": 6.74999993853271,
-      "BeginY": 2.624999983236194,
-      "EndX": 7.24999993853271,
-      "EndY": 2.624999983236194,
       "PageName": "Page1",
       "Connections": [
         {
@@ -520,10 +482,6 @@
     {
       "ID": "16",
       "Master": "5",
-      "BeginX": 7.74999993853271,
-      "BeginY": 2.999999983236194,
-      "EndX": 7.74999993853271,
-      "EndY": 5.60162608175857,
       "PageName": "Page1",
       "Connections": [
         {
@@ -556,10 +514,6 @@
       "ID": "19",
       "Text": "No",
       "Master": "5",
-      "BeginX": 6.24999993853271,
-      "BeginY": 2.999999983236194,
-      "EndX": 6.24999993853271,
-      "EndY": 4.152438716760858,
       "PageName": "Page1",
       "Connections": [
         {
@@ -591,10 +545,6 @@
     {
       "ID": "63",
       "Master": "5",
-      "BeginX": 3.125000050291416,
-      "BeginY": 5.893292807098554,
-      "EndX": 3.625000016763803,
-      "EndY": 5.893292807098558,
       "PageName": "Page1",
       "Connections": [
         {
@@ -626,10 +576,6 @@
     {
       "ID": "65",
       "Master": "5",
-      "BeginX": 6.24999993853271,
-      "BeginY": 4.902438716760858,
-      "EndX": 6.24999993853271,
-      "EndY": 5.705792748425237,
       "PageName": "Page1",
       "Connections": [
         {
@@ -661,10 +607,6 @@
     {
       "ID": "66",
       "Master": "5",
-      "BeginX": 7.24999993853271,
-      "BeginY": 5.893292748425237,
-      "EndX": 6.74999993853271,
-      "EndY": 5.893292748425234,
       "PageName": "Page1",
       "Connections": [
         {

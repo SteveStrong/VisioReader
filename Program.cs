@@ -5,6 +5,8 @@ using System.Xml.Linq;
 using System.Collections.Generic;
 using FoundryRulesAndUnits.Extensions;
 using System.Text.Json.Serialization;
+using System.Text.Json;
+using VisioReader; // Add reference to the namespace where EmptyCollectionConverter is defined
 
 public static class ShapeRegistry
 {
@@ -47,12 +49,16 @@ public class Program
             foreach (var shape1D in ShapeRegistry.Shape1DMap.Values)
             {
                 // For each connection in the Shape1D
+                if (shape1D.Connections == null)
+                {
+                    continue;
+                }
                 foreach (var connection in shape1D.Connections)
                 {
                     // If the ToSheet refers to a Shape2D, add this connection to that shape's IncomingConnections
                     if (!string.IsNullOrEmpty(connection.ToSheet) && ShapeRegistry.Shape2DMap.ContainsKey(connection.ToSheet))
                     {
-                        ShapeRegistry.Shape2DMap[connection.ToSheet].IncomingConnections.Add(connection);
+                        ShapeRegistry.Shape2DMap[connection.ToSheet].AddIncomingConnection(connection);
                         Console.WriteLine($"Added connection from {shape1D.Name} to Shape2D {ShapeRegistry.Shape2DMap[connection.ToSheet].Name}");
                     }
                 }
@@ -62,17 +68,13 @@ public class Program
             foreach (var shape1D in ShapeRegistry.Shape1DMap.Values)
             {
                 // Log connection information for debugging
-                Console.WriteLine($"Shape1D ID={shape1D.ID}, Name={shape1D.Name}, ConnectionCount={shape1D.Connections.Count}, BeginConnectedTo={shape1D.BeginConnectedTo ?? "none"}, EndConnectedTo={shape1D.EndConnectedTo ?? "none"}, FromPart={shape1D.FromPart ?? "none"}, ToPart={shape1D.ToPart ?? "none"}");
+                //Console.WriteLine($"Shape1D ID={shape1D.ID}, Name={shape1D.Name}, ConnectionCount={shape1D.Connections.Count}, BeginConnectedTo={shape1D.BeginConnectedTo ?? "none"}, EndConnectedTo={shape1D.EndConnectedTo ?? "none"}, FromPart={shape1D.FromPart ?? "none"}, ToPart={shape1D.ToPart ?? "none"}");
                 
                 // Populate both legacy and new connection information
                 shape1D.PopulateConnectionNames(ShapeRegistry.Shape2DMap);
                 Console.WriteLine($"Populated connections for {shape1D.Name}: BeginConnectedName={shape1D.BeginConnectedName ?? "none"}, EndConnectedName={shape1D.EndConnectedName ?? "none"}");
                 
-                // Log details of ConnectionPoint objects
-                foreach (var connection in shape1D.Connections)
-                {
-                    Console.WriteLine($"  ConnectionPoint: FromSheet={connection.FromSheet}, ToSheet={connection.ToSheet}, FromShapeName={connection.FromShapeName}, ToShapeName={connection.ToShapeName}");
-                }
+
             }
             
             var shapeKnowledgeModel = new ShapeKnowledgeModel
@@ -84,14 +86,16 @@ public class Program
 
 
 
-            // Save as C# model (for now, just serialize to JSON for demonstration)
-            // Define the serializer options
+            // Save as C# model (for now, just serialize to JSON for demonstration)            // Define the serializer options
             var serializerOptions = new System.Text.Json.JsonSerializerOptions
             {
                 WriteIndented = true,
                 // Only ignore null values, but include default values (like empty strings)
                 DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
             };
+            
+            // Add the EmptyCollectionConverter to skip serializing empty collections
+            //serializerOptions.Converters.Add(new EmptyCollectionConverter());
             
             // Serialize ShapeKnowledgeModel to JSON
             string json = System.Text.Json.JsonSerializer.Serialize(shapeKnowledgeModel, serializerOptions);
@@ -275,22 +279,27 @@ public class Program
                 Name = shape.Name,
                 Text = shape.Text,
                 Master = shape.Master,
-                BeginX = double.TryParse(shape.Cells.Find(c => c.Name == "BeginX")?.Value, out var bx) ? bx : null,
-                BeginY = double.TryParse(shape.Cells.Find(c => c.Name == "BeginY")?.Value, out var by) ? by : null,
-                EndX = double.TryParse(shape.Cells.Find(c => c.Name == "EndX")?.Value, out var ex) ? ex : null,
-                EndY = double.TryParse(shape.Cells.Find(c => c.Name == "EndY")?.Value, out var ey) ? ey : null,
+                // BeginX = double.TryParse(shape.Cells.Find(c => c.Name == "BeginX")?.Value, out var bx) ? bx : null,
+                // BeginY = double.TryParse(shape.Cells.Find(c => c.Name == "BeginY")?.Value, out var by) ? by : null,
+                // EndX = double.TryParse(shape.Cells.Find(c => c.Name == "EndX")?.Value, out var ex) ? ex : null,
+                // EndY = double.TryParse(shape.Cells.Find(c => c.Name == "EndY")?.Value, out var ey) ? ey : null,
                 // Copy legacy connection-related properties
                 BeginConnectedTo = shape.BeginConnectedTo,
                 EndConnectedTo = shape.EndConnectedTo,
                 ConnectionPoints = shape.ConnectionPoints,
-                FromPart = shape.FromPart,                ToPart = shape.ToPart,
+                FromPart = shape.FromPart,
+                ToPart = shape.ToPart,
                 PageName = shape.PageName,
-                // Copy the new ConnectionPoint objects
-                Connections = new List<ConnectionPoint>(shape.Connections)
             };
+            foreach (var item in shape.Connections)
+            {
+                // Add each connection to the Shape1D object
+                s1d.AddConnection(item);
+            }
+
             
             // Debug to see if shape.Connections has any items
-            Console.WriteLine($"Debug: Shape {shape.ID} has {shape.Connections.Count} ConnectionPoint objects in VisioShape");
+            //Console.WriteLine($"Debug: Shape {shape.ID} has {shape.Connections.Count} ConnectionPoint objects in VisioShape");
             
             // Debug connection information
             if (!string.IsNullOrEmpty(shape.BeginConnectedTo))
@@ -343,10 +352,7 @@ public class Program
             }
             
             // Debug ConnectionPoint objects
-            foreach (var connection in s1d.Connections)
-            {
-                Console.WriteLine($"Debug: Shape1D {s1d.ID} has ConnectionPoint: FromSheet={connection.FromSheet}, ToSheet={connection.ToSheet}, FromPart={connection.FromPart}, ToPart={connection.ToPart}");
-            }
+
             
             if (shape.ID != null)
                 ShapeRegistry.Shape1DMap[shape.ID] = s1d;
@@ -360,10 +366,10 @@ public class Program
                 Name = shape.Name,
                 Text = shape.Text,
                 Master = shape.Master,
-                PinX = double.TryParse(shape.Cells.Find(c => c.Name == "PinX")?.Value, out var px) ? px : null,
-                PinY = double.TryParse(shape.Cells.Find(c => c.Name == "PinY")?.Value, out var py) ? py : null,
-                Width = double.TryParse(shape.Cells.Find(c => c.Name == "Width")?.Value, out var w) ? w : null,
-                Height = double.TryParse(shape.Cells.Find(c => c.Name == "Height")?.Value, out var h) ? h : null,
+                // PinX = double.TryParse(shape.Cells.Find(c => c.Name == "PinX")?.Value, out var px) ? px : null,
+                // PinY = double.TryParse(shape.Cells.Find(c => c.Name == "PinY")?.Value, out var py) ? py : null,
+                // Width = double.TryParse(shape.Cells.Find(c => c.Name == "Width")?.Value, out var w) ? w : null,
+                // Height = double.TryParse(shape.Cells.Find(c => c.Name == "Height")?.Value, out var h) ? h : null,
                 // Set the page name for 2D shapes as well
                 PageName = shape.PageName
             };            if (shape.ID != null)

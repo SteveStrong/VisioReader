@@ -1,3 +1,5 @@
+using System.Net;
+
 public class Shape1D
 {
     public string? ID { get; set; }
@@ -22,7 +24,16 @@ public class Shape1D
     public string? PageName { get; set; }
     
     // New structured connection information
-    public List<ConnectionPoint> Connections { get; set; } = new();
+    public List<ConnectionPoint>? Connections { get; set; }
+    
+    public void AddConnection(ConnectionPoint connection)
+    {
+        if (Connections == null)
+        {
+            Connections = new List<ConnectionPoint>();
+        }
+        Connections.Add(connection);
+    }
       // Helper method to populate connection names
     public void PopulateConnectionNames(Dictionary<string, Shape2D> shape2DMap)
     {
@@ -30,43 +41,46 @@ public class Shape1D
         if (!string.IsNullOrEmpty(BeginConnectedTo) && shape2DMap.ContainsKey(BeginConnectedTo))
         {
             BeginConnectedName = shape2DMap[BeginConnectedTo].Name;
-            
+
             // Include connected shape text if available
             if (!string.IsNullOrEmpty(shape2DMap[BeginConnectedTo].Text))
             {
                 BeginConnectedName += $" ({shape2DMap[BeginConnectedTo].Text})";
             }
         }
-        
+
         if (!string.IsNullOrEmpty(EndConnectedTo) && shape2DMap.ContainsKey(EndConnectedTo))
         {
             EndConnectedName = shape2DMap[EndConnectedTo].Name;
-            
+
             // Include connected shape text if available
             if (!string.IsNullOrEmpty(shape2DMap[EndConnectedTo].Text))
             {
                 EndConnectedName += $" ({shape2DMap[EndConnectedTo].Text})";
             }
         }
-        
+
         // Populate the new ConnectionPoint list with shape names
+        if (Connections == null)
+            return;
+
         foreach (var connection in Connections)
         {
             if (!string.IsNullOrEmpty(connection.FromSheet) && shape2DMap.ContainsKey(connection.FromSheet))
             {
                 connection.FromShapeName = shape2DMap[connection.FromSheet].Name;
-                
+
                 // Include shape text if available
                 if (!string.IsNullOrEmpty(shape2DMap[connection.FromSheet].Text))
                 {
                     connection.FromShapeName += $" ({shape2DMap[connection.FromSheet].Text})";
                 }
             }
-            
+
             if (!string.IsNullOrEmpty(connection.ToSheet) && shape2DMap.ContainsKey(connection.ToSheet))
             {
                 connection.ToShapeName = shape2DMap[connection.ToSheet].Name;
-                
+
                 // Include shape text if available
                 if (!string.IsNullOrEmpty(shape2DMap[connection.ToSheet].Text))
                 {

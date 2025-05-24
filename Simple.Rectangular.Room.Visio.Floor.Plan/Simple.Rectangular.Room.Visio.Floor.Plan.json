@@ -3,1238 +3,652 @@
   "Shape2DList": [
     {
       "ID": "3",
-      "PinX": 157.4999973648473,
-      "Width": 314.9999947296947,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "4",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "6",
-      "PinX": 157.4999973648473,
-      "Width": 314.9999947296947,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "7",
-      "PinX": 157.4999973648473,
-      "Width": 314.9999947296947,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "8",
-      "PinX": 157.4999973648473,
-      "PinY": 12.53453333333333,
-      "Width": 32.41513884476,
-      "Height": 17.06906666666666,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "10",
-      "PinX": 125.9999978918778,
-      "Width": 251.9999957837555,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "11",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "13",
-      "PinX": 125.9999978918778,
-      "Width": 251.9999957837555,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "14",
-      "PinX": 125.9999978918778,
-      "Width": 251.9999957837555,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "15",
-      "PinX": 125.9999978918778,
-      "PinY": 12.53453333333333,
-      "Width": 32.41513884476,
-      "Height": 17.06906666666666,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "17",
-      "PinX": 157.4999973648477,
-      "Width": 314.9999947296954,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "18",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "20",
-      "PinX": 157.4999973648477,
-      "Width": 314.9999947296954,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "21",
-      "PinX": 157.4999973648477,
-      "Width": 314.9999947296954,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "22",
-      "PinX": 157.4999973648477,
-      "PinY": 12.53453333333333,
-      "Width": 32.41513884476,
-      "Height": 17.06906666666666,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "24",
-      "PinX": 125.9999978918766,
-      "Width": 251.9999957837532,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "25",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "27",
-      "PinX": 125.9999978918766,
-      "Width": 251.9999957837532,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "28",
-      "PinX": 125.9999978918766,
-      "Width": 251.9999957837532,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "29",
-      "PinX": 125.9999978918766,
-      "PinY": 12.53453333333333,
-      "Width": 32.41513884476,
-      "Height": 17.06906666666666,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "1",
       "Name": "Room",
       "Master": "2",
-      "PinX": 577.5000026351528,
-      "PinY": 684.0000122722829,
-      "Width": 314.9999947296944,
-      "Height": 251.9999957837555,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "31",
-      "PinX": 18,
-      "PinY": 2,
-      "Width": 36,
-      "Height": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "32",
-      "PinX": 18,
-      "Width": 44,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "33",
-      "PinX": 18,
-      "PinY": 4,
-      "Width": 44,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "34",
-      "PinX": 18,
-      "PinY": 2,
-      "Width": 40,
-      "Height": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "35",
-      "PinX": 18,
-      "Width": 40,
-      "Height": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "36",
-      "PinX": 18,
-      "PinY": 2.5,
-      "Width": 36,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "37",
-      "PinX": 18,
-      "PinY": 2,
-      "Width": 40,
-      "Height": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "38",
-      "PinY": 4,
-      "Width": 36,
-      "Height": 36,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "39",
-      "PinX": 36,
-      "PinY": 4,
-      "Width": 36,
-      "Height": 1.5,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "40",
-      "PinY": 2.5,
-      "Width": 36,
-      "Height": 36,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "41",
-      "PinX": 36,
-      "PinY": 2.5,
-      "Width": 36,
-      "Height": 1.5,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "42",
-      "PinX": 18,
-      "PinY": 12.53453333333333,
-      "Width": 26.27228728226,
-      "Height": 17.06906666666666,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "30",
       "Name": "Door",
       "Master": "4",
-      "PinX": 737,
-      "PinY": 691.5000210423627,
-      "Width": 36,
-      "Height": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "44",
-      "PinX": 18,
-      "PinY": 2,
-      "Width": 36,
-      "Height": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "45",
-      "PinX": 18,
-      "Width": 44,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "46",
-      "PinX": 18,
-      "PinY": 4,
-      "Width": 44,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "47",
-      "PinX": 18,
-      "PinY": 2,
-      "Width": 40,
-      "Height": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "48",
-      "PinX": 18,
-      "Width": 40,
-      "Height": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "49",
-      "PinX": 18,
-      "PinY": 2.5,
-      "Width": 36,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "50",
-      "PinX": 18,
-      "PinY": 2,
-      "Width": 40,
-      "Height": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "51",
-      "PinY": 4,
-      "Width": 36,
-      "Height": 36,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "52",
-      "PinX": 36,
-      "PinY": 4,
-      "Width": 36,
-      "Height": 1.5,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "53",
-      "PinY": 2.5,
-      "Width": 36,
-      "Height": 36,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "54",
-      "PinX": 36,
-      "PinY": 2.5,
-      "Width": 36,
-      "Height": 1.5,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "55",
-      "PinX": 18,
-      "PinY": 12.53453333333333,
-      "Width": 26.27228728226,
-      "Height": 17.06906666666666,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "43",
       "Name": "Door.43",
       "Master": "4",
-      "PinX": 418.0000052703054,
-      "PinY": 686.1290528121775,
-      "Width": 36,
-      "Height": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "57",
-      "PinX": 39.00000119978444,
-      "PinY": 2,
-      "Width": 78.00000239956887,
-      "Height": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "58",
-      "PinX": 39.00000119978444,
-      "PinY": 4,
-      "Width": 82.00000239956887,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "59",
-      "PinX": 39.00000119978444,
-      "Width": 82.00000239956887,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "60",
-      "PinX": 39.00000119978444,
-      "PinY": 2,
-      "Width": 78.00000239956887,
-      "Height": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "61",
-      "PinX": 39.00000119978444,
-      "Width": 78.00000239956887,
-      "Height": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "62",
-      "PinX": 39.00000119978444,
-      "PinY": 2,
-      "Width": 74.00000239956887,
-      "Height": 2,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "63",
-      "PinX": 39.00000119978444,
-      "PinY": 2,
-      "Width": 70.00000239956887,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "64",
-      "PinX": 39.00000119978444,
-      "PinY": 2,
-      "Width": 78.00000239956887,
-      "Height": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "65",
-      "PinX": 39.00000119978444,
-      "PinY": 12.53453333333333,
-      "Width": 26.27228728226,
-      "Height": 17.06906666666666,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "56",
       "Name": "Window",
       "Master": "5",
-      "PinX": 585.0000179967593,
-      "PinY": 812.0000101641606,
-      "Width": 78.00000239956887,
-      "Height": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "67",
-      "PinX": 36.00000110749329,
-      "PinY": 2,
-      "Width": 72.00000221498658,
-      "Height": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "68",
-      "PinX": 36.00000110749329,
-      "PinY": 4,
-      "Width": 76.00000221498658,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "69",
-      "PinX": 36.00000110749329,
-      "Width": 76.00000221498658,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "70",
-      "PinX": 36.00000110749329,
-      "PinY": 2,
-      "Width": 72.00000221498658,
-      "Height": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "71",
-      "PinX": 36.00000110749329,
-      "Width": 72.00000221498658,
-      "Height": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "72",
-      "PinX": 36.00000110749329,
-      "PinY": 2,
-      "Width": 68.00000221498658,
-      "Height": 2,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "73",
-      "PinX": 36.00000110749329,
-      "PinY": 2,
-      "Width": 64.00000221498658,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "74",
-      "PinX": 36.00000110749329,
-      "PinY": 2,
-      "Width": 72.00000221498658,
-      "Height": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "75",
-      "PinX": 36.00000110749329,
-      "PinY": 12.53453333333333,
-      "Width": 26.27228728226,
-      "Height": 17.06906666666666,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "66",
       "Master": "5",
-      "PinX": 588.0000180890497,
-      "PinY": 556.0000143804056,
-      "Width": 72.00000221498658,
-      "Height": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "78",
-      "PinX": 120.0000018458214,
-      "Width": 240.0000036916428,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "79",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "81",
-      "PinX": 120.0000018458214,
-      "Width": 240.0000036916428,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "82",
-      "PinX": 120.0000018458214,
-      "Width": 240.0000036916428,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "83",
-      "PinX": 120.0000018458214,
-      "PinY": 12.53453333333333,
-      "Width": 32.41513884476,
-      "Height": 17.06906666666666,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "85",
-      "PinX": 96.00000147665705,
-      "Width": 192.0000029533141,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "86",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "88",
-      "PinX": 96.00000147665705,
-      "Width": 192.0000029533141,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "89",
-      "PinX": 96.00000147665705,
-      "Width": 192.0000029533141,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "90",
-      "PinX": 96.00000147665705,
-      "PinY": 12.53453333333333,
-      "Width": 32.41513884476,
-      "Height": 17.06906666666666,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "92",
-      "PinX": 120.0000018458217,
-      "Width": 240.0000036916433,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "93",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "95",
-      "PinX": 120.0000018458217,
-      "Width": 240.0000036916433,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "96",
-      "PinX": 120.0000018458217,
-      "Width": 240.0000036916433,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "97",
-      "PinX": 120.0000018458217,
-      "PinY": 12.53453333333333,
-      "Width": 32.41513884476,
-      "Height": 17.06906666666666,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "99",
-      "PinX": 96.00000147665614,
-      "Width": 192.0000029533123,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "100",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "102",
-      "PinX": 96.00000147665614,
-      "Width": 192.0000029533123,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "103",
-      "PinX": 96.00000147665614,
-      "Width": 192.0000029533123,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "104",
-      "PinX": 96.00000147665614,
-      "PinY": 12.53453333333333,
-      "Width": 32.41513884476,
-      "Height": 17.06906666666666,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "76",
       "Master": "2",
-      "PinX": 756.0000251031698,
-      "PinY": 458.0000129037484,
-      "Width": 240.0000036916426,
-      "Height": 192.0000029533141,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "107",
-      "PinX": 101.7096805483198,
-      "Width": 203.4193610966396,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "108",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "110",
-      "PinX": 101.7096805483198,
-      "Width": 203.4193610966396,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "111",
-      "PinX": 101.7096805483198,
-      "Width": 203.4193610966396,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "112",
-      "PinX": 101.7096805483198,
-      "PinY": 12.53453333333333,
-      "Width": 64.40767790726001,
-      "Height": 17.06906666666666,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "114",
-      "PinX": 81.36774443865579,
-      "Width": 162.7354888773116,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "115",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "117",
-      "PinX": 81.36774443865579,
-      "Width": 162.7354888773116,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "118",
-      "PinX": 81.36774443865579,
-      "Width": 162.7354888773116,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "119",
-      "PinX": 81.36774443865579,
-      "PinY": 12.53453333333333,
-      "Width": 52.12197478226,
-      "Height": 17.06906666666666,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "121",
-      "PinX": 101.70968054832,
-      "Width": 203.4193610966401,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "122",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "124",
-      "PinX": 101.70968054832,
-      "Width": 203.4193610966401,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "125",
-      "PinX": 101.70968054832,
-      "Width": 203.4193610966401,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "126",
-      "PinX": 101.70968054832,
-      "PinY": 12.53453333333333,
-      "Width": 64.40767790726001,
-      "Height": 17.06906666666666,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "128",
-      "PinX": 81.36774443865502,
-      "Width": 162.7354888773101,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "129",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "131",
-      "PinX": 81.36774443865502,
-      "Width": 162.7354888773101,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "132",
-      "PinX": 81.36774443865502,
-      "Width": 162.7354888773101,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "133",
-      "PinX": 81.36774443865502,
-      "PinY": 12.53453333333333,
-      "Width": 52.12197478226,
-      "Height": 17.06906666666666,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "105",
       "Master": "2",
-      "PinX": 432.29033587949,
-      "PinY": 470.6322725429002,
-      "Width": 203.4193610966395,
-      "Height": 162.7354888773116,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "135",
-      "PinY": 2,
-      "Height": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "136",
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "137",
-      "PinY": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "138",
-      "PinY": 2,
-      "Height": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "139",
-      "Height": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "140",
-      "PinY": 2.5,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "141",
-      "PinY": 2,
-      "Height": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "142",
-      "PinY": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "143",
-      "PinY": 4,
-      "Height": 1.5,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "144",
-      "PinY": 2.5,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "145",
-      "PinY": 2.5,
-      "Height": 1.5,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "146",
-      "PinY": 12.53453333333333,
-      "Width": 26.27228728226,
-      "Height": 17.06906666666666,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "134",
       "Master": "4",
-      "PinX": 878.0000269489911,
-      "PinY": 447.0000136590774,
-      "Height": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "148",
-      "PinX": 23.81612953420191,
-      "PinY": 2,
-      "Width": 47.63225906840381,
-      "Height": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "149",
-      "PinX": 23.81612953420191,
-      "PinY": 4,
-      "Width": 51.63225906840381,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "150",
-      "PinX": 23.81612953420191,
-      "Width": 51.63225906840381,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "151",
-      "PinX": 23.81612953420191,
-      "PinY": 2,
-      "Width": 47.63225906840381,
-      "Height": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "152",
-      "PinX": 23.81612953420191,
-      "Width": 47.63225906840381,
-      "Height": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "153",
-      "PinX": 23.81612953420191,
-      "PinY": 2,
-      "Width": 43.63225906840381,
-      "Height": 2,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "154",
-      "PinX": 23.81612953420191,
-      "PinY": 2,
-      "Width": 39.63225906840381,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "155",
-      "PinX": 23.81612953420191,
-      "PinY": 2,
-      "Width": 47.63225906840381,
-      "Height": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "156",
-      "PinX": 23.81612953420191,
-      "PinY": 12.53453333333333,
-      "Width": 52.12197478226,
-      "Height": 17.06906666666666,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "147",
       "Master": "5",
-      "PinX": 328.5806553311701,
-      "PinY": 461.8161430086977,
-      "Width": 47.63225906840381,
-      "Height": 4,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "158",
-      "PinX": 157.4999973648474,
-      "PinY": 125.9999978918775,
-      "Width": 314.9999947296947,
-      "Height": 251.999995783755,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     },
     {
       "ID": "157",
       "Name": "Space",
       "Master": "6",
-      "PinX": 577.5000026351527,
-      "PinY": 684.0000122722829,
-      "Width": 314.9999947296947,
-      "Height": 251.999995783755,
-      "PageName": "Page1",
-      "IncomingConnections": []
+      "PageName": "Page1"
     }
   ],
   "Shape1DList": [
     {
       "ID": "5",
-      "BeginX": 318.9999947296946,
-      "EndX": 314.9999947296947,
-      "PageName": "Page1",
-      "Connections": []
+      "PageName": "Page1"
     },
     {
       "ID": "2",
-      "BeginX": -2.238209580196542E-13,
-      "BeginY": 251.9999957837555,
-      "EndX": 314.9999947296944,
-      "EndY": 251.9999957837555,
-      "PageName": "Page1",
-      "Connections": []
+      "PageName": "Page1"
     },
     {
       "ID": "12",
-      "BeginX": 255.9999957837555,
-      "EndX": 251.9999957837555,
-      "PageName": "Page1",
-      "Connections": []
+      "PageName": "Page1"
     },
     {
       "ID": "9",
-      "BeginX": 314.9999947296944,
-      "BeginY": 251.9999957837555,
-      "EndX": 314.9999947296944,
-      "EndY": 0,
-      "PageName": "Page1",
-      "Connections": []
+      "PageName": "Page1"
     },
     {
       "ID": "19",
-      "BeginX": 318.9999947296953,
-      "EndX": 314.9999947296954,
-      "PageName": "Page1",
-      "Connections": []
+      "PageName": "Page1"
     },
     {
       "ID": "16",
-      "BeginX": 314.9999947296944,
-      "BeginY": 0,
-      "EndX": -8.952838320786167E-13,
-      "EndY": 2.387423552209645E-12,
-      "PageName": "Page1",
-      "Connections": []
+      "PageName": "Page1"
     },
     {
       "ID": "26",
-      "BeginX": 255.9999957837531,
-      "EndX": 251.9999957837532,
-      "PageName": "Page1",
-      "Connections": []
+      "PageName": "Page1"
     },
     {
       "ID": "23",
-      "BeginX": -8.952838320786167E-13,
-      "BeginY": 2.387423552209645E-12,
-      "EndX": -1.492139720131028E-13,
-      "EndY": 251.9999957837555,
-      "PageName": "Page1",
-      "Connections": []
+      "PageName": "Page1"
     },
     {
       "ID": "80",
-      "BeginX": 244.0000036916428,
-      "EndX": 240.0000036916428,
-      "PageName": "Page1",
-      "Connections": []
+      "PageName": "Page1"
     },
     {
       "ID": "77",
-      "BeginX": -1.705302592054939E-13,
-      "BeginY": 192.0000029533141,
-      "EndX": 240.0000036916426,
-      "EndY": 192.0000029533141,
-      "PageName": "Page1",
-      "Connections": []
+      "PageName": "Page1"
     },
     {
       "ID": "87",
-      "BeginX": 196.0000029533141,
-      "EndX": 192.0000029533141,
-      "PageName": "Page1",
-      "Connections": []
+      "PageName": "Page1"
     },
     {
       "ID": "84",
-      "BeginX": 240.0000036916426,
-      "BeginY": 192.0000029533141,
-      "EndX": 240.0000036916426,
-      "EndY": 0,
-      "PageName": "Page1",
-      "Connections": []
+      "PageName": "Page1"
     },
     {
       "ID": "94",
-      "BeginX": 244.0000036916432,
-      "EndX": 240.0000036916433,
-      "PageName": "Page1",
-      "Connections": []
+      "PageName": "Page1"
     },
     {
       "ID": "91",
-      "BeginX": 240.0000036916426,
-      "BeginY": 0,
-      "EndX": -6.821210368219755E-13,
-      "EndY": 1.818989431525268E-12,
-      "PageName": "Page1",
-      "Connections": []
+      "PageName": "Page1"
     },
     {
       "ID": "101",
-      "BeginX": 196.0000029533122,
-      "EndX": 192.0000029533123,
-      "PageName": "Page1",
-      "Connections": []
+      "PageName": "Page1"
     },
     {
       "ID": "98",
-      "BeginX": -6.821210368219755E-13,
-      "BeginY": 1.818989431525268E-12,
-      "EndX": -1.136868394703292E-13,
-      "EndY": 192.0000029533141,
-      "PageName": "Page1",
-      "Connections": []
+      "PageName": "Page1"
     },
     {
       "ID": "109",
-      "BeginX": 207.4193610966396,
-      "EndX": 203.4193610966396,
-      "PageName": "Page1",
-      "Connections": []
+      "PageName": "Page1"
     },
     {
       "ID": "106",
-      "BeginX": -1.445381493401779E-13,
-      "BeginY": 162.7354888773116,
-      "EndX": 203.4193610966395,
-      "EndY": 162.7354888773116,
-      "PageName": "Page1",
-      "Connections": []
+      "PageName": "Page1"
     },
     {
       "ID": "116",
-      "BeginX": 166.7354888773116,
-      "EndX": 162.7354888773116,
-      "PageName": "Page1",
-      "Connections": []
+      "PageName": "Page1"
     },
     {
       "ID": "113",
-      "BeginX": 203.4193610966395,
-      "BeginY": 162.7354888773116,
-      "EndX": 203.4193610966395,
-      "EndY": 0,
-      "PageName": "Page1",
-      "Connections": []
+      "PageName": "Page1"
     },
     {
       "ID": "123",
-      "BeginX": 207.41936109664,
-      "EndX": 203.4193610966401,
-      "PageName": "Page1",
-      "Connections": []
+      "PageName": "Page1"
     },
     {
       "ID": "120",
-      "BeginX": 203.4193610966395,
-      "BeginY": 0,
-      "EndX": -5.781525973607115E-13,
-      "EndY": 1.541740259628564E-12,
-      "PageName": "Page1",
-      "Connections": []
+      "PageName": "Page1"
     },
     {
       "ID": "130",
-      "BeginX": 166.73548887731,
-      "EndX": 162.7354888773101,
-      "PageName": "Page1",
-      "Connections": []
+      "PageName": "Page1"
     },
     {
       "ID": "127",
-      "BeginX": -5.781525973607115E-13,
-      "BeginY": 1.541740259628564E-12,
-      "EndX": -9.635876622678525E-14,
-      "EndY": 162.7354888773116,
-      "PageName": "Page1",
-      "Connections": []
+      "PageName": "Page1"
     }
   ]
 }
