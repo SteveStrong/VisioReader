@@ -3,170 +3,303 @@
   "Shape2DList": [
     {
       "ID": "6",
+      "PinX": 6.875,
+      "PinY": 1.9375,
+      "Width": 13.75,
+      "Height": 3.875,
       "PageName": "Page1"
     },
     {
       "ID": "7",
       "Text": "E-Commerce Shopping \u2013 Process Flow Diagram",
+      "PinX": 6.875000000000006,
+      "PinY": 3.625,
+      "Width": 13.75,
       "PageName": "Page1"
     },
     {
       "ID": "5",
       "Name": "CFF Container",
       "Master": "23",
+      "PinX": 7.125000000000005,
+      "PinY": 14.1875,
+      "Width": 13.75,
+      "Height": 3.875,
       "PageName": "Page1"
     },
     {
       "ID": "8",
       "Name": "Swimlane List",
       "Master": "24",
+      "PinX": 0.25,
+      "PinY": 15.625,
+      "Width": 13.75,
+      "Height": 3.375,
       "PageName": "Page1"
     },
     {
       "ID": "256",
+      "PinX": 6.875,
+      "PinY": 0.625,
+      "Width": 13.75,
+      "Height": 1.25,
       "PageName": "Page1"
     },
     {
       "ID": "257",
+      "PinX": 6.875,
+      "PinY": 1.25,
+      "Width": 13.75,
+      "Height": 0,
       "PageName": "Page1"
     },
     {
       "ID": "255",
       "Master": "23",
+      "PinX": 7.125,
+      "PinY": 11.625,
+      "Width": 13.75,
+      "Height": 1.25,
       "PageName": "Page1"
     },
     {
       "ID": "258",
       "Master": "24",
+      "PinX": 0.25,
+      "PinY": 12.25,
+      "Width": 13.75,
+      "Height": 1.25,
       "PageName": "Page1"
     },
     {
       "ID": "308",
+      "PinX": 6.875017918565543,
+      "PinY": 1.40625,
+      "Width": 13.75003583713109,
+      "Height": 2.8125,
       "PageName": "Page1"
     },
     {
       "ID": "309",
+      "PinX": 0,
+      "PinY": 1.40625,
+      "Width": 2.8125,
+      "Height": 0,
       "PageName": "Page1"
     },
     {
       "ID": "307",
       "Master": "23",
+      "PinX": 7.125017918565539,
+      "PinY": 9.09375,
+      "Width": 13.75003583713109,
+      "Height": 2.8125,
       "PageName": "Page1"
     },
     {
       "ID": "310",
       "Master": "24",
+      "PinX": 0.25,
+      "PinY": 10.5,
+      "Width": 13.75003583713109,
+      "Height": 2.8125,
       "PageName": "Page1"
     },
     {
       "ID": "2",
+      "PinX": 6.875,
+      "PinY": 1.6875,
+      "Width": 13.75,
+      "Height": 3.375,
       "PageName": "Page1"
     },
     {
       "ID": "3",
+      "PinX": 7.125,
       "PageName": "Page1"
     },
     {
       "ID": "4",
       "Text": "Customer",
+      "PinY": 1.6875,
+      "Width": 3.375,
+      "Height": 0.5,
       "PageName": "Page1"
     },
     {
       "ID": "1",
       "Name": "Pool / Lane",
       "Master": "22",
+      "PinX": 7.125,
+      "PinY": 13.9375,
+      "Width": 13.75,
+      "Height": 3.375,
       "PageName": "Page1"
     },
     {
       "ID": "252",
+      "PinX": 6.875,
+      "PinY": 0.625,
+      "Width": 13.75,
+      "Height": 1.25,
       "PageName": "Page1"
     },
     {
       "ID": "253",
+      "PinX": 7.1306,
       "PageName": "Page1"
     },
     {
       "ID": "254",
       "Text": "Order Entry System",
+      "PinX": 0.2556,
+      "PinY": 0.625,
+      "Width": 1.25,
+      "Height": 0.5112,
       "PageName": "Page1"
     },
     {
       "ID": "251",
       "Master": "22",
+      "PinX": 7.125,
+      "PinY": 11.625,
+      "Width": 13.75,
+      "Height": 1.25,
       "PageName": "Page1"
     },
     {
       "ID": "304",
+      "PinX": 6.875017918565542,
+      "PinY": 1.40625,
+      "Width": 13.75003583713108,
+      "Height": 2.8125,
       "PageName": "Page1"
     },
     {
       "ID": "305",
+      "PinX": 7.130617918565541,
       "PageName": "Page1"
     },
     {
       "ID": "306",
       "Text": "Back Office (Order Fullfillment)",
+      "PinX": 0.2556,
+      "PinY": 1.40625,
+      "Width": 2.8125,
+      "Height": 0.5112,
       "PageName": "Page1"
     },
     {
       "ID": "303",
       "Master": "22",
+      "PinX": 7.125017918565542,
+      "PinY": 9.09375,
+      "Width": 13.75003583713109,
+      "Height": 2.8125,
       "PageName": "Page1"
     },
     {
       "ID": "9",
       "Name": "Phase List",
       "Master": "25",
+      "PinX": 0.7500000000000124,
+      "PinY": 15.625,
+      "Width": 13.25,
+      "Height": 3.375,
       "PageName": "Page1"
     },
     {
       "ID": "11",
+      "PinX": 6.625,
+      "PinY": 1.6875,
+      "Width": 13.25,
+      "Height": 3.375,
       "PageName": "Page1"
     },
     {
       "ID": "12",
+      "PinX": 6.625,
+      "PinY": 3.375,
+      "Width": 13.75,
+      "Height": 0,
       "PageName": "Page1"
     },
     {
       "ID": "10",
       "Name": "Separator",
       "Master": "26",
+      "PinX": 7.375,
+      "PinY": 13.9375,
+      "Width": 13.25,
+      "Height": 3.375,
       "PageName": "Page1"
     },
     {
       "ID": "259",
       "Master": "25",
+      "PinX": 0.7612000000000041,
+      "PinY": 12.25,
+      "Width": 13.2388,
+      "Height": 1.25,
       "PageName": "Page1"
     },
     {
       "ID": "261",
+      "PinX": 6.6194,
+      "PinY": 0.625,
+      "Width": 13.2388,
+      "Height": 1.25,
       "PageName": "Page1"
     },
     {
       "ID": "262",
+      "PinX": 6.6194,
+      "PinY": 1.25,
+      "Width": 13.75,
+      "Height": 0,
       "PageName": "Page1"
     },
     {
       "ID": "260",
       "Master": "26",
+      "PinX": 7.3806,
+      "PinY": 11.625,
+      "Width": 13.2388,
+      "Height": 1.25,
       "PageName": "Page1"
     },
     {
       "ID": "311",
       "Master": "25",
+      "PinX": 0.7612000000000098,
+      "PinY": 10.5,
+      "Width": 13.23883583713108,
+      "Height": 2.8125,
       "PageName": "Page1"
     },
     {
       "ID": "313",
+      "PinX": 6.619417918565539,
+      "PinY": 1.40625,
+      "Width": 13.23883583713108,
+      "Height": 2.8125,
       "PageName": "Page1"
     },
     {
       "ID": "314",
+      "PinX": 6.619417918565539,
+      "PinY": 2.8125,
+      "Width": 13.75003583713108,
+      "Height": 0,
       "PageName": "Page1"
     },
     {
       "ID": "312",
       "Master": "26",
+      "PinX": 7.380617918565545,
+      "PinY": 9.09375,
+      "Width": 13.23883583713108,
+      "Height": 2.8125,
       "PageName": "Page1"
     },
     {
@@ -222,6 +355,8 @@
       "Name": "Start Event",
       "Text": "Start",
       "Master": "8",
+      "PinX": 1.375,
+      "PinY": 14.125,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -260,14 +395,25 @@
     },
     {
       "ID": "33",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "34",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "32",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -331,6 +477,8 @@
       "Name": "Task",
       "Text": "Nativate to the start page of the shopping site",
       "Master": "9",
+      "PinX": 2.458333333333334,
+      "PinY": 14.125,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -417,14 +565,25 @@
     },
     {
       "ID": "57",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "58",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "56",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -487,6 +646,8 @@
       "ID": "50",
       "Text": "Search for items",
       "Master": "9",
+      "PinX": 3.933333333333334,
+      "PinY": 15,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -537,14 +698,25 @@
     },
     {
       "ID": "80",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "81",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "79",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -608,6 +780,8 @@
       "Name": "Task.73",
       "Text": "Review Recommended Items",
       "Master": "9",
+      "PinX": 3.933333333333334,
+      "PinY": 14.125,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -658,14 +832,25 @@
     },
     {
       "ID": "103",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "104",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "102",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -728,6 +913,8 @@
       "ID": "96",
       "Text": "Review Special",
       "Master": "9",
+      "PinX": 3.933333333333334,
+      "PinY": 13.25,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -778,14 +965,25 @@
     },
     {
       "ID": "129",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "130",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "128",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -848,6 +1046,8 @@
       "ID": "122",
       "Text": "Identify Item for purchase",
       "Master": "9",
+      "PinX": 5.3125,
+      "PinY": 14.125,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -922,14 +1122,25 @@
     },
     {
       "ID": "155",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "156",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "154",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -992,6 +1203,8 @@
       "ID": "148",
       "Text": "Add item to the shopping cart",
       "Master": "9",
+      "PinX": 6.73958333333333,
+      "PinY": 14.125,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -1042,14 +1255,25 @@
     },
     {
       "ID": "193",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "194",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "192",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -1112,6 +1336,8 @@
       "ID": "186",
       "Text": "Apply Coupon or Promotional discount",
       "Master": "9",
+      "PinX": 8.166666666666666,
+      "PinY": 14.125,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -1201,6 +1427,8 @@
       "Name": "Gateway",
       "Text": "More items",
       "Master": "35",
+      "PinX": 9.59375,
+      "PinY": 14.125,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -1263,14 +1491,25 @@
     },
     {
       "ID": "234",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "235",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "233",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -1334,6 +1573,8 @@
       "Name": "Collapsed Sub-Process",
       "Text": "Checkout Process",
       "Master": "31",
+      "PinX": 11.02083333333333,
+      "PinY": 14.125,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -1367,6 +1608,8 @@
       "Name": "Data Store",
       "Text": "Order Entry System",
       "Master": "36",
+      "PinX": 11,
+      "PinY": 11.625,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -1417,14 +1660,25 @@
     },
     {
       "ID": "272",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "273",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "271",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -1487,6 +1741,8 @@
       "ID": "265",
       "Text": "Review Order Confirmation",
       "Master": "9",
+      "PinX": 12.44791666666667,
+      "PinY": 14.125,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -1568,6 +1824,8 @@
       "Name": "End Event",
       "Text": "End",
       "Master": "11",
+      "PinX": 13.53125,
+      "PinY": 14.125,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -1636,6 +1894,8 @@
       "ID": "315",
       "Text": "Start",
       "Master": "8",
+      "PinX": 1.375,
+      "PinY": 9.75,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -1674,14 +1934,25 @@
     },
     {
       "ID": "335",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "336",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "334",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -1744,6 +2015,8 @@
       "ID": "328",
       "Text": "Review Order",
       "Master": "9",
+      "PinX": 2.40625,
+      "PinY": 9.75,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -1832,6 +2105,8 @@
       "ID": "352",
       "Text": "Is Order Valid?",
       "Master": "35",
+      "PinX": 3.78125,
+      "PinY": 9.75,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -1894,14 +2169,25 @@
     },
     {
       "ID": "375",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "376",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "374",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -1964,6 +2250,8 @@
       "ID": "368",
       "Text": "Accept Order",
       "Master": "9",
+      "PinX": 5.15625,
+      "PinY": 9.75,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -2064,6 +2352,8 @@
       "ID": "416",
       "Text": "Can order issues be resolved?",
       "Master": "35",
+      "PinX": 3.78125,
+      "PinY": 8.625,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -2126,14 +2416,25 @@
     },
     {
       "ID": "439",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "440",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "438",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -2196,6 +2497,8 @@
       "ID": "432",
       "Text": "Reject Order",
       "Master": "9",
+      "PinX": 2.40625,
+      "PinY": 8.625,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -2276,6 +2579,8 @@
       "ID": "456",
       "Text": "End",
       "Master": "11",
+      "PinX": 1.375,
+      "PinY": 8.625,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -2314,14 +2619,25 @@
     },
     {
       "ID": "478",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "479",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "477",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -2384,6 +2700,8 @@
       "ID": "471",
       "Text": "Package the Order",
       "Master": "9",
+      "PinX": 6.53125,
+      "PinY": 9.75,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -2434,14 +2752,25 @@
     },
     {
       "ID": "502",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "503",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "501",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -2504,6 +2833,8 @@
       "ID": "495",
       "Text": "Ship the Order",
       "Master": "9",
+      "PinX": 7.90625,
+      "PinY": 9.75,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -2554,14 +2885,25 @@
     },
     {
       "ID": "526",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "527",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "525",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -2624,6 +2966,8 @@
       "ID": "519",
       "Text": "Generate Shipment Confirmation",
       "Master": "9",
+      "PinX": 9.28125,
+      "PinY": 9.75,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -2674,14 +3018,25 @@
     },
     {
       "ID": "550",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "551",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "549",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -2744,6 +3099,8 @@
       "ID": "543",
       "Text": "Notify the customer about shipment",
       "Master": "9",
+      "PinX": 10.65625,
+      "PinY": 9.75,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -2824,6 +3181,8 @@
       "ID": "567",
       "Text": "End",
       "Master": "11",
+      "PinX": 11.6875,
+      "PinY": 9.75,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -2846,6 +3205,10 @@
       "ID": "49",
       "Name": "Dynamic Connector",
       "Master": "28",
+      "BeginX": 1.53125,
+      "BeginY": 14.125,
+      "EndX": 1.958333333333334,
+      "EndY": 14.125,
       "PageName": "Page1",
       "Connections": [
         {
@@ -2877,6 +3240,10 @@
     {
       "ID": "119",
       "Master": "28",
+      "BeginX": 2.958333333333334,
+      "BeginY": 13.9375,
+      "EndX": 3.433333333333334,
+      "EndY": 13.25,
       "PageName": "Page1",
       "Connections": [
         {
@@ -2908,6 +3275,10 @@
     {
       "ID": "120",
       "Master": "28",
+      "BeginX": 2.958333333333334,
+      "BeginY": 14.3125,
+      "EndX": 3.433333333333334,
+      "EndY": 15,
       "PageName": "Page1",
       "Connections": [
         {
@@ -2939,6 +3310,10 @@
     {
       "ID": "121",
       "Master": "28",
+      "BeginX": 2.958333333333334,
+      "BeginY": 14.125,
+      "EndX": 3.433333333333334,
+      "EndY": 14.125,
       "PageName": "Page1",
       "Connections": [
         {
@@ -2970,6 +3345,10 @@
     {
       "ID": "145",
       "Master": "28",
+      "BeginX": 4.433333333333334,
+      "BeginY": 14.125,
+      "EndX": 4.8125,
+      "EndY": 14.125,
       "PageName": "Page1",
       "Connections": [
         {
@@ -3001,6 +3380,10 @@
     {
       "ID": "146",
       "Master": "28",
+      "BeginX": 4.433333333333334,
+      "BeginY": 15,
+      "EndX": 5.3125,
+      "EndY": 14.5,
       "PageName": "Page1",
       "Connections": [
         {
@@ -3032,6 +3415,10 @@
     {
       "ID": "147",
       "Master": "28",
+      "BeginX": 4.433333333333334,
+      "BeginY": 13.25,
+      "EndX": 5.3125,
+      "EndY": 13.75,
       "PageName": "Page1",
       "Connections": [
         {
@@ -3063,6 +3450,10 @@
     {
       "ID": "171",
       "Master": "28",
+      "BeginX": 5.8125,
+      "BeginY": 14.125,
+      "EndX": 6.23958333333333,
+      "EndY": 14.125,
       "PageName": "Page1",
       "Connections": [
         {
@@ -3094,6 +3485,10 @@
     {
       "ID": "209",
       "Master": "28",
+      "BeginX": 7.23958333333333,
+      "BeginY": 14.125,
+      "EndX": 7.666666666666666,
+      "EndY": 14.125,
       "PageName": "Page1",
       "Connections": [
         {
@@ -3125,6 +3520,10 @@
     {
       "ID": "225",
       "Master": "28",
+      "BeginX": 8.666666666666666,
+      "BeginY": 14.125,
+      "EndX": 9.09375,
+      "EndY": 14.125,
       "PageName": "Page1",
       "Connections": [
         {
@@ -3157,6 +3556,10 @@
       "ID": "226",
       "Text": "Yes",
       "Master": "28",
+      "BeginX": 9.59375,
+      "BeginY": 14.5,
+      "EndX": 2.458333333333334,
+      "EndY": 14.5,
       "PageName": "Page1",
       "Connections": [
         {
@@ -3188,6 +3591,10 @@
     {
       "ID": "250",
       "Master": "28",
+      "BeginX": 10.09375,
+      "BeginY": 14.125,
+      "EndX": 10.52083333333333,
+      "EndY": 14.125,
       "PageName": "Page1",
       "Connections": [
         {
@@ -3219,6 +3626,10 @@
     {
       "ID": "264",
       "Master": "28",
+      "BeginX": 11.02083333333333,
+      "BeginY": 13.75,
+      "EndX": 10.99740451273989,
+      "EndY": 11.99999891880963,
       "PageName": "Page1",
       "Connections": [
         {
@@ -3250,6 +3661,10 @@
     {
       "ID": "288",
       "Master": "28",
+      "BeginX": 11.5,
+      "BeginY": 11.625,
+      "EndX": 11.94791666666666,
+      "EndY": 14.125,
       "PageName": "Page1",
       "Connections": [
         {
@@ -3281,6 +3696,10 @@
     {
       "ID": "302",
       "Master": "28",
+      "BeginX": 12.94791666666667,
+      "BeginY": 14.125,
+      "EndX": 13.375,
+      "EndY": 14.125,
       "PageName": "Page1",
       "Connections": [
         {
@@ -3312,6 +3731,10 @@
     {
       "ID": "351",
       "Master": "28",
+      "BeginX": 1.53125,
+      "BeginY": 9.75,
+      "EndX": 1.90625,
+      "EndY": 9.75,
       "PageName": "Page1",
       "Connections": [
         {
@@ -3343,6 +3766,10 @@
     {
       "ID": "367",
       "Master": "28",
+      "BeginX": 2.90625,
+      "BeginY": 9.75,
+      "EndX": 3.28125,
+      "EndY": 9.75,
       "PageName": "Page1",
       "Connections": [
         {
@@ -3375,6 +3802,10 @@
       "ID": "391",
       "Text": "Yes",
       "Master": "28",
+      "BeginX": 4.28125,
+      "BeginY": 9.75,
+      "EndX": 4.65625,
+      "EndY": 9.75,
       "PageName": "Page1",
       "Connections": [
         {
@@ -3407,6 +3838,10 @@
       "ID": "431",
       "Text": "No",
       "Master": "28",
+      "BeginX": 3.78125,
+      "BeginY": 9.375,
+      "EndX": 3.78125,
+      "EndY": 9,
       "PageName": "Page1",
       "Connections": [
         {
@@ -3439,6 +3874,10 @@
       "ID": "455",
       "Text": "No",
       "Master": "28",
+      "BeginX": 3.28125,
+      "BeginY": 8.625,
+      "EndX": 2.90625,
+      "EndY": 8.625,
       "PageName": "Page1",
       "Connections": [
         {
@@ -3470,6 +3909,10 @@
     {
       "ID": "469",
       "Master": "28",
+      "BeginX": 1.90625,
+      "BeginY": 8.625,
+      "EndX": 1.53125,
+      "EndY": 8.625,
       "PageName": "Page1",
       "Connections": [
         {
@@ -3502,6 +3945,10 @@
       "ID": "470",
       "Text": "Yes",
       "Master": "28",
+      "BeginX": 4.28125,
+      "BeginY": 8.625,
+      "EndX": 5.15625,
+      "EndY": 9.375,
       "PageName": "Page1",
       "Connections": [
         {
@@ -3533,6 +3980,10 @@
     {
       "ID": "494",
       "Master": "28",
+      "BeginX": 5.65625,
+      "BeginY": 9.75,
+      "EndX": 6.03125,
+      "EndY": 9.75,
       "PageName": "Page1",
       "Connections": [
         {
@@ -3564,6 +4015,10 @@
     {
       "ID": "518",
       "Master": "28",
+      "BeginX": 7.03125,
+      "BeginY": 9.75,
+      "EndX": 7.40625,
+      "EndY": 9.75,
       "PageName": "Page1",
       "Connections": [
         {
@@ -3595,6 +4050,10 @@
     {
       "ID": "542",
       "Master": "28",
+      "BeginX": 8.40625,
+      "BeginY": 9.75,
+      "EndX": 8.78125,
+      "EndY": 9.75,
       "PageName": "Page1",
       "Connections": [
         {
@@ -3626,6 +4085,10 @@
     {
       "ID": "566",
       "Master": "28",
+      "BeginX": 9.78125,
+      "BeginY": 9.75,
+      "EndX": 10.15625,
+      "EndY": 9.75,
       "PageName": "Page1",
       "Connections": [
         {
@@ -3657,6 +4120,10 @@
     {
       "ID": "580",
       "Master": "28",
+      "BeginX": 11.15625,
+      "BeginY": 9.75,
+      "EndX": 11.53125,
+      "EndY": 9.75,
       "PageName": "Page1",
       "Connections": [
         {

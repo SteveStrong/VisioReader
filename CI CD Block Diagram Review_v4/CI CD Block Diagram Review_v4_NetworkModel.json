@@ -1,0 +1,2476 @@
+{
+  "Nodes": [
+    {
+      "ID": "1004",
+      "Text": "AFCA",
+      "PinX": 13.18750001303852,
+      "PinY": 47.03125
+    },
+    {
+      "ID": "1005",
+      "Text": "ABG",
+      "PinX": 4.670327090487392,
+      "PinY": 50.062499769032
+    },
+    {
+      "ID": "1006",
+      "Text": "APM",
+      "PinX": 4.670327090487389,
+      "PinY": 48.062499769032
+    },
+    {
+      "ID": "1007",
+      "Text": "ASE",
+      "PinX": 4.670327090487389,
+      "PinY": 47.18749983608723
+    },
+    {
+      "ID": "1008",
+      "Text": "ALTS",
+      "PinX": 4.67032709048739,
+      "PinY": 49.062499769032
+    },
+    {
+      "ID": "1009",
+      "Text": "ASG",
+      "PinX": 4.670327090487391,
+      "PinY": 46.18749983608723
+    },
+    {
+      "ID": "1010",
+      "Text": "3PPMC",
+      "PinX": 4.670327090487391,
+      "PinY": 52.062499769032
+    },
+    {
+      "ID": "1011",
+      "Text": "ASM",
+      "PinX": 4.670327090487391,
+      "PinY": 45.18749983608723
+    },
+    {
+      "ID": "1012",
+      "Text": "CCU",
+      "PinX": 4.670327090487393,
+      "PinY": 44.18749983608723
+    },
+    {
+      "ID": "1013",
+      "Text": "DCT",
+      "PinX": 4.750000389613966,
+      "PinY": 43.18750002235173
+    },
+    {
+      "ID": "1014",
+      "Text": "DPS",
+      "PinX": 4.750000389613966,
+      "PinY": 42.31250008940695
+    },
+    {
+      "ID": "1015",
+      "Text": "DSE",
+      "PinX": 4.750000389613969,
+      "PinY": 41.31250008940695
+    },
+    {
+      "ID": "1016",
+      "Text": "ETF",
+      "PinX": 4.750000389613969,
+      "PinY": 40.31250008940695
+    },
+    {
+      "ID": "1017",
+      "Text": "FFCA",
+      "PinX": 4.750000389613971,
+      "PinY": 39.31250008940695
+    },
+    {
+      "ID": "1019",
+      "Text": "HPL",
+      "PinX": 4.829673688740539,
+      "PinY": 37.43750019371508
+    },
+    {
+      "ID": "1020",
+      "Text": "HPM",
+      "PinX": 4.829673688740539,
+      "PinY": 36.56250026077029
+    },
+    {
+      "ID": "1021",
+      "Text": "HPS",
+      "PinX": 4.829673688740545,
+      "PinY": 34.56250026077031
+    },
+    {
+      "ID": "1022",
+      "Text": "HPDS",
+      "PinX": 4.829673688740542,
+      "PinY": 35.6875003278255
+    },
+    {
+      "ID": "1023",
+      "Text": "IMC",
+      "PinX": 4.829673688740543,
+      "PinY": 33.56250026077031
+    },
+    {
+      "ID": "1024",
+      "Text": "IPS",
+      "PinX": 4.829673688740543,
+      "PinY": 32.56250026077031
+    },
+    {
+      "ID": "1025",
+      "Text": "LPAS",
+      "PinX": 4.840653783910236,
+      "PinY": 31.68750029802322
+    },
+    {
+      "ID": "1026",
+      "Text": "LPM",
+      "PinX": 4.840653783910238,
+      "PinY": 30.68750029802322
+    },
+    {
+      "ID": "1027",
+      "Text": "MCC",
+      "PinX": 4.840653783910232,
+      "PinY": 29.81250021606683
+    },
+    {
+      "ID": "1028",
+      "Text": "ME",
+      "PinX": 4.920327083036806,
+      "PinY": 28.81250040233132
+    },
+    {
+      "ID": "1029",
+      "Text": "MHC",
+      "PinX": 4.920327083036806,
+      "PinY": 27.93750046938657
+    },
+    {
+      "ID": "1030",
+      "Text": "MK710 (Qty. 2)",
+      "PinX": 4.920327083036808,
+      "PinY": 26.93750046938657
+    },
+    {
+      "ID": "1031",
+      "Text": "PDCS",
+      "PinX": 4.920327083036808,
+      "PinY": 25.93750046938657
+    },
+    {
+      "ID": "1032",
+      "Text": "PDSA1",
+      "PinX": 4.920327083036812,
+      "PinY": 24.93750046938657
+    },
+    {
+      "ID": "1033",
+      "Text": "PDSA2",
+      "PinX": 4.920327083036812,
+      "PinY": 23.93750046938657
+    },
+    {
+      "ID": "1034",
+      "Text": "RSI",
+      "PinX": 4.920327083036808,
+      "PinY": 22.93750055879353
+    },
+    {
+      "ID": "1035",
+      "Text": "SDS",
+      "PinX": 5.000000382163382,
+      "PinY": 21.93750074505802
+    },
+    {
+      "ID": "1036",
+      "Text": "SPD",
+      "PinX": 5.000000382163382,
+      "PinY": 21.06250081211325
+    },
+    {
+      "ID": "1037",
+      "Text": "SPPMC",
+      "PinX": 5.000000382163384,
+      "PinY": 20.06250081211325
+    },
+    {
+      "ID": "1038",
+      "Text": "TT",
+      "PinX": 5.000000382163384,
+      "PinY": 19.06250081211325
+    },
+    {
+      "ID": "1039",
+      "Text": "WDE",
+      "PinX": 5.000000382163387,
+      "PinY": 18.06250081211325
+    },
+    {
+      "ID": "1040",
+      "Text": "WMS",
+      "PinX": 5.000000382163387,
+      "PinY": 17.06250081211325
+    },
+    {
+      "ID": "1043",
+      "Text": "HMS",
+      "PinX": 4.82967368874054,
+      "PinY": 38.31250012665987
+    },
+    {
+      "ID": "1044",
+      "Text": "AFCA",
+      "PinX": 4.670327090487392,
+      "PinY": 51.06249976903203
+    },
+    {
+      "ID": "1054",
+      "Text": "UUT\n[Afterbody]",
+      "PinX": 21.87499997392297,
+      "PinY": 48.34374997019769
+    },
+    {
+      "ID": "1079",
+      "Text": "RSI",
+      "PinX": 17.87499997392297,
+      "PinY": 25.59374979883431
+    },
+    {
+      "ID": "1080",
+      "Text": "WMS",
+      "PinX": 17.83881640267613,
+      "PinY": 7.734374417457673
+    },
+    {
+      "ID": "1081",
+      "Text": "HMS",
+      "PinX": 13.22368358428535,
+      "PinY": 16.35937496926636
+    },
+    {
+      "ID": "1082",
+      "Text": "ABG",
+      "PinX": 13.24999997392297,
+      "PinY": 49.85156380897386
+    },
+    {
+      "ID": "1084",
+      "Text": "Facility",
+      "PinX": 9.312500130385164,
+      "PinY": 30.68750028312206
+    },
+    {
+      "ID": "1086",
+      "Text": "MK710 [UUT Cables]",
+      "PinX": 17.87500014901161,
+      "PinY": 38.18750006332994
+    },
+    {
+      "ID": "1095",
+      "Text": "Operator",
+      "PinX": 9.250000026077032,
+      "PinY": 45.968749769032
+    },
+    {
+      "ID": "1099",
+      "Text": "ALTS",
+      "PinX": 13.18750001303852,
+      "PinY": 39.73437586426712
+    },
+    {
+      "ID": "1100",
+      "Text": "HPL",
+      "PinX": 13.24999997392297,
+      "PinY": 13.78125
+    },
+    {
+      "ID": "1101",
+      "Text": "Facility [Drain]",
+      "PinX": 9.312500130385164,
+      "PinY": 26.78125046938657
+    },
+    {
+      "ID": "1102",
+      "Text": "UUT\n[Nose]",
+      "PinX": 21.87499997392297,
+      "PinY": 44.39281419500714
+    },
+    {
+      "ID": "1111",
+      "Text": "APM",
+      "PinX": 13.18750001303852,
+      "PinY": 37.60937732970327
+    },
+    {
+      "ID": "1112",
+      "Text": "Facility",
+      "PinX": 5.000000382163387,
+      "PinY": 15.96875081211323
+    },
+    {
+      "ID": "1113",
+      "Text": "UUT [Nose]",
+      "PinX": 5.000000382163387,
+      "PinY": 14.78125081211316
+    },
+    {
+      "ID": "1114",
+      "Text": "UUT [Afterbody]",
+      "PinX": 5.000000382163387,
+      "PinY": 13.59375081211311
+    },
+    {
+      "ID": "1115",
+      "Text": "Operator",
+      "PinX": 5.000000382163387,
+      "PinY": 12.40625081211305
+    },
+    {
+      "ID": "1116",
+      "Text": "Facility [Drain]",
+      "PinX": 2.875000434317451,
+      "PinY": 15.96875081211323
+    },
+    {
+      "ID": "1117",
+      "Text": "ETF",
+      "PinX": 13.22368358428535,
+      "PinY": 21.11375118836755
+    },
+    {
+      "ID": "1118",
+      "Text": "DPS",
+      "PinX": 13.18750001303852,
+      "PinY": 26.32812530547373
+    },
+    {
+      "ID": "1119",
+      "Text": "SPD",
+      "PinX": 17.87499997392297,
+      "PinY": 15.203125
+    },
+    {
+      "ID": "1120",
+      "Text": "3PPMC",
+      "PinX": 13.25000002607703,
+      "PinY": 51.90625
+    },
+    {
+      "ID": "1121",
+      "Text": "SPPMC",
+      "PinX": 17.87499997392297,
+      "PinY": 13.359375
+    },
+    {
+      "ID": "1146",
+      "Text": "ASE",
+      "PinX": 13.18750001303852,
+      "PinY": 42.23006493038758
+    },
+    {
+      "ID": "1154",
+      "Text": "ASG",
+      "PinX": 13.18750001303852,
+      "PinY": 35.15625291224559
+    },
+    {
+      "ID": "1156",
+      "Text": "CCU",
+      "PinX": 13.18750001303852,
+      "PinY": 32.21093910327173
+    },
+    {
+      "ID": "1159",
+      "Text": "ASM",
+      "PinX": 13.18750001303852,
+      "PinY": 44.56250006332993
+    },
+    {
+      "ID": "1161",
+      "Text": "IPS",
+      "PinX": 17.8223671685707,
+      "PinY": 50.0625
+    },
+    {
+      "ID": "1164",
+      "Text": "LPAS",
+      "PinX": 17.87500002607703,
+      "PinY": 47.5
+    },
+    {
+      "ID": "1165",
+      "Text": "PDCS",
+      "PinX": 17.87499997392297,
+      "PinY": 33.6875
+    },
+    {
+      "ID": "1166",
+      "Text": "PDSA1",
+      "PinX": 17.87499997392297,
+      "PinY": 32.18750176578769
+    },
+    {
+      "ID": "1167",
+      "Text": "PDSA2",
+      "PinX": 17.87499997392297,
+      "PinY": 30.68750353157539
+    },
+    {
+      "ID": "1168",
+      "Text": "HPDS",
+      "PinX": 13.18750001303852,
+      "PinY": 9.65625
+    },
+    {
+      "ID": "1169",
+      "Text": "MCC",
+      "PinX": 17.87500002607703,
+      "PinY": 43.78125
+    },
+    {
+      "ID": "1175",
+      "Text": "AMF",
+      "PinX": 22.1249999217689,
+      "PinY": 21.75
+    },
+    {
+      "ID": "1189",
+      "Text": "WDE",
+      "PinX": 17.87500002607703,
+      "PinY": 9.65625
+    },
+    {
+      "ID": "1192",
+      "Text": "DCT",
+      "PinX": 13.18750001303852,
+      "PinY": 29.26562529429786
+    },
+    {
+      "ID": "1193",
+      "Text": "INF",
+      "PinX": 22.1249999217689,
+      "PinY": 20.18750065006314
+    },
+    {
+      "ID": "1203",
+      "Text": "UUT\n[FES]",
+      "PinX": 21.87499997392297,
+      "PinY": 41.5868783900143
+    },
+    {
+      "ID": "1211",
+      "Text": "DSE",
+      "PinX": 13.18750001303852,
+      "PinY": 23.64500119954342
+    },
+    {
+      "ID": "1216",
+      "Text": "UUT\n[Alternator]",
+      "PinX": 2.875000434317451,
+      "PinY": 14.78125081211315
+    },
+    {
+      "ID": "1217",
+      "Text": "UUT\n[Alternator]",
+      "PinX": 21.87499997392297,
+      "PinY": 39.18719258502141
+    },
+    {
+      "ID": "1222",
+      "Text": "MK710\n[Alt \u0026 Mk660 Re-use Equip]",
+      "PinX": 17.91666666666667,
+      "PinY": 35.87499983236195
+    },
+    {
+      "ID": "1228",
+      "Text": "FFCA",
+      "PinX": 13.22368358428535,
+      "PinY": 18.76562529429787
+    },
+    {
+      "ID": "1235",
+      "Text": "MK 5 Hydraulic Filling Unit",
+      "PinX": 9.312500130385164,
+      "PinY": 22.15625052899121
+    },
+    {
+      "ID": "1237",
+      "Text": "MK 5 Hydraulic Filling Unit",
+      "PinX": 2.875000434317451,
+      "PinY": 13.36005201894848
+    },
+    {
+      "ID": "1247",
+      "Text": "HPS",
+      "PinX": 13.18750001303852,
+      "PinY": 7.749999873340141
+    },
+    {
+      "ID": "1259",
+      "Text": "HPM",
+      "PinX": 13.24999997392297,
+      "PinY": 11.81250006332993
+    },
+    {
+      "ID": "1260",
+      "Text": "IMC",
+      "PinX": 17.8223671685707,
+      "PinY": 51.90625
+    },
+    {
+      "ID": "1261",
+      "Text": "LPM",
+      "PinX": 17.87499997392297,
+      "PinY": 45.62499981001018
+    },
+    {
+      "ID": "1262",
+      "Text": "ME",
+      "PinX": 18.00000002607703,
+      "PinY": 42.15625
+    },
+    {
+      "ID": "1263",
+      "Text": "MHC",
+      "PinX": 17.87499997392297,
+      "PinY": 40.125
+    },
+    {
+      "ID": "1264",
+      "Text": "SDS",
+      "PinX": 17.99999997392297,
+      "PinY": 21.53125
+    },
+    {
+      "ID": "1265",
+      "Text": "TT",
+      "PinX": 17.87500002607703,
+      "PinY": 11.56250012665986
+    },
+    {
+      "ID": "1300",
+      "Text": "MK710\n[IMU Test Table]",
+      "PinX": 33.77083312471708,
+      "PinY": 17.75
+    },
+    {
+      "ID": "1355",
+      "Text": "MK710\n[Alt \u0026 Mk660 Re-use Equip]",
+      "PinX": 3.875,
+      "PinY": 18.43749987334013
+    },
+    {
+      "ID": "1356",
+      "Text": "MK710\n[IMU Test Table]",
+      "PinX": 3.875,
+      "PinY": 16.34374993667007
+    },
+    {
+      "ID": "1367",
+      "Text": "Developer",
+      "PinX": 8.500000052154068,
+      "PinY": 25.81249979138374
+    },
+    {
+      "ID": "1368",
+      "Text": "Developer",
+      "PinX": 5.624999947845936,
+      "PinY": 9.65625025331952
+    }
+  ],
+  "Edges": [
+    {
+      "ID": "1058",
+      "Text": "Power",
+      "PinX": 17.2500000745058,
+      "PinY": 58.24999499926327
+    },
+    {
+      "ID": "1059",
+      "Text": "Load",
+      "PinX": 17.50000004470348,
+      "PinY": 63.81249526748414
+    },
+    {
+      "ID": "1060",
+      "Text": "Measurement",
+      "PinX": 18.12500004842877,
+      "PinY": 57.3749950253403
+    },
+    {
+      "ID": "1061",
+      "Text": "Stimulus",
+      "PinX": 17.62500006332993,
+      "PinY": 57.87499501043914
+    },
+    {
+      "ID": "1062",
+      "Text": "Communication",
+      "PinX": 16.87500008568167,
+      "PinY": 58.7499949843621
+    },
+    {
+      "ID": "1063",
+      "Text": "Hydraulic Fluid",
+      "PinX": 15.87500008568167,
+      "PinY": 59.24999503651617
+    },
+    {
+      "ID": "1064",
+      "Text": "Air",
+      "PinX": 18.43749998882413,
+      "PinY": 60.8749952823853
+    },
+    {
+      "ID": "1065",
+      "Text": "Water",
+      "PinX": 16.37500008195638,
+      "PinY": 58.99999508867023
+    },
+    {
+      "ID": "1073",
+      "Text": "Communication",
+      "PinX": 14.06250003911555,
+      "PinY": 46.71443960545242,
+      "FromNodeID": "1004",
+      "ToNodeID": "1054"
+    },
+    {
+      "ID": "1085",
+      "Text": "Cooling Air",
+      "PinX": 10.1875001564622,
+      "PinY": 31.80280216985716,
+      "FromNodeID": "1084",
+      "ToNodeID": "1082"
+    },
+    {
+      "ID": "1087",
+      "Text": "UUT Signals",
+      "PinX": 18.75,
+      "PinY": 24.57435326246321,
+      "FromNodeID": "1079",
+      "ToNodeID": "1082"
+    },
+    {
+      "ID": "1088",
+      "Text": "UUT Signals",
+      "PinX": 22,
+      "PinY": 61.06249526748414
+    },
+    {
+      "ID": "1089",
+      "Text": "Interlocks",
+      "PinX": 18.75,
+      "PinY": 24.20366362894264,
+      "FromNodeID": "1079",
+      "ToNodeID": "1082"
+    },
+    {
+      "ID": "1090",
+      "Text": "Interlocks",
+      "PinX": 14.75,
+      "PinY": 59.49999503651617
+    },
+    {
+      "ID": "1091",
+      "Text": "E-Stop",
+      "PinX": 20.0625,
+      "PinY": 56.37499976903203
+    },
+    {
+      "ID": "1092",
+      "Text": "Status Indicator",
+      "PinX": 20.5625,
+      "PinY": 55.875
+    },
+    {
+      "ID": "1093",
+      "Text": "E-Stop",
+      "PinX": 14.125,
+      "PinY": 49.49299648068245,
+      "FromNodeID": "1082",
+      "ToNodeID": "1119"
+    },
+    {
+      "ID": "1096",
+      "Text": "E-Stop",
+      "PinX": 10.12500005215406,
+      "PinY": 46.45366354891311,
+      "FromNodeID": "1095",
+      "ToNodeID": "1082"
+    },
+    {
+      "ID": "1097",
+      "Text": "Status Indicator",
+      "PinX": 10.125,
+      "PinY": 45.968749769032,
+      "FromNodeID": "1095",
+      "ToNodeID": "1082"
+    },
+    {
+      "ID": "1098",
+      "Text": "UUT Signals",
+      "PinX": 14.125,
+      "PinY": 50.60129556781985,
+      "FromNodeID": "1082",
+      "ToNodeID": "1086"
+    },
+    {
+      "ID": "1103",
+      "Text": "Solenoid Control",
+      "PinX": 22.25,
+      "PinY": 58.56249526748414
+    },
+    {
+      "ID": "1104",
+      "Text": "Pressure",
+      "PinX": 14.125,
+      "PinY": 59.81249526748414
+    },
+    {
+      "ID": "1107",
+      "Text": "Air",
+      "PinX": 14.06250003911555,
+      "PinY": 40.20528111032292,
+      "FromNodeID": "1099",
+      "ToNodeID": "1080"
+    },
+    {
+      "ID": "1108",
+      "Text": "Water",
+      "PinX": 14.06250003911555,
+      "PinY": 40.12338455725219,
+      "FromNodeID": "1099",
+      "ToNodeID": "1080"
+    },
+    {
+      "ID": "1109",
+      "Text": "Pressure",
+      "PinX": 14.06250003911555,
+      "PinY": 39.87769489804,
+      "FromNodeID": "1099",
+      "ToNodeID": "1102"
+    },
+    {
+      "ID": "1110",
+      "Text": "Water",
+      "PinX": 10.1875001564622,
+      "PinY": 26.65194010187947,
+      "FromNodeID": "1101",
+      "ToNodeID": "1099"
+    },
+    {
+      "ID": "1122",
+      "Text": "230 VAC 3 Phase Power",
+      "PinX": 18.75,
+      "PinY": 15.59213369298508,
+      "FromNodeID": "1119",
+      "ToNodeID": "1111"
+    },
+    {
+      "ID": "1123",
+      "Text": "230 VAC 3 Phase Power",
+      "PinX": 12.31250003911555,
+      "PinY": 38.13146822409212,
+      "FromNodeID": "1168",
+      "ToNodeID": "1120"
+    },
+    {
+      "ID": "1124",
+      "Text": "230 VAC 3 Phase Power",
+      "PinX": 13.75,
+      "PinY": 63.31249526748414
+    },
+    {
+      "ID": "1125",
+      "Text": "115 VAC 3 Phase Power",
+      "PinX": 12.25,
+      "PinY": 64.18749526748414
+    },
+    {
+      "ID": "1126",
+      "Text": "Inhibit Signal",
+      "PinX": 11.5,
+      "PinY": 60.81249526748414
+    },
+    {
+      "ID": "1127",
+      "Text": "UUT Stimulus",
+      "PinX": 21.25,
+      "PinY": 60.31249526748414
+    },
+    {
+      "ID": "1128",
+      "Text": "Control Signals",
+      "PinX": 22.875,
+      "PinY": 58.31249526748414
+    },
+    {
+      "ID": "1129",
+      "Text": "AC Solenoid Power",
+      "PinX": 14.5,
+      "PinY": 63.81249526748414
+    },
+    {
+      "ID": "1130",
+      "Text": "DC Solenoid Power",
+      "PinX": 16.5,
+      "PinY": 64.81249526748414
+    },
+    {
+      "ID": "1131",
+      "Text": "230 VAC 3 Phase Motor Power",
+      "PinX": 13,
+      "PinY": 63.81249526748414
+    },
+    {
+      "ID": "1132",
+      "Text": "DC Power",
+      "PinX": 17.125,
+      "PinY": 64.56249526748414
+    },
+    {
+      "ID": "1133",
+      "Text": "Circuit Breakers",
+      "PinX": 10.25,
+      "PinY": 64.31249526748414
+    },
+    {
+      "ID": "1134",
+      "Text": "230 VAC 3 Phase Power",
+      "PinX": 18.75,
+      "PinY": 15.14170257543413,
+      "FromNodeID": "1119",
+      "ToNodeID": "1111"
+    },
+    {
+      "ID": "1135",
+      "Text": "230 VAC 3 Phase Power",
+      "PinX": 12.31250003911555,
+      "PinY": 37.80172659830797,
+      "FromNodeID": "1111",
+      "ToNodeID": "1120"
+    },
+    {
+      "ID": "1136",
+      "Text": "115 VAC 3 Phase Power",
+      "PinX": 18.74999994784594,
+      "PinY": 13.359375,
+      "FromNodeID": "1121",
+      "ToNodeID": "1111"
+    },
+    {
+      "ID": "1137",
+      "Text": "Inhibit Signal",
+      "PinX": 18.75,
+      "PinY": 27.35452585633697,
+      "FromNodeID": "1111",
+      "ToNodeID": "1079"
+    },
+    {
+      "ID": "1138",
+      "Text": "UUT Stimulus",
+      "PinX": 18.75,
+      "PinY": 26.61314658929588,
+      "FromNodeID": "1111",
+      "ToNodeID": "1079"
+    },
+    {
+      "ID": "1139",
+      "Text": "Control Signals",
+      "PinX": 14.125,
+      "PinY": 14.45043108890476,
+      "FromNodeID": "1111",
+      "ToNodeID": "1100"
+    },
+    {
+      "ID": "1140",
+      "Text": "AC Solenoid Power",
+      "PinX": 14.125,
+      "PinY": 14.3340517853815,
+      "FromNodeID": "1111",
+      "ToNodeID": "1100"
+    },
+    {
+      "ID": "1141",
+      "Text": "DC Solenoid Power",
+      "PinX": 14.125,
+      "PinY": 14.2176723743387,
+      "FromNodeID": "1111",
+      "ToNodeID": "1100"
+    },
+    {
+      "ID": "1142",
+      "Text": "230 VAC 3 Phase Motor Power",
+      "PinX": 14.06250003911555,
+      "PinY": 38.24138220089985,
+      "FromNodeID": "1081",
+      "ToNodeID": "1111"
+    },
+    {
+      "ID": "1143",
+      "Text": "230 VAC 3 Phase Motor Power",
+      "PinX": 14.06250003911555,
+      "PinY": 38.13146832563846,
+      "FromNodeID": "1117",
+      "ToNodeID": "1111"
+    },
+    {
+      "ID": "1144",
+      "Text": "DC Power",
+      "PinX": 14.06250003911555,
+      "PinY": 37.91164057511568,
+      "FromNodeID": "1118",
+      "ToNodeID": "1111"
+    },
+    {
+      "ID": "1145",
+      "Text": "Circuit Breakers",
+      "PinX": 14.06250003911555,
+      "PinY": 37.52694191015448,
+      "FromNodeID": "1095",
+      "ToNodeID": "1111"
+    },
+    {
+      "ID": "1147",
+      "Text": "115 VAC 3 Phase Power",
+      "PinX": 18.75,
+      "PinY": 13.50269403377288,
+      "FromNodeID": "1146",
+      "ToNodeID": "1121"
+    },
+    {
+      "ID": "1148",
+      "Text": "UUT Signals",
+      "PinX": 18.75,
+      "PinY": 26.24245695577537,
+      "FromNodeID": "1146",
+      "ToNodeID": "1079"
+    },
+    {
+      "ID": "1149",
+      "Text": "E-Stop",
+      "PinX": 18.75,
+      "PinY": 14.89601291622192,
+      "FromNodeID": "1146",
+      "ToNodeID": "1119"
+    },
+    {
+      "ID": "1150",
+      "Text": "Cooling Air",
+      "PinX": 18.0625,
+      "PinY": 61.37499526748414
+    },
+    {
+      "ID": "1151",
+      "Text": "Cooling Air",
+      "PinX": 10.1875001564622,
+      "PinY": 30.8329743987811,
+      "FromNodeID": "1146",
+      "ToNodeID": "1084"
+    },
+    {
+      "ID": "1152",
+      "Text": "UUT Signals",
+      "PinX": 14.06250003911555,
+      "PinY": 41.8744614650888,
+      "FromNodeID": "1086",
+      "ToNodeID": "1146"
+    },
+    {
+      "ID": "1153",
+      "Text": "E-Stop",
+      "PinX": 14.06250003911555,
+      "PinY": 42.58566848432258,
+      "FromNodeID": "1095",
+      "ToNodeID": "1146"
+    },
+    {
+      "ID": "1155",
+      "Text": "115 VAC 3 Phase Power",
+      "PinX": 18.75,
+      "PinY": 13.21605602236339,
+      "FromNodeID": "1154",
+      "ToNodeID": "1121"
+    },
+    {
+      "ID": "1157",
+      "Text": "Calibration",
+      "PinX": 14.06250003911555,
+      "PinY": 34.55226523974316,
+      "FromNodeID": "1156",
+      "ToNodeID": "1154"
+    },
+    {
+      "ID": "1158",
+      "Text": "Calibration",
+      "PinX": 20,
+      "PinY": 63.81249526748414
+    },
+    {
+      "ID": "1160",
+      "Text": "Stimulus",
+      "PinX": 14.06250003911555,
+      "PinY": 34.67942053602619,
+      "FromNodeID": "1159",
+      "ToNodeID": "1154"
+    },
+    {
+      "ID": "1162",
+      "Text": "Communication",
+      "PinX": 14.06250003911555,
+      "PinY": 35.50593007934101,
+      "FromNodeID": "1161",
+      "ToNodeID": "1154"
+    },
+    {
+      "ID": "1163",
+      "Text": "Communication",
+      "PinX": 14.06250003911555,
+      "PinY": 34.93373112859223,
+      "FromNodeID": "1175",
+      "ToNodeID": "1154"
+    },
+    {
+      "ID": "1170",
+      "Text": "Stimulus",
+      "PinX": 17,
+      "PinY": 26.98383588034674,
+      "FromNodeID": "1159",
+      "ToNodeID": "1079"
+    },
+    {
+      "ID": "1171",
+      "Text": "Measurement",
+      "PinX": 14.06250003911555,
+      "PinY": 45.34806034823836,
+      "FromNodeID": "1079",
+      "ToNodeID": "1159"
+    },
+    {
+      "ID": "1172",
+      "Text": "Stimulus",
+      "PinX": 12.31250003911555,
+      "PinY": 35.15625291224559,
+      "FromNodeID": "1159",
+      "ToNodeID": "1154"
+    },
+    {
+      "ID": "1173",
+      "Text": "Communication",
+      "PinX": 17.00000005215406,
+      "PinY": 44.08836206425243,
+      "FromNodeID": "1159",
+      "ToNodeID": "1169"
+    },
+    {
+      "ID": "1174",
+      "Text": "Communication",
+      "PinX": 21.24999994784594,
+      "PinY": 21.9752155111817,
+      "FromNodeID": "1159",
+      "ToNodeID": "1175"
+    },
+    {
+      "ID": "1176",
+      "Text": "Communication",
+      "PinX": 12.31250003911555,
+      "PinY": 44.99892243766863,
+      "FromNodeID": "1164",
+      "ToNodeID": "1159"
+    },
+    {
+      "ID": "1177",
+      "Text": "Communication",
+      "PinX": 12.31250003911555,
+      "PinY": 44.66433194003928,
+      "FromNodeID": "1165",
+      "ToNodeID": "1159"
+    },
+    {
+      "ID": "1178",
+      "Text": "Communication",
+      "PinX": 12.31250003911555,
+      "PinY": 44.47521557181401,
+      "FromNodeID": "1166",
+      "ToNodeID": "1159"
+    },
+    {
+      "ID": "1179",
+      "Text": "Communication",
+      "PinX": 12.31250003911555,
+      "PinY": 44.00969835772101,
+      "FromNodeID": "1167",
+      "ToNodeID": "1159"
+    },
+    {
+      "ID": "1180",
+      "Text": "Communication",
+      "PinX": 12.31250003911555,
+      "PinY": 43.89331905419775,
+      "FromNodeID": "1168",
+      "ToNodeID": "1159"
+    },
+    {
+      "ID": "1181",
+      "Text": "Communication",
+      "PinX": 14.06250003911555,
+      "PinY": 35.25161936929978,
+      "FromNodeID": "1156",
+      "ToNodeID": "1154"
+    },
+    {
+      "ID": "1182",
+      "Text": "Calibration",
+      "PinX": 14.06250003911555,
+      "PinY": 9.594827575434122,
+      "FromNodeID": "1156",
+      "ToNodeID": "1168"
+    },
+    {
+      "ID": "1183",
+      "Text": "Calibration",
+      "PinX": 18.75000005215406,
+      "PinY": 47.43857757543412,
+      "FromNodeID": "1156",
+      "ToNodeID": "1164"
+    },
+    {
+      "ID": "1184",
+      "Text": "Calibration",
+      "PinX": 18.75,
+      "PinY": 33.54418102236339,
+      "FromNodeID": "1156",
+      "ToNodeID": "1165"
+    },
+    {
+      "ID": "1185",
+      "Text": "Calibration",
+      "PinX": 18.75,
+      "PinY": 32.4127173526313,
+      "FromNodeID": "1156",
+      "ToNodeID": "1166"
+    },
+    {
+      "ID": "1186",
+      "Text": "Calibration",
+      "PinX": 18.75,
+      "PinY": 30.83082256534826,
+      "FromNodeID": "1156",
+      "ToNodeID": "1167"
+    },
+    {
+      "ID": "1187",
+      "Text": "Cal Reference Signal",
+      "PinX": 20.625,
+      "PinY": 63.56249526748414
+    },
+    {
+      "ID": "1188",
+      "Text": "Cal Reference Signal",
+      "PinX": 14.06250003911555,
+      "PinY": 32.96067086211771,
+      "FromNodeID": "1189",
+      "ToNodeID": "1156"
+    },
+    {
+      "ID": "1190",
+      "Text": "Communication",
+      "PinX": 14.06250003911555,
+      "PinY": 32.69989451420275,
+      "FromNodeID": "1161",
+      "ToNodeID": "1156"
+    },
+    {
+      "ID": "1191",
+      "Text": "Communication",
+      "PinX": 14.06250003911555,
+      "PinY": 32.30873017302316,
+      "FromNodeID": "1175",
+      "ToNodeID": "1156"
+    },
+    {
+      "ID": "1194",
+      "Text": "Communication",
+      "PinX": 22.99999994784594,
+      "PinY": 20.02586271604976,
+      "FromNodeID": "1175",
+      "ToNodeID": "1193"
+    },
+    {
+      "ID": "1195",
+      "Text": "Communication",
+      "PinX": 14.06250003911555,
+      "PinY": 28.78879291807845,
+      "FromNodeID": "1161",
+      "ToNodeID": "1192"
+    },
+    {
+      "ID": "1196",
+      "Text": "Measurement",
+      "PinX": 14.06250003911555,
+      "PinY": 29.86961305395932,
+      "FromNodeID": "1079",
+      "ToNodeID": "1192"
+    },
+    {
+      "ID": "1197",
+      "Text": "Stimulus",
+      "PinX": 14.06250003911555,
+      "PinY": 30.12392352905017,
+      "FromNodeID": "1079",
+      "ToNodeID": "1192"
+    },
+    {
+      "ID": "1198",
+      "Text": "Communication",
+      "PinX": 14.06250003911555,
+      "PinY": 29.74245764020112,
+      "FromNodeID": "1079",
+      "ToNodeID": "1192"
+    },
+    {
+      "ID": "1199",
+      "Text": "Control Signals",
+      "PinX": 14.06250003911555,
+      "PinY": 29.99676835024235,
+      "FromNodeID": "1079",
+      "ToNodeID": "1192"
+    },
+    {
+      "ID": "1200",
+      "Text": "115 VAC Power",
+      "PinX": 18.75,
+      "PinY": 13.05226291622192,
+      "FromNodeID": "1192",
+      "ToNodeID": "1121"
+    },
+    {
+      "ID": "1201",
+      "Text": "Water",
+      "PinX": 18.67763285534959,
+      "PinY": 7.651938997908887,
+      "FromNodeID": "1118",
+      "ToNodeID": "1080"
+    },
+    {
+      "ID": "1202",
+      "Text": "Water",
+      "PinX": 12.56250001303852,
+      "PinY": 25.58459080393807,
+      "FromNodeID": "1101",
+      "ToNodeID": "1118"
+    },
+    {
+      "ID": "1204",
+      "Text": "Simulated Depth Pressure (Water)",
+      "PinX": 21,
+      "PinY": 44.58893497806477,
+      "FromNodeID": "1118",
+      "ToNodeID": "1102"
+    },
+    {
+      "ID": "1205",
+      "Text": "Simulated Depth Pressure (Water)",
+      "PinX": 21,
+      "PinY": 41.74799915640318,
+      "FromNodeID": "1118",
+      "ToNodeID": "1203"
+    },
+    {
+      "ID": "1206",
+      "Text": "Measurement",
+      "PinX": 13.81250005029142,
+      "PinY": 26.23114253099953,
+      "FromNodeID": "1100",
+      "ToNodeID": "1118"
+    },
+    {
+      "ID": "1207",
+      "Text": "Solenoid Control",
+      "PinX": 12.375,
+      "PinY": 14.33405167786194,
+      "FromNodeID": "1118",
+      "ToNodeID": "1100"
+    },
+    {
+      "ID": "1208",
+      "Text": "Communication",
+      "PinX": 13.81250005029142,
+      "PinY": 25.84321149476265,
+      "FromNodeID": "1161",
+      "ToNodeID": "1118"
+    },
+    {
+      "ID": "1210",
+      "Text": "Communication",
+      "PinX": 13.81250005029142,
+      "PinY": 25.58459080393807,
+      "FromNodeID": "1175",
+      "ToNodeID": "1118"
+    },
+    {
+      "ID": "1212",
+      "Text": "115 VAC 3 Phase Power",
+      "PinX": 18.75,
+      "PinY": 13.66648706425243,
+      "FromNodeID": "1211",
+      "ToNodeID": "1121"
+    },
+    {
+      "ID": "1213",
+      "Text": "Cooling Air",
+      "PinX": 12.31250003911555,
+      "PinY": 23.20767359517023,
+      "FromNodeID": "1084",
+      "ToNodeID": "1211"
+    },
+    {
+      "ID": "1214",
+      "Text": "Interlock",
+      "PinX": 12.38486718160921,
+      "PinY": 21.41174720913467,
+      "FromNodeID": "1079",
+      "ToNodeID": "1117"
+    },
+    {
+      "ID": "1215",
+      "Text": "Measurement",
+      "PinX": 12.38486718160921,
+      "PinY": 21.20856809525861,
+      "FromNodeID": "1100",
+      "ToNodeID": "1117"
+    },
+    {
+      "ID": "1218",
+      "Text": "Rotational Work",
+      "PinX": 12.38486718160921,
+      "PinY": 20.81575514176489,
+      "FromNodeID": "1217",
+      "ToNodeID": "1117"
+    },
+    {
+      "ID": "1219",
+      "Text": "Rotational Work",
+      "PinX": 23.24999987334013,
+      "PinY": 57.06249492475745
+    },
+    {
+      "ID": "1220",
+      "Text": "Air",
+      "PinX": 21,
+      "PinY": 39.03309779999033,
+      "FromNodeID": "1117",
+      "ToNodeID": "1217"
+    },
+    {
+      "ID": "1221",
+      "Text": "Water",
+      "PinX": 21,
+      "PinY": 39.22921849287026,
+      "FromNodeID": "1117",
+      "ToNodeID": "1217"
+    },
+    {
+      "ID": "1223",
+      "Text": "Rotational Work",
+      "PinX": 16.875,
+      "PinY": 36.31142220670065,
+      "FromNodeID": "1117",
+      "ToNodeID": "1222"
+    },
+    {
+      "ID": "1224",
+      "Text": "Water",
+      "PinX": 14.0625000369588,
+      "PinY": 20.59903075363042,
+      "FromNodeID": "1222",
+      "ToNodeID": "1117"
+    },
+    {
+      "ID": "1225",
+      "Text": "Air",
+      "PinX": 14.0625000369588,
+      "PinY": 20.49066855956318,
+      "FromNodeID": "1222",
+      "ToNodeID": "1117"
+    },
+    {
+      "ID": "1226",
+      "Text": "Water",
+      "PinX": 14.0625000369588,
+      "PinY": 21.73683389144916,
+      "FromNodeID": "1080",
+      "ToNodeID": "1117"
+    },
+    {
+      "ID": "1227",
+      "Text": "Air",
+      "PinX": 14.0625000369588,
+      "PinY": 21.62847169738192,
+      "FromNodeID": "1080",
+      "ToNodeID": "1117"
+    },
+    {
+      "ID": "1229",
+      "Text": "Water",
+      "PinX": 18.67763285534959,
+      "PinY": 7.102369621601932,
+      "FromNodeID": "1228",
+      "ToNodeID": "1080"
+    },
+    {
+      "ID": "1230",
+      "Text": "Air",
+      "PinX": 18.67763285534959,
+      "PinY": 8.03663766287008,
+      "FromNodeID": "1228",
+      "ToNodeID": "1080"
+    },
+    {
+      "ID": "1231",
+      "Text": "Water",
+      "PinX": 14.0625000369588,
+      "PinY": 19.39763016549446,
+      "FromNodeID": "1102",
+      "ToNodeID": "1228"
+    },
+    {
+      "ID": "1232",
+      "Text": "Air",
+      "PinX": 14.0625000369588,
+      "PinY": 19.17780231342535,
+      "FromNodeID": "1102",
+      "ToNodeID": "1228"
+    },
+    {
+      "ID": "1233",
+      "Text": "Measurement",
+      "PinX": 14.0625000369588,
+      "PinY": 18.57327599948768,
+      "FromNodeID": "1079",
+      "ToNodeID": "1228"
+    },
+    {
+      "ID": "1234",
+      "Text": "Water",
+      "PinX": 18.67763285534959,
+      "PinY": 7.432111247386108,
+      "FromNodeID": "1081",
+      "ToNodeID": "1080"
+    },
+    {
+      "ID": "1236",
+      "Text": "Hydraulic Fluid",
+      "PinX": 12.38486718160922,
+      "PinY": 15.7553878550758,
+      "FromNodeID": "1235",
+      "ToNodeID": "1081"
+    },
+    {
+      "ID": "1238",
+      "Text": "Measurement",
+      "PinX": 14.0625000369588,
+      "PinY": 17.21767241062815,
+      "FromNodeID": "1100",
+      "ToNodeID": "1081"
+    },
+    {
+      "ID": "1239",
+      "Text": "Solenoid Control",
+      "PinX": 12.375,
+      "PinY": 13.78125,
+      "FromNodeID": "1081",
+      "ToNodeID": "1100"
+    },
+    {
+      "ID": "1241",
+      "Text": "115 VAC Power",
+      "PinX": 18.75,
+      "PinY": 12.97036636315119,
+      "FromNodeID": "1100",
+      "ToNodeID": "1121"
+    },
+    {
+      "ID": "1242",
+      "Text": "Solenoid Control",
+      "PinX": 12.375,
+      "PinY": 13.46120690143758,
+      "FromNodeID": "1099",
+      "ToNodeID": "1100"
+    },
+    {
+      "ID": "1243",
+      "Text": "Measurement",
+      "PinX": 14.06250003911555,
+      "PinY": 40.04148792851954,
+      "FromNodeID": "1100",
+      "ToNodeID": "1099"
+    },
+    {
+      "ID": "1244",
+      "Text": "Solenoid Control",
+      "PinX": 12.375,
+      "PinY": 14.10129307081545,
+      "FromNodeID": "1080",
+      "ToNodeID": "1100"
+    },
+    {
+      "ID": "1245",
+      "Text": "Measurement",
+      "PinX": 18.67763285534959,
+      "PinY": 7.542025122647489,
+      "FromNodeID": "1100",
+      "ToNodeID": "1080"
+    },
+    {
+      "ID": "1246",
+      "Text": "Water",
+      "PinX": 12.375,
+      "PinY": 13.88308187670936,
+      "FromNodeID": "1080",
+      "ToNodeID": "1100"
+    },
+    {
+      "ID": "1248",
+      "Text": "V3 Inhibit Control",
+      "PinX": 21.4999999254942,
+      "PinY": 58.81249487260338
+    },
+    {
+      "ID": "1249",
+      "Text": "V3 Inhibit Control",
+      "PinX": 14.06250003911555,
+      "PinY": 7.811422278380368,
+      "FromNodeID": "1100",
+      "ToNodeID": "1247"
+    },
+    {
+      "ID": "1250",
+      "Text": "Safe Link",
+      "PinX": 21.75,
+      "PinY": 63.31249526748414
+    },
+    {
+      "ID": "1251",
+      "Text": "Load",
+      "PinX": 14.12499994784594,
+      "PinY": 13.78125,
+      "FromNodeID": "1079",
+      "ToNodeID": "1100"
+    },
+    {
+      "ID": "1252",
+      "Text": "Measurement",
+      "PinX": 14.125,
+      "PinY": 13.98491387481177,
+      "FromNodeID": "1079",
+      "ToNodeID": "1100"
+    },
+    {
+      "ID": "1253",
+      "Text": "Stimulus",
+      "PinX": 14.125,
+      "PinY": 13.86853446376895,
+      "FromNodeID": "1079",
+      "ToNodeID": "1100"
+    },
+    {
+      "ID": "1254",
+      "Text": "Safe Link",
+      "PinX": 14.125,
+      "PinY": 14.10129317833501,
+      "FromNodeID": "1079",
+      "ToNodeID": "1100"
+    },
+    {
+      "ID": "1255",
+      "Text": "Communication",
+      "PinX": 14.125,
+      "PinY": 13.57758620496082,
+      "FromNodeID": "1161",
+      "ToNodeID": "1100"
+    },
+    {
+      "ID": "1256",
+      "Text": "Safe Link",
+      "PinX": 14.125,
+      "PinY": 13.34482759791432,
+      "FromNodeID": "1193",
+      "ToNodeID": "1100"
+    },
+    {
+      "ID": "1257",
+      "Text": "Communication",
+      "PinX": 14.125,
+      "PinY": 13.11206899086783,
+      "FromNodeID": "1175",
+      "ToNodeID": "1100"
+    },
+    {
+      "ID": "1258",
+      "Text": "Measurement",
+      "PinX": 18.75,
+      "PinY": 15.67403024605582,
+      "FromNodeID": "1100",
+      "ToNodeID": "1119"
+    },
+    {
+      "ID": "1042",
+      "Text": "Hydraulic Fluid",
+      "PinX": 14.06249998696149,
+      "PinY": 16.35937496926636,
+      "FromNodeID": "1004",
+      "ToNodeID": "1081"
+    },
+    {
+      "ID": "1046",
+      "Text": "Water",
+      "PinX": 18.67763285534959,
+      "PinY": 8.03663766287008,
+      "FromNodeID": "1004",
+      "ToNodeID": "1080"
+    },
+    {
+      "ID": "1047",
+      "Text": "Air",
+      "PinX": 18.67763285534959,
+      "PinY": 7.322197372124711,
+      "FromNodeID": "1004",
+      "ToNodeID": "1080"
+    },
+    {
+      "ID": "1049",
+      "Text": "Power",
+      "PinX": 18.75,
+      "PinY": 28.09590478090833,
+      "FromNodeID": "1004",
+      "ToNodeID": "1079"
+    },
+    {
+      "ID": "1050",
+      "Text": "Load",
+      "PinX": 18.75,
+      "PinY": 27.35452585633697,
+      "FromNodeID": "1079",
+      "ToNodeID": "1004"
+    },
+    {
+      "ID": "1051",
+      "Text": "Measurement",
+      "PinX": 18.75,
+      "PinY": 26.61314658929588,
+      "FromNodeID": "1079",
+      "ToNodeID": "1004"
+    },
+    {
+      "ID": "1052",
+      "Text": "Stimulus",
+      "PinX": 18.75,
+      "PinY": 25.87176697978509,
+      "FromNodeID": "1079",
+      "ToNodeID": "1004"
+    },
+    {
+      "ID": "1053",
+      "Text": "Communication",
+      "PinX": 17,
+      "PinY": 27.35452551386725,
+      "FromNodeID": "1079",
+      "ToNodeID": "1004"
+    },
+    {
+      "ID": "1071",
+      "Text": "Measurement",
+      "PinX": 14.06249998696148,
+      "PinY": 47.03125,
+      "FromNodeID": "1004",
+      "ToNodeID": "1054"
+    },
+    {
+      "ID": "1072",
+      "Text": "Stimulus",
+      "PinX": 14.06250003911555,
+      "PinY": 46.89547410429049,
+      "FromNodeID": "1004",
+      "ToNodeID": "1054"
+    },
+    {
+      "ID": "1074",
+      "Text": "Hydraulic Fluid",
+      "PinX": 14.06250003911555,
+      "PinY": 48.07219851399051,
+      "FromNodeID": "1004",
+      "ToNodeID": "1054"
+    },
+    {
+      "ID": "1075",
+      "Text": "Water",
+      "PinX": 14.06250003911555,
+      "PinY": 47.89116401515244,
+      "FromNodeID": "1004",
+      "ToNodeID": "1054"
+    },
+    {
+      "ID": "1076",
+      "Text": "Air",
+      "PinX": 14.06250003911555,
+      "PinY": 47.71012934906173,
+      "FromNodeID": "1004",
+      "ToNodeID": "1054"
+    },
+    {
+      "ID": "1077",
+      "Text": "Power",
+      "PinX": 14.06250003911555,
+      "PinY": 47.3480605186383,
+      "FromNodeID": "1004",
+      "ToNodeID": "1054"
+    },
+    {
+      "ID": "1078",
+      "Text": "Load",
+      "PinX": 14.06250003911555,
+      "PinY": 47.16702585254756,
+      "FromNodeID": "1004",
+      "ToNodeID": "1054"
+    },
+    {
+      "ID": "1240",
+      "Text": "Hydraulic Fluid",
+      "PinX": 14.06250003911555,
+      "PinY": 46.71443960545242,
+      "FromNodeID": "1081",
+      "ToNodeID": "1004"
+    },
+    {
+      "ID": "1266",
+      "Text": "Status Indicator",
+      "PinX": 15.6151326749671,
+      "PinY": 30.94612335235172,
+      "FromNodeID": "1120",
+      "ToNodeID": "1263"
+    },
+    {
+      "ID": "1267",
+      "Text": "230 VAC 3 Phase Power",
+      "PinX": 11.25000005215406,
+      "PinY": 22.98275861732316,
+      "FromNodeID": "1120",
+      "ToNodeID": "1164"
+    },
+    {
+      "ID": "1268",
+      "Text": "Control Signals",
+      "PinX": 11.25,
+      "PinY": 31.13900861732316,
+      "FromNodeID": "1120",
+      "ToNodeID": "1121"
+    },
+    {
+      "ID": "1269",
+      "Text": "Simulated Depth Pressure (Water)",
+      "PinX": 19.75,
+      "PinY": 33.25
+    },
+    {
+      "ID": "1270",
+      "Text": "Status Indicator",
+      "PinX": 13.00000005215406,
+      "PinY": 32.77586206425243,
+      "FromNodeID": "1263",
+      "ToNodeID": "1120"
+    },
+    {
+      "ID": "1271",
+      "Text": "Control Signals",
+      "PinX": 15.61513267496711,
+      "PinY": 16.82111996195224,
+      "FromNodeID": "1168",
+      "ToNodeID": "1079"
+    },
+    {
+      "ID": "1272",
+      "Text": "115 VAC Power",
+      "PinX": 13,
+      "PinY": 30.97521558684361,
+      "FromNodeID": "1259",
+      "ToNodeID": "1121"
+    },
+    {
+      "ID": "1273",
+      "Text": "DC Power",
+      "PinX": 21.43750009126961,
+      "PinY": 33.74030188037641,
+      "FromNodeID": "1079",
+      "ToNodeID": "1259"
+    },
+    {
+      "ID": "1274",
+      "Text": "AC Power",
+      "PinX": 15,
+      "PinY": 37.75
+    },
+    {
+      "ID": "1275",
+      "Text": "AC Power",
+      "PinX": 21.43750009126961,
+      "PinY": 33.85668118389967,
+      "FromNodeID": "1079",
+      "ToNodeID": "1259"
+    },
+    {
+      "ID": "1276",
+      "Text": "Measurement",
+      "PinX": 17.36513267496707,
+      "PinY": 16.82111996195224,
+      "FromNodeID": "1259",
+      "ToNodeID": "1079"
+    },
+    {
+      "ID": "1277",
+      "Text": "Measurement",
+      "PinX": 17.36513267496707,
+      "PinY": 15.80818955856498,
+      "FromNodeID": "1259",
+      "ToNodeID": "1079"
+    },
+    {
+      "ID": "1278",
+      "Text": "Communication",
+      "PinX": 26.68749988265335,
+      "PinY": 25.29379589139461,
+      "FromNodeID": "1259",
+      "ToNodeID": "1161"
+    },
+    {
+      "ID": "1279",
+      "Text": "Communication",
+      "PinX": 23.18749998696148,
+      "PinY": 33.0731068693867,
+      "FromNodeID": "1259",
+      "ToNodeID": "1193"
+    },
+    {
+      "ID": "1280",
+      "Text": "Communication",
+      "PinX": 23.18749998696148,
+      "PinY": 7.160561240060101,
+      "FromNodeID": "1259",
+      "ToNodeID": "1175"
+    },
+    {
+      "ID": "1281",
+      "Text": "115 VAC Power",
+      "PinX": 13,
+      "PinY": 30.81142240504023,
+      "FromNodeID": "1247",
+      "ToNodeID": "1121"
+    },
+    {
+      "ID": "1282",
+      "Text": "AC Power",
+      "PinX": 13.00000005215406,
+      "PinY": 22.98275869298508,
+      "FromNodeID": "1247",
+      "ToNodeID": "1164"
+    },
+    {
+      "ID": "1283",
+      "Text": "DC Power",
+      "PinX": 13,
+      "PinY": 29.38900692719738,
+      "FromNodeID": "1247",
+      "ToNodeID": "1165"
+    },
+    {
+      "ID": "1284",
+      "Text": "DC Power",
+      "PinX": 13,
+      "PinY": 27.88900869298508,
+      "FromNodeID": "1247",
+      "ToNodeID": "1166"
+    },
+    {
+      "ID": "1285",
+      "Text": "DC Power",
+      "PinX": 13,
+      "PinY": 26.38901045877277,
+      "FromNodeID": "1247",
+      "ToNodeID": "1167"
+    },
+    {
+      "ID": "1286",
+      "Text": "DC Power",
+      "PinX": 13,
+      "PinY": 24.70150850672058,
+      "FromNodeID": "1247",
+      "ToNodeID": "1168"
+    },
+    {
+      "ID": "1288",
+      "Text": "DC Power",
+      "PinX": 21.43750009126961,
+      "PinY": 30.58835782254389,
+      "FromNodeID": "1079",
+      "ToNodeID": "1247"
+    },
+    {
+      "ID": "1289",
+      "Text": "AC Power",
+      "PinX": 21.43750009126961,
+      "PinY": 30.75215100434728,
+      "FromNodeID": "1079",
+      "ToNodeID": "1247"
+    },
+    {
+      "ID": "1290",
+      "Text": "DC Power",
+      "PinX": 21.43750009126961,
+      "PinY": 30.21982333372559,
+      "FromNodeID": "1189",
+      "ToNodeID": "1247"
+    },
+    {
+      "ID": "1291",
+      "Text": "Measurement",
+      "PinX": 21.43750009126961,
+      "PinY": 30.13792678065485,
+      "FromNodeID": "1261",
+      "ToNodeID": "1247"
+    },
+    {
+      "ID": "1292",
+      "Text": "Communication",
+      "PinX": 21.43750009126961,
+      "PinY": 29.97413367451338,
+      "FromNodeID": "1193",
+      "ToNodeID": "1247"
+    },
+    {
+      "ID": "1293",
+      "Text": "Communication",
+      "PinX": 21.43750009126961,
+      "PinY": 29.81034056837191,
+      "FromNodeID": "1175",
+      "ToNodeID": "1247"
+    },
+    {
+      "ID": "1294",
+      "Text": "Communication",
+      "PinX": 13,
+      "PinY": 24.00538772995742,
+      "FromNodeID": "1175",
+      "ToNodeID": "1168"
+    },
+    {
+      "ID": "1295",
+      "Text": "Inhibit Signal",
+      "PinX": 15.61513267496711,
+      "PinY": 18.34051673680596,
+      "FromNodeID": "1168",
+      "ToNodeID": "1079"
+    },
+    {
+      "ID": "1296",
+      "Text": "Limit Switch Status",
+      "PinX": 28.205,
+      "PinY": 35.67000023096797
+    },
+    {
+      "ID": "1297",
+      "Text": "IMU Table Motor Power",
+      "PinX": 20.5800000745058,
+      "PinY": 35.41999997392298
+    },
+    {
+      "ID": "1298",
+      "Text": "Beacon Control",
+      "PinX": 33.58000026077031,
+      "PinY": 36.67000039488076
+    },
+    {
+      "ID": "1299",
+      "Text": "Cable Interlock Status",
+      "PinX": 28.75,
+      "PinY": 35.25
+    },
+    {
+      "ID": "1301",
+      "Text": "Communication",
+      "PinX": 17.36513267496711,
+      "PinY": 26.94187911568792,
+      "FromNodeID": "1260",
+      "ToNodeID": "1169"
+    },
+    {
+      "ID": "1302",
+      "Text": "115 VAC Power",
+      "PinX": 11.25,
+      "PinY": 30.75,
+      "FromNodeID": "1260",
+      "ToNodeID": "1121"
+    },
+    {
+      "ID": "1303",
+      "Text": "Control Signals",
+      "PinX": 17.36513267496707,
+      "PinY": 16.31465499421314,
+      "FromNodeID": "1260",
+      "ToNodeID": "1079"
+    },
+    {
+      "ID": "1304",
+      "Text": "Communication",
+      "PinX": 15.61513267496711,
+      "PinY": 23.30603307649979,
+      "FromNodeID": "1175",
+      "ToNodeID": "1260"
+    },
+    {
+      "ID": "1305",
+      "Text": "Limit Switch Status",
+      "PinX": 32.72916645805041,
+      "PinY": 18.1864223743387,
+      "FromNodeID": "1260",
+      "ToNodeID": "1300"
+    },
+    {
+      "ID": "1306",
+      "Text": "IMU Table Motor Power",
+      "PinX": 17.36513267496711,
+      "PinY": 23.83836067145956,
+      "FromNodeID": "1300",
+      "ToNodeID": "1260"
+    },
+    {
+      "ID": "1307",
+      "Text": "Beacon Control",
+      "PinX": 17.36513267496711,
+      "PinY": 23.67456764098001,
+      "FromNodeID": "1300",
+      "ToNodeID": "1260"
+    },
+    {
+      "ID": "1308",
+      "Text": "Cable Interlock Status",
+      "PinX": 32.72916645805041,
+      "PinY": 17.66271550848408,
+      "FromNodeID": "1260",
+      "ToNodeID": "1300"
+    },
+    {
+      "ID": "1309",
+      "Text": "HW Commands",
+      "PinX": 20.20500008568167,
+      "PinY": 35.9199999590218
+    },
+    {
+      "ID": "1310",
+      "Text": "HW Status",
+      "PinX": 28.205,
+      "PinY": 35.67000023096797
+    },
+    {
+      "ID": "1311",
+      "Text": "HW Commands",
+      "PinX": 28.43749988265335,
+      "PinY": 24.23722259815967,
+      "FromNodeID": "1193",
+      "ToNodeID": "1161"
+    },
+    {
+      "ID": "1312",
+      "Text": "HW Status",
+      "PinX": 28.43749988265335,
+      "PinY": 23.78032603892294,
+      "FromNodeID": "1193",
+      "ToNodeID": "1161"
+    },
+    {
+      "ID": "1313",
+      "Text": "Communication",
+      "PinX": 28.43749988265335,
+      "PinY": 26.40748146559108,
+      "FromNodeID": "1102",
+      "ToNodeID": "1161"
+    },
+    {
+      "ID": "1314",
+      "Text": "Communication",
+      "PinX": 26.68749988265335,
+      "PinY": 26.63592974520942,
+      "FromNodeID": "1121",
+      "ToNodeID": "1161"
+    },
+    {
+      "ID": "1315",
+      "Text": "Communication",
+      "PinX": 28.43749988265335,
+      "PinY": 26.1790331859727,
+      "FromNodeID": "1079",
+      "ToNodeID": "1161"
+    },
+    {
+      "ID": "1316",
+      "Text": "Communication",
+      "PinX": 28.43749988265335,
+      "PinY": 25.95058469529742,
+      "FromNodeID": "1189",
+      "ToNodeID": "1161"
+    },
+    {
+      "ID": "1321",
+      "Text": "Communication",
+      "PinX": 28.43749988265335,
+      "PinY": 25.72213662673597,
+      "FromNodeID": "1154",
+      "ToNodeID": "1161"
+    },
+    {
+      "ID": "1322",
+      "Text": "Communication",
+      "PinX": 28.43749988265335,
+      "PinY": 25.49368834711762,
+      "FromNodeID": "1169",
+      "ToNodeID": "1161"
+    },
+    {
+      "ID": "1325",
+      "Text": "Communication",
+      "PinX": 21.43750009126961,
+      "PinY": 30.13792678065485,
+      "FromNodeID": "1161",
+      "ToNodeID": "1247"
+    },
+    {
+      "ID": "1326",
+      "Text": "230 VAC Power",
+      "PinX": 11.75,
+      "PinY": 36.25
+    },
+    {
+      "ID": "1327",
+      "Text": "Communication",
+      "PinX": 23.18749998696148,
+      "PinY": 4.440194123163852,
+      "FromNodeID": "1164",
+      "ToNodeID": "1175"
+    },
+    {
+      "ID": "1328",
+      "Text": "Inhibit Signal",
+      "PinX": 15.61513267496711,
+      "PinY": 17.8340513011578,
+      "FromNodeID": "1164",
+      "ToNodeID": "1079"
+    },
+    {
+      "ID": "1330",
+      "Text": "115 VAC Power",
+      "PinX": 11.25,
+      "PinY": 30.52478446929266,
+      "FromNodeID": "1261",
+      "ToNodeID": "1121"
+    },
+    {
+      "ID": "1331",
+      "Text": "Measurement",
+      "PinX": 17.36513267496707,
+      "PinY": 13.52909463023889,
+      "FromNodeID": "1261",
+      "ToNodeID": "1079"
+    },
+    {
+      "ID": "1332",
+      "Text": "Communication",
+      "PinX": 21.04276545983028,
+      "PinY": 19.58728561575064,
+      "FromNodeID": "1169",
+      "ToNodeID": "1261"
+    },
+    {
+      "ID": "1333",
+      "Text": "Communication",
+      "PinX": 23.18749998696148,
+      "PinY": 4.120150967726492,
+      "FromNodeID": "1261",
+      "ToNodeID": "1175"
+    },
+    {
+      "ID": "1334",
+      "Text": "Peripherals",
+      "PinX": 17.3651326749671,
+      "PinY": 29.96551798649655,
+      "FromNodeID": "1169",
+      "ToNodeID": "1263"
+    },
+    {
+      "ID": "1335",
+      "Text": "Display",
+      "PinX": 20.74999985843897,
+      "PinY": 35.49999956786634
+    },
+    {
+      "ID": "1336",
+      "Text": "115 VAC Power",
+      "PinX": 13,
+      "PinY": 30.60668102236339,
+      "FromNodeID": "1169",
+      "ToNodeID": "1121"
+    },
+    {
+      "ID": "1337",
+      "Text": "Peripherals",
+      "PinX": 19.625,
+      "PinY": 36.25
+    },
+    {
+      "ID": "1338",
+      "Text": "Display",
+      "PinX": 17.36513267496711,
+      "PinY": 26.16606481721894,
+      "FromNodeID": "1263",
+      "ToNodeID": "1169"
+    },
+    {
+      "ID": "1339",
+      "Text": "Communication",
+      "PinX": 23.18749998696148,
+      "PinY": 5.080280434038531,
+      "FromNodeID": "1169",
+      "ToNodeID": "1175"
+    },
+    {
+      "ID": "1340",
+      "Text": "Communication",
+      "PinX": 23.18749998696148,
+      "PinY": 23.18081987970997,
+      "FromNodeID": "1169",
+      "ToNodeID": "1193"
+    },
+    {
+      "ID": "1341",
+      "Text": "MK710 On/Off",
+      "PinX": 33.58000026077031,
+      "PinY": 36.67000039488076
+    },
+    {
+      "ID": "1342",
+      "Text": "MK710 On/Off",
+      "PinX": 15.6151326749671,
+      "PinY": 31.54957294764008,
+      "FromNodeID": "1121",
+      "ToNodeID": "1263"
+    },
+    {
+      "ID": "1343",
+      "Text": "115 VAC Power",
+      "PinX": 13,
+      "PinY": 30.89331903377288,
+      "FromNodeID": "1263",
+      "ToNodeID": "1121"
+    },
+    {
+      "ID": "1344",
+      "Text": "E-Stop",
+      "PinX": 15.6151326749671,
+      "PinY": 30.53125186939718,
+      "FromNodeID": "1119",
+      "ToNodeID": "1263"
+    },
+    {
+      "ID": "1345",
+      "Text": "Display",
+      "PinX": 15.6151326749671,
+      "PinY": 30.26724271445199,
+      "FromNodeID": "1095",
+      "ToNodeID": "1263"
+    },
+    {
+      "ID": "1346",
+      "Text": "Commands",
+      "PinX": 21.25,
+      "PinY": 35.25
+    },
+    {
+      "ID": "1347",
+      "Text": "Commands",
+      "PinX": 9.3750000782311,
+      "PinY": 28.80603435920388,
+      "FromNodeID": "1263",
+      "ToNodeID": "1095"
+    },
+    {
+      "ID": "1348",
+      "Text": "E-Stop",
+      "PinX": 9.3750000782311,
+      "PinY": 28.418103322967,
+      "FromNodeID": "1263",
+      "ToNodeID": "1095"
+    },
+    {
+      "ID": "1349",
+      "Text": "MK710 On/Off",
+      "PinX": 9.3750000782311,
+      "PinY": 27.83620664914551,
+      "FromNodeID": "1263",
+      "ToNodeID": "1095"
+    },
+    {
+      "ID": "1350",
+      "Text": "115 VAC Power",
+      "PinX": 13,
+      "PinY": 31.13900869298508,
+      "FromNodeID": "1262",
+      "ToNodeID": "1121"
+    },
+    {
+      "ID": "1351",
+      "Text": "115 VAC Power",
+      "PinX": 42.00000005215406,
+      "PinY": 21.96635164111633,
+      "FromNodeID": "1156",
+      "ToNodeID": "1262"
+    },
+    {
+      "ID": "1352",
+      "Text": "Cooling Air",
+      "PinX": 10.1875001564622,
+      "PinY": 15.35237004493627,
+      "FromNodeID": "1262",
+      "ToNodeID": "1084"
+    },
+    {
+      "ID": "1353",
+      "Text": "UUT Signals",
+      "PinX": 21.16776564236947,
+      "PinY": 8.870691208483489,
+      "FromNodeID": "1262",
+      "ToNodeID": "1086"
+    },
+    {
+      "ID": "1354",
+      "Text": "UUT Signals",
+      "PinX": 17.36513267496707,
+      "PinY": 14.03556006588705,
+      "FromNodeID": "1262",
+      "ToNodeID": "1079"
+    },
+    {
+      "ID": "1357",
+      "Text": "Communication",
+      "PinX": 23.18749998696148,
+      "PinY": 7.480604395497418,
+      "FromNodeID": "1165",
+      "ToNodeID": "1175"
+    },
+    {
+      "ID": "1358",
+      "Text": "115 VAC Power",
+      "PinX": 13,
+      "PinY": 30.27909481008045,
+      "FromNodeID": "1165",
+      "ToNodeID": "1121"
+    },
+    {
+      "ID": "1359",
+      "Text": "Inhibit Signal",
+      "PinX": 15.61513267496711,
+      "PinY": 16.82111996195224,
+      "FromNodeID": "1165",
+      "ToNodeID": "1079"
+    },
+    {
+      "ID": "1360",
+      "Text": "115 VAC Power",
+      "PinX": 11.25,
+      "PinY": 30.89331895811096,
+      "FromNodeID": "1166",
+      "ToNodeID": "1121"
+    },
+    {
+      "ID": "1361",
+      "Text": "115 VAC Power",
+      "PinX": 11.25,
+      "PinY": 30.36099136315119,
+      "FromNodeID": "1167",
+      "ToNodeID": "1121"
+    },
+    {
+      "ID": "1362",
+      "Text": "Inhibit Signal",
+      "PinX": 15.61513267496711,
+      "PinY": 16.31465452630399,
+      "FromNodeID": "1166",
+      "ToNodeID": "1079"
+    },
+    {
+      "ID": "1363",
+      "Text": "Inhibit Signal",
+      "PinX": 15.61513267496711,
+      "PinY": 15.80818909065583,
+      "FromNodeID": "1167",
+      "ToNodeID": "1079"
+    },
+    {
+      "ID": "1364",
+      "Text": "Communication",
+      "PinX": 23.18749998696148,
+      "PinY": 5.600350561624198,
+      "FromNodeID": "1166",
+      "ToNodeID": "1175"
+    },
+    {
+      "ID": "1365",
+      "Text": "Communication",
+      "PinX": 23.18749998696148,
+      "PinY": 3.160021501414484,
+      "FromNodeID": "1167",
+      "ToNodeID": "1175"
+    },
+    {
+      "ID": "1366",
+      "Text": "DC Power",
+      "PinX": 13,
+      "PinY": 27.02909481008045,
+      "FromNodeID": "1079",
+      "ToNodeID": "1166"
+    },
+    {
+      "ID": "1369",
+      "Text": "Development",
+      "PinX": 21.45500004842877,
+      "PinY": 34.545
+    },
+    {
+      "ID": "1370",
+      "Text": "Development",
+      "PinX": 9.3750000782311,
+      "PinY": 26.03879299990646,
+      "FromNodeID": "1264",
+      "ToNodeID": "1367"
+    },
+    {
+      "ID": "1371",
+      "Text": "Stowage",
+      "PinX": 10.1875001564622,
+      "PinY": 14.96443918738483,
+      "FromNodeID": "1264",
+      "ToNodeID": "1084"
+    },
+    {
+      "ID": "1372",
+      "Text": "TPS Deployment",
+      "PinX": 17.36513267496711,
+      "PinY": 27.80389516215412,
+      "FromNodeID": "1264",
+      "ToNodeID": "1169"
+    }
+  ]
+}

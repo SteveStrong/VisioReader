@@ -1,0 +1,217 @@
+{
+  "Nodes": [
+    {
+      "ID": "3",
+      "Text": "Agile Software Release Diagram (Swimlane)",
+      "PinX": 6.383390499153165,
+      "PinY": 7.459634039916478
+    },
+    {
+      "ID": "8",
+      "Text": "Development Team",
+      "PinX": 0.2556,
+      "PinY": 0.75
+    },
+    {
+      "ID": "11",
+      "Text": "Product Owner",
+      "PinX": 0.2556,
+      "PinY": 0.7016056733194134
+    },
+    {
+      "ID": "17",
+      "Text": "Scrum Master",
+      "PinX": 0.2556
+    },
+    {
+      "ID": "20",
+      "Text": "Solution Architect",
+      "PinX": 0.2556,
+      "PinY": 0.7016056733194129
+    },
+    {
+      "ID": "26",
+      "Text": "QA Team",
+      "PinX": 0.2556,
+      "PinY": 0.7016056733194127
+    },
+    {
+      "ID": "14",
+      "Text": "Production Deployment",
+      "PinX": 1.2812498100102,
+      "PinY": 7.084634039916478
+    },
+    {
+      "ID": "112",
+      "Text": "Product Increment (PI Planning)",
+      "PinX": 1.5569,
+      "PinY": 7.084634039916478
+    },
+    {
+      "ID": "115",
+      "Text": "Architecture",
+      "PinX": 0.8125,
+      "PinY": 7.084634039916478
+    },
+    {
+      "ID": "118",
+      "Text": "Unit Testing",
+      "PinX": 1.624999791383749,
+      "PinY": 7.084634039916478
+    },
+    {
+      "ID": "121",
+      "Text": "UAT",
+      "PinX": 0.8521408977592166,
+      "PinY": 7.084634039916478
+    },
+    {
+      "ID": "27",
+      "Text": "Start",
+      "PinX": 1.5112,
+      "PinY": 6.875
+    },
+    {
+      "ID": "28",
+      "Text": "Capture Business Demand",
+      "PinX": 3.0112,
+      "PinY": 6.875
+    },
+    {
+      "ID": "30",
+      "Text": "Create/Revise User Stories and Define Acceptance Criteria",
+      "PinX": 3.0112,
+      "PinY": 5.5
+    },
+    {
+      "ID": "32",
+      "Text": "Review Delivery Plan with Other Teams",
+      "PinX": 3.0112,
+      "PinY": 4.125
+    },
+    {
+      "ID": "36",
+      "Text": "Risk Mitigation and Planning",
+      "PinX": 4.7388,
+      "PinY": 4.125
+    },
+    {
+      "ID": "38",
+      "Text": "Create and Refine Solution Design",
+      "PinX": 4.7388,
+      "PinY": 5.5
+    },
+    {
+      "ID": "43",
+      "Text": "Review Solution Design",
+      "PinX": 6.397858893624532,
+      "PinY": 2.798394326680587
+    },
+    {
+      "ID": "45",
+      "Text": "Development and User Testing of User Stories",
+      "PinX": 6.397400000000006,
+      "PinY": 5.5
+    },
+    {
+      "ID": "48",
+      "Text": "Execute System Testing",
+      "PinX": 7.897858685008281,
+      "PinY": 1.395182980041761
+    },
+    {
+      "ID": "127",
+      "Text": "Deploy into UAT Environment",
+      "PinX": 9.584899517109255,
+      "PinY": 5.5
+    },
+    {
+      "ID": "51",
+      "Text": "Execute UAT Testing",
+      "PinX": 9.602140480526714,
+      "PinY": 6.951605673319414
+    },
+    {
+      "ID": "52",
+      "Text": "Deploy to Production Environment",
+      "PinX": 11.36330444688657,
+      "PinY": 5.5
+    },
+    {
+      "ID": "57",
+      "Text": "Smoke Testing",
+      "PinX": 11.20428137828593,
+      "PinY": 1.471788653361174
+    },
+    {
+      "ID": "58",
+      "Text": "End",
+      "PinX": 12.51678118829613,
+      "PinY": 1.471788653361174
+    },
+    {
+      "ID": "125",
+      "Text": "Deploy into SIT Environment",
+      "PinX": 7.9375,
+      "PinY": 5.5
+    }
+  ],
+  "Edges": [
+    {
+      "ID": "53",
+      "Text": "Success",
+      "PinX": 10.20428137828593,
+      "PinY": 6.951605673319414,
+      "FromNodeID": "52",
+      "ToNodeID": "51"
+    },
+    {
+      "ID": "56",
+      "Text": "Failed",
+      "PinX": 8.999999582767497,
+      "PinY": 6.951605673319414,
+      "FromNodeID": "45",
+      "ToNodeID": "51"
+    },
+    {
+      "ID": "59",
+      "Text": "Success",
+      "PinX": 11.70428137828593,
+      "PinY": 1.471788653361174,
+      "FromNodeID": "58",
+      "ToNodeID": "57"
+    },
+    {
+      "ID": "61",
+      "Text": "Smoke Testing Failed",
+      "PinX": 10.70428137828593,
+      "PinY": 1.471788653361174,
+      "FromNodeID": "48",
+      "ToNodeID": "57"
+    },
+    {
+      "ID": "62",
+      "Text": "System Testing \nSuccessful",
+      "PinX": 8.499999582767497,
+      "PinY": 1.395182980041761,
+      "FromNodeID": "127",
+      "ToNodeID": "48"
+    },
+    {
+      "ID": "123",
+      "Text": "System Testing \nFailed",
+      "PinX": 7.295717787249064,
+      "PinY": 1.395182980041761,
+      "FromNodeID": "45",
+      "ToNodeID": "48"
+    },
+    {
+      "ID": "126",
+      "Text": "Deployment Complete",
+      "PinX": 7.9375,
+      "PinY": 5.125,
+      "FromNodeID": "125",
+      "ToNodeID": "48"
+    }
+  ]
+}

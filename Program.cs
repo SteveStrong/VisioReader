@@ -3,6 +3,7 @@ using System.IO;
 using System.IO.Packaging;
 using System.Xml.Linq;
 using System.Collections.Generic;
+using System.Linq;
 using FoundryRulesAndUnits.Extensions;
 using System.Text.Json.Serialization;
 using System.Text.Json;
@@ -76,17 +77,18 @@ public class Program
                 
 
             }
-            
-            var shapeKnowledgeModel = new ShapeKnowledgeModel
+              var shapeKnowledgeModel = new ShapeKnowledgeModel
             {
                 Filename = drawingName,
                 Shape1DList = ShapeRegistry.Shape1DMap.Values.ToList(),
                 Shape2DList = ShapeRegistry.Shape2DMap.Values.ToList()
             };
 
+            // Create and populate NetworkModel with shapes that have text
+            var networkModel = CreateNetworkModel();
+            Console.WriteLine($"NetworkModel created with {networkModel.Nodes.Count} nodes and {networkModel.Edges.Count} edges");
 
-
-            // Save as C# model (for now, just serialize to JSON for demonstration)            // Define the serializer options
+            // Save as C# model (for now, just serialize to JSON for demonstration)// Define the serializer options
             var serializerOptions = new System.Text.Json.JsonSerializerOptions
             {
                 WriteIndented = true,
@@ -95,15 +97,19 @@ public class Program
             };
             
             // Add the EmptyCollectionConverter to skip serializing empty collections
-            //serializerOptions.Converters.Add(new EmptyCollectionConverter());
-            
-            // Serialize ShapeKnowledgeModel to JSON
+            //serializerOptions.Converters.Add(new EmptyCollectionConverter());            // Serialize ShapeKnowledgeModel to JSON
             string json = System.Text.Json.JsonSerializer.Serialize(shapeKnowledgeModel, serializerOptions);
 
             // Write the JSON to the output directory
             string jsonFilePath = Path.Combine(outputDir, $"{drawingName}.json");
             File.WriteAllText(jsonFilePath, json);
-            $"Shape knowledge model saved to: {jsonFilePath}".WriteSuccess(1);
+            $"Shape knowledge model saved to: {jsonFilePath}".WriteSuccess(1);            // Serialize NetworkModel to JSON
+            string networkJson = System.Text.Json.JsonSerializer.Serialize(networkModel, serializerOptions);
+            
+            // Write the NetworkModel JSON to the output directory
+            string networkJsonFilePath = Path.Combine(outputDir, $"{drawingName}_NetworkModel.json");
+            File.WriteAllText(networkJsonFilePath, networkJson);
+            $"Network model saved to: {networkJsonFilePath}".WriteSuccess(1);
         }
     }
 
@@ -543,5 +549,80 @@ public class Program
             // Log exception but continue processing
             Console.WriteLine($"Error extracting connection info for shape {shape.ID}: {ex.Message}");
         }
+    }
+
+    static NetworkModel CreateNetworkModel()
+    {
+        var networkModel = new NetworkModel();
+        
+        // Add 2D shapes as nodes (only if they have text)
+        foreach (var shape2D in ShapeRegistry.Shape2DMap.Values)
+        {
+            if (!string.IsNullOrWhiteSpace(shape2D.Text))
+            {
+                var nodeShape = new NodeShape
+                {
+                    ID = shape2D.ID,
+                    Text = shape2D.Text,
+                    PinX = shape2D.PinX,
+                    PinY = shape2D.PinY
+                };
+                
+                networkModel.AddNode(nodeShape);
+                Console.WriteLine($"Added node: {nodeShape.Text} (ID: {nodeShape.ID})");
+            }
+        }
+        
+        // Add 1D shapes as edges (only if they have text)
+        foreach (var shape1D in ShapeRegistry.Shape1DMap.Values)
+        {
+            if (string.IsNullOrWhiteSpace(shape1D.Text))
+                continue;
+
+            if (shape1D.Connections == null || shape1D.Connections.Count == 0)
+                continue;
+            
+            var edgeShape = new EdgeShape
+            {
+                ID = shape1D.ID,
+                Text = shape1D.Text,
+                FromNodeID = null,
+                ToNodeID = null
+            };
+                
+
+            // For 1D shapes with connections, try to map to connected 2D shapes
+            var fromConnection = shape1D.Connections.FirstOrDefault(c => !string.IsNullOrEmpty(c.ToSheet));
+            if (fromConnection != null)
+            {
+                edgeShape.FromNodeID = fromConnection.ToSheet;
+            }
+            
+
+            var toConnection = shape1D.Connections.LastOrDefault(c => !string.IsNullOrEmpty(c.ToSheet));
+            if (toConnection != null && toConnection != fromConnection)
+            {
+                edgeShape.ToNodeID = toConnection.ToSheet;
+            }
+            
+                
+                
+            // Fall back to legacy connection properties if available
+            if (string.IsNullOrEmpty(edgeShape.FromNodeID) && !string.IsNullOrEmpty(shape1D.BeginConnectedTo))
+            {
+                edgeShape.FromNodeID = shape1D.BeginConnectedTo;
+            }
+            
+            if (string.IsNullOrEmpty(edgeShape.ToNodeID) && !string.IsNullOrEmpty(shape1D.EndConnectedTo))
+            {
+                edgeShape.ToNodeID = shape1D.EndConnectedTo;
+            }
+            
+            networkModel.AddEdge(edgeShape);
+            $"Added edge: {edgeShape.Text} (ID: {edgeShape.ID}, From: {edgeShape.FromNodeID ?? "none"}, To: {edgeShape.ToNodeID ?? "none"})".WriteSuccess(1);
+            
+        }
+        
+        return networkModel;
     }
 }

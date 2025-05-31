@@ -3,14 +3,25 @@
   "Shape2DList": [
     {
       "ID": "378",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "379",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "377",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -19,20 +30,36 @@
     },
     {
       "ID": "706",
+      "PinX": 6.0625,
+      "PinY": 1.25,
+      "Width": 12.125,
+      "Height": 2.5,
       "PageName": "Page1"
     },
     {
       "ID": "707",
+      "PinX": 0,
+      "PinY": 1.25,
+      "Width": 2.5,
+      "Height": 0,
       "PageName": "Page1"
     },
     {
       "ID": "705",
       "Master": "23",
+      "PinX": 6.8125,
+      "PinY": 1.5,
+      "Width": 12.125,
+      "Height": 2.5,
       "PageName": "Page1"
     },
     {
       "ID": "708",
       "Master": "24",
+      "PinX": 0.7499999999999973,
+      "PinY": 2.75,
+      "Width": 12.125,
+      "Height": 2.5,
       "PageName": "Page1"
     },
     {
@@ -53,38 +80,62 @@
     },
     {
       "ID": "606",
+      "PinX": 7.312499903142462,
+      "PinY": 0.625,
+      "Width": 14.62499980628492,
+      "Height": 1.25,
       "PageName": "Page1"
     },
     {
       "ID": "607",
+      "PinX": 7.562499903142462,
       "PageName": "Page1"
     },
     {
       "ID": "608",
       "Text": "Order Entry",
+      "PinY": 0.625,
+      "Width": 1.25,
+      "Height": 0.5,
       "PageName": "Page1"
     },
     {
       "ID": "605",
       "Master": "22",
+      "PinX": 8.062499903142474,
+      "PinY": 4.187500104308124,
+      "Width": 14.62499980628492,
+      "Height": 1.25,
       "PageName": "Page1"
     },
     {
       "ID": "702",
+      "PinX": 6.0625,
+      "PinY": 1.25,
+      "Width": 12.125,
+      "Height": 2.5,
       "PageName": "Page1"
     },
     {
       "ID": "703",
+      "PinX": 6.3125,
       "PageName": "Page1"
     },
     {
       "ID": "704",
       "Text": "Back Office",
+      "PinY": 1.25,
+      "Width": 2.5,
+      "Height": 0.5,
       "PageName": "Page1"
     },
     {
       "ID": "701",
       "Master": "22",
+      "PinX": 6.8125,
+      "PinY": 1.5,
+      "Width": 12.125,
+      "Height": 2.5,
       "PageName": "Page1"
     },
     {
@@ -106,19 +157,35 @@
     {
       "ID": "709",
       "Master": "25",
+      "PinX": 1.250000000000006,
+      "PinY": 2.75,
+      "Width": 11.625,
+      "Height": 2.5,
       "PageName": "Page1"
     },
     {
       "ID": "711",
+      "PinX": 5.8125,
+      "PinY": 1.25,
+      "Width": 11.625,
+      "Height": 2.5,
       "PageName": "Page1"
     },
     {
       "ID": "712",
+      "PinX": 5.8125,
+      "PinY": 2.5,
+      "Width": 12.125,
+      "Height": 0,
       "PageName": "Page1"
     },
     {
       "ID": "710",
       "Master": "26",
+      "PinX": 7.0625,
+      "PinY": 1.5,
+      "Width": 11.625,
+      "Height": 2.5,
       "PageName": "Page1"
     },
     {
@@ -181,6 +248,7 @@
           "FromPart": "9",
           "ToPart": "104",
           "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         }
@@ -208,14 +276,25 @@
     },
     {
       "ID": "405",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "406",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "404",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -278,6 +357,8 @@
       "ID": "398",
       "Text": "Authorize transaction",
       "Master": "9",
+      "PinX": 7.124999999999991,
+      "PinY": 1.875,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -311,6 +392,7 @@
           "ToSheet": "398",
           "FromPart": "12",
           "ToPart": "103",
+          "FromShapeName": "",
           "ToShapeName": " (Authorize transaction)",
           "DirX": "",
           "DirY": ""
@@ -334,6 +416,8 @@
       "Name": "Task.422",
       "Text": "Authorize transaction",
       "Master": "9",
+      "PinX": 8.499999999999991,
+      "PinY": 1.874999860922493,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -343,6 +427,7 @@
           "ToSheet": "422",
           "FromPart": "12",
           "ToPart": "103",
+          "FromShapeName": "",
           "ToShapeName": "Task.422 (Authorize transaction)",
           "DirX": "",
           "DirY": ""
@@ -354,6 +439,7 @@
           "ToSheet": "422",
           "FromPart": "9",
           "ToPart": "105",
+          "FromShapeName": "",
           "ToShapeName": "Task.422 (Authorize transaction)",
           "DirX": "",
           "DirY": ""
@@ -378,10 +464,17 @@
     },
     {
       "ID": "428",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "429",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -390,6 +483,10 @@
     },
     {
       "ID": "430",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
@@ -449,6 +546,8 @@
       "Name": "Task.421",
       "Text": "Review Recommended items",
       "Master": "9",
+      "PinX": 4.500000000000023,
+      "PinY": 6.718750052154062,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -458,6 +557,7 @@
           "ToSheet": "421",
           "FromPart": "9",
           "ToPart": "3",
+          "FromShapeName": "",
           "ToShapeName": "Task.421 (Review Recommended items)",
           "DirX": "",
           "DirY": ""
@@ -484,6 +584,8 @@
       "ID": "447",
       "Text": "Authorize Transaction",
       "Master": "9",
+      "PinX": 9.874999999999991,
+      "PinY": 0.75,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -493,6 +595,7 @@
           "ToSheet": "447",
           "FromPart": "9",
           "ToPart": "105",
+          "FromShapeName": "",
           "ToShapeName": " (Authorize Transaction)",
           "DirX": "",
           "DirY": ""
@@ -504,6 +607,7 @@
           "ToSheet": "447",
           "FromPart": "12",
           "ToPart": "103",
+          "FromShapeName": "",
           "ToShapeName": " (Authorize Transaction)",
           "DirX": "",
           "DirY": ""
@@ -536,10 +640,17 @@
     },
     {
       "ID": "453",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "454",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -548,6 +659,10 @@
     },
     {
       "ID": "455",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
@@ -602,6 +717,7 @@
           "FromPart": "9",
           "ToPart": "107",
           "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         },
@@ -613,6 +729,7 @@
           "FromPart": "12",
           "ToPart": "101",
           "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         }
@@ -631,6 +748,8 @@
       "Name": "End Event",
       "Text": "End",
       "Master": "11",
+      "PinX": 13.6875,
+      "PinY": 4.375,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -640,6 +759,7 @@
           "ToSheet": "495",
           "FromPart": "12",
           "ToPart": "101",
+          "FromShapeName": "",
           "ToShapeName": "End Event (End)",
           "DirX": "",
           "DirY": ""
@@ -651,6 +771,7 @@
           "ToSheet": "495",
           "FromPart": "12",
           "ToPart": "101",
+          "FromShapeName": "",
           "ToShapeName": "End Event (End)",
           "DirX": "",
           "DirY": ""
@@ -662,6 +783,7 @@
           "ToSheet": "495",
           "FromPart": "12",
           "ToPart": "102",
+          "FromShapeName": "",
           "ToShapeName": "End Event (End)",
           "DirX": "",
           "DirY": ""
@@ -733,6 +855,8 @@
       "Name": "Gateway.510",
       "Text": "Line of Credit Approved?",
       "Master": "36",
+      "PinX": 12.8125,
+      "PinY": 6.5,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -742,6 +866,7 @@
           "ToSheet": "510",
           "FromPart": "12",
           "ToPart": "103",
+          "FromShapeName": "",
           "ToShapeName": "Gateway.510 (Line of Credit Approved?)",
           "DirX": "",
           "DirY": ""
@@ -753,6 +878,7 @@
           "ToSheet": "510",
           "FromPart": "9",
           "ToPart": "100",
+          "FromShapeName": "",
           "ToShapeName": "Gateway.510 (Line of Credit Approved?)",
           "DirX": "",
           "DirY": ""
@@ -764,6 +890,7 @@
           "ToSheet": "510",
           "FromPart": "9",
           "ToPart": "101",
+          "FromShapeName": "",
           "ToShapeName": "Gateway.510 (Line of Credit Approved?)",
           "DirX": "",
           "DirY": ""
@@ -797,6 +924,8 @@
           "ToSheet": "492",
           "FromPart": "12",
           "ToPart": "3",
+          "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         },
@@ -808,6 +937,7 @@
           "FromPart": "9",
           "ToPart": "3",
           "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         },
@@ -819,6 +949,7 @@
           "FromPart": "12",
           "ToPart": "110",
           "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         },
@@ -830,6 +961,7 @@
           "FromPart": "12",
           "ToPart": "104",
           "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         }
@@ -935,6 +1067,7 @@
           "FromPart": "12",
           "ToPart": "3",
           "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         },
@@ -945,6 +1078,8 @@
           "ToSheet": "516",
           "FromPart": "9",
           "ToPart": "3",
+          "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         }
@@ -972,14 +1107,25 @@
     },
     {
       "ID": "547",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "548",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "546",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -1018,6 +1164,8 @@
       "ID": "555",
       "Text": "End",
       "Master": "11",
+      "PinX": 9.53125,
+      "PinY": 5.125,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -1027,6 +1175,7 @@
           "ToSheet": "555",
           "FromPart": "12",
           "ToPart": "102",
+          "FromShapeName": "",
           "ToShapeName": " (End)",
           "DirX": "",
           "DirY": ""
@@ -1057,6 +1206,8 @@
       "ID": "540",
       "Text": "Apply coupon or promo discount",
       "Master": "9",
+      "PinX": 8.625000000000021,
+      "PinY": 6.718750052154062,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -1066,6 +1217,7 @@
           "ToSheet": "540",
           "FromPart": "12",
           "ToPart": "3",
+          "FromShapeName": "",
           "ToShapeName": " (Apply coupon or promo discount)",
           "DirX": "",
           "DirY": ""
@@ -1077,6 +1229,7 @@
           "ToSheet": "540",
           "FromPart": "9",
           "ToPart": "3",
+          "FromShapeName": "",
           "ToShapeName": " (Apply coupon or promo discount)",
           "DirX": "",
           "DirY": ""
@@ -1099,6 +1252,8 @@
       "ID": "569",
       "Text": "End",
       "Master": "11",
+      "PinX": 8.15625,
+      "PinY": 5.90625,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -1108,6 +1263,7 @@
           "ToSheet": "569",
           "FromPart": "12",
           "ToPart": "102",
+          "FromShapeName": "",
           "ToShapeName": " (End)",
           "DirX": "",
           "DirY": ""
@@ -1165,6 +1321,8 @@
           "ToSheet": "564",
           "FromPart": "12",
           "ToPart": "3",
+          "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         },
@@ -1176,6 +1334,7 @@
           "FromPart": "9",
           "ToPart": "100",
           "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         },
@@ -1187,6 +1346,7 @@
           "FromPart": "9",
           "ToPart": "3",
           "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         }
@@ -1214,14 +1374,25 @@
     },
     {
       "ID": "588",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "589",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "587",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -1292,6 +1463,7 @@
           "FromPart": "12",
           "ToPart": "104",
           "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         },
@@ -1303,6 +1475,7 @@
           "FromPart": "9",
           "ToPart": "107",
           "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         },
@@ -1314,6 +1487,7 @@
           "FromPart": "12",
           "ToPart": "101",
           "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         },
@@ -1325,6 +1499,7 @@
           "FromPart": "9",
           "ToPart": "108",
           "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         },
@@ -1336,6 +1511,7 @@
           "FromPart": "9",
           "ToPart": "106",
           "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         }
@@ -1363,14 +1539,25 @@
     },
     {
       "ID": "641",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "642",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "640",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -1434,6 +1621,8 @@
       "Name": "Collapsed Sub-Process",
       "Text": "Checkout process",
       "Master": "31",
+      "PinX": 11.375,
+      "PinY": 6.718750052154062,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -1484,14 +1673,25 @@
     },
     {
       "ID": "666",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "667",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "665",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -1554,6 +1754,8 @@
       "ID": "659",
       "Text": "Review Order\nConfirmation",
       "Master": "9",
+      "PinX": 12.75,
+      "PinY": 6.718750052154062,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -1604,14 +1806,25 @@
     },
     {
       "ID": "726",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "727",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "725",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -1674,6 +1887,8 @@
       "ID": "719",
       "Text": "Create new order entry record",
       "Master": "9",
+      "PinX": 11.375,
+      "PinY": 4.187500104308123,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -1755,6 +1970,8 @@
       "Name": "End Event",
       "Text": "End",
       "Master": "11",
+      "PinX": 13.78125,
+      "PinY": 6.718750052154062,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -1823,6 +2040,8 @@
       "ID": "742",
       "Text": "Start",
       "Master": "8",
+      "PinX": 1.65625,
+      "PinY": 2.125,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -1861,14 +2080,25 @@
     },
     {
       "ID": "762",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "763",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "761",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -1931,6 +2161,8 @@
       "ID": "755",
       "Text": "Review Order",
       "Master": "9",
+      "PinX": 2.6875,
+      "PinY": 2.125,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -2019,6 +2251,8 @@
       "ID": "779",
       "Text": "Is Order Valid",
       "Master": "36",
+      "PinX": 4.0625,
+      "PinY": 2.125,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -2081,14 +2315,25 @@
     },
     {
       "ID": "802",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "803",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "801",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -2151,6 +2396,8 @@
       "ID": "795",
       "Text": "Accept Order",
       "Master": "9",
+      "PinX": 5.4375,
+      "PinY": 2.125,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -2213,14 +2460,25 @@
     },
     {
       "ID": "826",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "827",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "825",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -2283,6 +2541,8 @@
       "ID": "819",
       "Text": "Package Order",
       "Master": "9",
+      "PinX": 6.8125,
+      "PinY": 2.125,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -2333,14 +2593,25 @@
     },
     {
       "ID": "850",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "851",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "849",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -2403,6 +2674,8 @@
       "ID": "843",
       "Text": "Ship Order",
       "Master": "9",
+      "PinX": 8.1875,
+      "PinY": 2.125,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -2453,14 +2726,25 @@
     },
     {
       "ID": "874",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "875",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "873",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -2523,6 +2807,8 @@
       "ID": "867",
       "Text": "Generate Shipment Confirmation",
       "Master": "9",
+      "PinX": 9.5625,
+      "PinY": 2.125,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -2603,6 +2889,8 @@
       "ID": "891",
       "Text": "End",
       "Master": "11",
+      "PinX": 10.59375,
+      "PinY": 2.125,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -2641,14 +2929,25 @@
     },
     {
       "ID": "912",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "913",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "911",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -2711,6 +3010,8 @@
       "ID": "905",
       "Text": "Resolve order issues",
       "Master": "9",
+      "PinX": 5.4375,
+      "PinY": 1,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -2799,6 +3100,8 @@
       "ID": "929",
       "Text": "Can order issues be resolved?",
       "Master": "36",
+      "PinX": 4.0625,
+      "PinY": 1,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -2861,14 +3164,25 @@
     },
     {
       "ID": "953",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "954",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "952",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -2931,6 +3245,8 @@
       "ID": "946",
       "Text": "Reject Order",
       "Master": "9",
+      "PinX": 2.6875,
+      "PinY": 1,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -3011,6 +3327,8 @@
       "ID": "970",
       "Text": "End",
       "Master": "11",
+      "PinX": 1.65625,
+      "PinY": 1,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -3029,116 +3347,189 @@
     },
     {
       "ID": "6",
+      "PinX": 6.687500000000012,
+      "PinY": 4.0625,
+      "Width": 13.375,
+      "Height": 8.125,
       "PageName": "Page1"
     },
     {
       "ID": "7",
       "Text": "Checkout Process",
+      "PinY": 4.0625,
+      "Width": 8.125,
       "PageName": "Page1"
     },
     {
       "ID": "5",
       "Name": "CFF Container",
       "Master": "23",
+      "PinX": 7.249999999999989,
+      "PinY": 4.1875,
+      "Width": 13.375,
+      "Height": 8.125,
       "PageName": "Page1"
     },
     {
       "ID": "8",
       "Name": "Swimlane List",
       "Master": "24",
+      "PinX": 1.062499999999991,
+      "PinY": 8.25,
+      "Width": 12.875,
+      "Height": 8.125,
       "PageName": "Page1"
     },
     {
       "ID": "2",
+      "PinX": 6.437500000000006,
+      "PinY": 2.1875,
+      "Width": 12.875,
+      "Height": 4.375,
       "PageName": "Page1"
     },
     {
       "ID": "3",
+      "PinX": 6.687500000000006,
       "PageName": "Page1"
     },
     {
       "ID": "4",
       "Text": "Customer",
+      "PinY": 2.1875,
+      "Width": 4.375,
+      "Height": 0.5,
       "PageName": "Page1"
     },
     {
       "ID": "1",
       "Name": "Pool / Lane",
       "Master": "22",
+      "PinX": 7.5,
+      "PinY": 6.0625,
+      "Width": 12.875,
+      "Height": 4.375,
       "PageName": "Page1"
     },
     {
       "ID": "14",
+      "PinX": 6.437500000000006,
+      "PinY": 0.6875,
+      "Width": 12.875,
+      "Height": 1.375,
       "PageName": "Page1"
     },
     {
       "ID": "15",
+      "PinX": 6.687500000000006,
       "PageName": "Page1"
     },
     {
       "ID": "16",
       "Text": "Address Validation",
+      "PinY": 0.6875,
+      "Width": 1.375,
+      "Height": 0.5,
       "PageName": "Page1"
     },
     {
       "ID": "13",
       "Master": "22",
+      "PinX": 7.5,
+      "PinY": 3.1875,
+      "Width": 12.875,
+      "Height": 1.375,
       "PageName": "Page1"
     },
     {
       "ID": "364",
+      "PinX": 6.437500000000006,
+      "Width": 12.875,
       "PageName": "Page1"
     },
     {
       "ID": "365",
+      "PinX": 6.687500000000006,
       "PageName": "Page1"
     },
     {
       "ID": "366",
       "Text": "Bank",
+      "Height": 0.5,
       "PageName": "Page1"
     },
     {
       "ID": "363",
       "Master": "22",
+      "PinX": 7.5,
+      "PinY": 1.875,
+      "Width": 12.875,
       "PageName": "Page1"
     },
     {
       "ID": "368",
+      "PinX": 6.437500000000006,
+      "PinY": 0.5625,
+      "Width": 12.875,
+      "Height": 1.125,
       "PageName": "Page1"
     },
     {
       "ID": "369",
+      "PinX": 6.687500000000006,
       "PageName": "Page1"
     },
     {
       "ID": "370",
       "Text": "Credit Line Management",
+      "PinY": 0.5625,
+      "Width": 1.125,
+      "Height": 0.5,
       "PageName": "Page1"
     },
     {
       "ID": "367",
       "Master": "22",
+      "PinX": 7.5,
+      "PinY": 0.6875,
+      "Width": 12.875,
+      "Height": 1.125,
       "PageName": "Page1"
     },
     {
       "ID": "9",
       "Name": "Phase List",
       "Master": "25",
+      "PinX": 1.562500000000006,
+      "PinY": 8.25,
+      "Width": 12.375,
+      "Height": 8.125,
       "PageName": "Page1"
     },
     {
       "ID": "11",
+      "PinX": 6.1875,
+      "PinY": 4.0625,
+      "Width": 12.375,
+      "Height": 8.125,
       "PageName": "Page1"
     },
     {
       "ID": "12",
+      "PinX": 6.1875,
+      "PinY": 8.125,
+      "Width": 12.875,
+      "Height": 0,
       "PageName": "Page1"
     },
     {
       "ID": "10",
       "Name": "Separator",
       "Master": "26",
+      "PinX": 7.75,
+      "PinY": 4.1875,
+      "Width": 12.375,
+      "Height": 8.125,
       "PageName": "Page1"
     },
     {
@@ -3194,6 +3585,8 @@
       "Name": "Start Event",
       "Text": "Start",
       "Master": "8",
+      "PinX": 1.968749999999993,
+      "PinY": 7.625,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -3232,14 +3625,25 @@
     },
     {
       "ID": "37",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "38",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "36",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -3303,6 +3707,8 @@
       "Name": "Task",
       "Text": "Review Shopping Cart",
       "Master": "9",
+      "PinX": 2.999999999999993,
+      "PinY": 7.625,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -3353,14 +3759,25 @@
     },
     {
       "ID": "75",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "76",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "74",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -3423,6 +3840,8 @@
       "ID": "68",
       "Text": "Enter Shipping address",
       "Master": "9",
+      "PinX": 4.374999999999993,
+      "PinY": 7.625,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -3444,6 +3863,7 @@
           "ToSheet": "68",
           "FromPart": "9",
           "ToPart": "111",
+          "FromShapeName": "",
           "ToShapeName": " (Enter Shipping address)",
           "DirX": "",
           "DirY": ""
@@ -3467,6 +3887,7 @@
           "ToSheet": "68",
           "FromPart": "12",
           "ToPart": "3",
+          "FromShapeName": "",
           "ToShapeName": " (Enter Shipping address)",
           "DirX": "",
           "DirY": ""
@@ -3481,6 +3902,8 @@
       "ID": "371",
       "Text": "Validate Address",
       "Master": "9",
+      "PinX": 4.374999999999993,
+      "PinY": 3.125,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -3490,6 +3913,7 @@
           "ToSheet": "371",
           "FromPart": "12",
           "ToPart": "103",
+          "FromShapeName": "",
           "ToShapeName": " (Validate Address)",
           "DirX": "",
           "DirY": ""
@@ -3501,6 +3925,7 @@
           "ToSheet": "371",
           "FromPart": "9",
           "ToPart": "105",
+          "FromShapeName": "",
           "ToShapeName": " (Validate Address)",
           "DirX": "",
           "DirY": ""
@@ -3529,14 +3954,25 @@
     },
     {
       "ID": "124",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "125",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "123",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -3599,6 +4035,8 @@
       "ID": "117",
       "Text": "Select Payment Method",
       "Master": "9",
+      "PinX": 5.75,
+      "PinY": 7.625,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -3688,6 +4126,8 @@
       "Name": "Gateway",
       "Text": "Paying by Check?",
       "Master": "36",
+      "PinX": 7.125,
+      "PinY": 7.625,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -3788,6 +4228,8 @@
       "ID": "171",
       "Text": "Paying by Credit Card",
       "Master": "36",
+      "PinX": 8.5,
+      "PinY": 7.625,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -3888,6 +4330,8 @@
       "ID": "187",
       "Text": "Paying using line of credit?",
       "Master": "36",
+      "PinX": 9.875,
+      "PinY": 7.625,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -3921,6 +4365,7 @@
           "ToSheet": "187",
           "FromPart": "9",
           "ToPart": "100",
+          "FromShapeName": "",
           "ToShapeName": " (Paying using line of credit?)",
           "DirX": "",
           "DirY": ""
@@ -3932,6 +4377,7 @@
           "ToSheet": "187",
           "FromPart": "12",
           "ToPart": "101",
+          "FromShapeName": "",
           "ToShapeName": " (Paying using line of credit?)",
           "DirX": "",
           "DirY": ""
@@ -3998,6 +4444,8 @@
       "ID": "203",
       "Text": "Credit line exist?",
       "Master": "36",
+      "PinX": 9.875,
+      "PinY": 6.5,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -4060,14 +4508,25 @@
     },
     {
       "ID": "240",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "241",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "239",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -4130,6 +4589,8 @@
       "ID": "233",
       "Text": "Submit check payment",
       "Master": "9",
+      "PinX": 7.125,
+      "PinY": 5.90625,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -4151,6 +4612,7 @@
           "ToSheet": "233",
           "FromPart": "9",
           "ToPart": "111",
+          "FromShapeName": "",
           "ToShapeName": " (Submit check payment)",
           "DirX": "",
           "DirY": ""
@@ -4174,6 +4636,7 @@
           "ToSheet": "233",
           "FromPart": "9",
           "ToPart": "107",
+          "FromShapeName": "",
           "ToShapeName": " (Submit check payment)",
           "DirX": "",
           "DirY": ""
@@ -4210,14 +4673,25 @@
     },
     {
       "ID": "269",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "270",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "268",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -4281,6 +4755,8 @@
       "Name": "Task.262",
       "Text": "Submit credit card payment",
       "Master": "9",
+      "PinX": 8.5,
+      "PinY": 5.125,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -4302,6 +4778,7 @@
           "ToSheet": "262",
           "FromPart": "9",
           "ToPart": "111",
+          "FromShapeName": "",
           "ToShapeName": "Task.262 (Submit credit card payment)",
           "DirX": "",
           "DirY": ""
@@ -4313,6 +4790,7 @@
           "ToSheet": "262",
           "FromPart": "12",
           "ToPart": "109",
+          "FromShapeName": "",
           "ToShapeName": "Task.262 (Submit credit card payment)",
           "DirX": "",
           "DirY": ""
@@ -4324,6 +4802,7 @@
           "ToSheet": "262",
           "FromPart": "9",
           "ToPart": "107",
+          "FromShapeName": "",
           "ToShapeName": "Task.262 (Submit credit card payment)",
           "DirX": "",
           "DirY": ""
@@ -4352,14 +4831,25 @@
     },
     {
       "ID": "319",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "320",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "318",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -4423,6 +4913,8 @@
       "Name": "Collapsed Sub-Process",
       "Text": "Establish Credit Line",
       "Master": "31",
+      "PinX": 11.25,
+      "PinY": 6.5,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -4444,6 +4936,7 @@
           "ToSheet": "312",
           "FromPart": "9",
           "ToPart": "107",
+          "FromShapeName": "",
           "ToShapeName": "Collapsed Sub-Process (Establish Credit Line)",
           "DirX": "",
           "DirY": ""
@@ -4472,14 +4965,25 @@
     },
     {
       "ID": "478",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
       "ID": "479",
+      "PinX": 0.08,
+      "PinY": 0.08,
+      "Width": 0.08,
+      "Height": 0.08,
       "PageName": "Page1"
     },
     {
       "ID": "477",
+      "PinY": 0.125,
+      "Width": 0.16,
+      "Height": 0.16,
       "PageName": "Page1"
     },
     {
@@ -4535,6 +5039,8 @@
       "Name": "Task.471",
       "Text": "Submit Line of Credit Payment",
       "Master": "9",
+      "PinX": 9.875,
+      "PinY": 4.375,
       "PageName": "Page1",
       "IncomingConnections": [
         {
@@ -4556,6 +5062,7 @@
           "ToSheet": "471",
           "FromPart": "9",
           "ToPart": "107",
+          "FromShapeName": "",
           "ToShapeName": "Task.471 (Submit Line of Credit Payment)",
           "DirX": "",
           "DirY": ""
@@ -4567,6 +5074,7 @@
           "ToSheet": "471",
           "FromPart": "12",
           "ToPart": "109",
+          "FromShapeName": "",
           "ToShapeName": "Task.471 (Submit Line of Credit Payment)",
           "DirX": "",
           "DirY": ""
@@ -4578,6 +5086,7 @@
           "ToSheet": "471",
           "FromPart": "9",
           "ToPart": "111",
+          "FromShapeName": "",
           "ToShapeName": "Task.471 (Submit Line of Credit Payment)",
           "DirX": "",
           "DirY": ""
@@ -4606,6 +5115,10 @@
       "ID": "515",
       "Name": "Dynamic Connector",
       "Master": "28",
+      "BeginX": 5.000000000000023,
+      "BeginY": 6.718750052154062,
+      "EndX": 5.375000000000023,
+      "EndY": 6.718750052154062,
       "PageName": "Page1",
       "Connections": [
         {
@@ -4615,6 +5128,7 @@
           "ToSheet": "421",
           "FromPart": "9",
           "ToPart": "3",
+          "FromShapeName": "",
           "ToShapeName": "Task.421 (Review Recommended items)",
           "DirX": "",
           "DirY": ""
@@ -4626,6 +5140,8 @@
           "ToSheet": "492",
           "FromPart": "12",
           "ToPart": "3",
+          "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         }
@@ -4634,6 +5150,10 @@
     {
       "ID": "539",
       "Master": "28",
+      "BeginX": 6.375000000000023,
+      "BeginY": 6.718750052154062,
+      "EndX": 6.750000000000021,
+      "EndY": 6.718750052154062,
       "PageName": "Page1",
       "Connections": [
         {
@@ -4644,6 +5164,7 @@
           "FromPart": "9",
           "ToPart": "3",
           "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         },
@@ -4655,6 +5176,7 @@
           "FromPart": "12",
           "ToPart": "3",
           "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         }
@@ -4663,6 +5185,10 @@
     {
       "ID": "563",
       "Master": "28",
+      "BeginX": 7.750000000000021,
+      "BeginY": 6.718750052154062,
+      "EndX": 8.125000000000021,
+      "EndY": 6.718750052154062,
       "PageName": "Page1",
       "Connections": [
         {
@@ -4672,6 +5198,8 @@
           "ToSheet": "516",
           "FromPart": "9",
           "ToPart": "3",
+          "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         },
@@ -4682,6 +5210,7 @@
           "ToSheet": "540",
           "FromPart": "12",
           "ToPart": "3",
+          "FromShapeName": "",
           "ToShapeName": " (Apply coupon or promo discount)",
           "DirX": "",
           "DirY": ""
@@ -4691,6 +5220,10 @@
     {
       "ID": "579",
       "Master": "28",
+      "BeginX": 9.125000000000021,
+      "BeginY": 6.718750052154062,
+      "EndX": 9.500000000000021,
+      "EndY": 6.718750052154062,
       "PageName": "Page1",
       "Connections": [
         {
@@ -4700,6 +5233,7 @@
           "ToSheet": "540",
           "FromPart": "9",
           "ToPart": "3",
+          "FromShapeName": "",
           "ToShapeName": " (Apply coupon or promo discount)",
           "DirX": "",
           "DirY": ""
@@ -4711,6 +5245,8 @@
           "ToSheet": "564",
           "FromPart": "12",
           "ToPart": "3",
+          "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         }
@@ -4720,6 +5256,10 @@
       "ID": "609",
       "Text": "Yes",
       "Master": "28",
+      "BeginX": 10,
+      "BeginY": 7.093750052154062,
+      "EndX": 3.125000000000023,
+      "EndY": 7.093750052154062,
       "PageName": "Page1",
       "Connections": [
         {
@@ -4730,6 +5270,7 @@
           "FromPart": "12",
           "ToPart": "104",
           "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         },
@@ -4741,6 +5282,7 @@
           "FromPart": "9",
           "ToPart": "100",
           "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         }
@@ -4750,6 +5292,10 @@
       "ID": "633",
       "Text": "No",
       "Master": "28",
+      "BeginX": 10.5,
+      "BeginY": 6.718750052154062,
+      "EndX": 10.875,
+      "EndY": 6.718750052154062,
       "PageName": "Page1",
       "Connections": [
         {
@@ -4772,6 +5318,7 @@
           "FromPart": "9",
           "ToPart": "3",
           "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         }
@@ -4780,6 +5327,10 @@
     {
       "ID": "657",
       "Master": "28",
+      "BeginX": 3.625000000000023,
+      "BeginY": 6.718750052154062,
+      "EndX": 4.000000000000023,
+      "EndY": 6.718750052154062,
       "PageName": "Page1",
       "Connections": [
         {
@@ -4802,6 +5353,7 @@
           "FromPart": "9",
           "ToPart": "107",
           "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         }
@@ -4810,6 +5362,10 @@
     {
       "ID": "683",
       "Master": "28",
+      "BeginX": 11.375,
+      "BeginY": 6.343750052154062,
+      "EndX": 11.375,
+      "EndY": 4.562500104308123,
       "PageName": "Page1",
       "Connections": [
         {
@@ -4843,6 +5399,10 @@
       "Name": "Sequence Flow",
       "Text": "Email Confirmation",
       "Master": "39",
+      "BeginX": 11.875,
+      "BeginY": 4.187500104308123,
+      "EndX": 12.75,
+      "EndY": 6.343750052154062,
       "PageName": "Page1",
       "Connections": [
         {
@@ -4874,6 +5434,10 @@
     {
       "ID": "699",
       "Master": "28",
+      "BeginX": 13.25,
+      "BeginY": 6.718750052154062,
+      "EndX": 13.625,
+      "EndY": 6.718750052154062,
       "PageName": "Page1",
       "Connections": [
         {
@@ -4905,6 +5469,10 @@
     {
       "ID": "713",
       "Master": "28",
+      "BeginX": 2.12500033279261,
+      "BeginY": 6.732638942974582,
+      "EndX": 2.625000000000023,
+      "EndY": 6.718750052154062,
       "PageName": "Page1",
       "Connections": [
         {
@@ -4915,6 +5483,7 @@
           "FromPart": "12",
           "ToPart": "101",
           "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         },
@@ -4926,6 +5495,7 @@
           "FromPart": "9",
           "ToPart": "104",
           "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         }
@@ -4934,6 +5504,10 @@
     {
       "ID": "714",
       "Master": "28",
+      "BeginX": 5.000000000000023,
+      "BeginY": 5.812500104308125,
+      "EndX": 5.875000000000023,
+      "EndY": 6.343750052154062,
       "PageName": "Page1",
       "Connections": [
         {
@@ -4944,6 +5518,7 @@
           "FromPart": "12",
           "ToPart": "110",
           "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         },
@@ -4955,6 +5530,7 @@
           "FromPart": "9",
           "ToPart": "107",
           "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         }
@@ -4963,6 +5539,10 @@
     {
       "ID": "715",
       "Master": "28",
+      "BeginX": 5.000000000000023,
+      "BeginY": 7.625,
+      "EndX": 5.875000000000023,
+      "EndY": 7.093750052154062,
       "PageName": "Page1",
       "Connections": [
         {
@@ -4973,6 +5553,7 @@
           "FromPart": "12",
           "ToPart": "104",
           "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         },
@@ -4993,6 +5574,10 @@
     {
       "ID": "716",
       "Master": "28",
+      "BeginX": 3.625000000000023,
+      "BeginY": 6.531250052154062,
+      "EndX": 4.000000000000023,
+      "EndY": 5.812500104308125,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5003,6 +5588,7 @@
           "FromPart": "12",
           "ToPart": "101",
           "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         },
@@ -5014,6 +5600,7 @@
           "FromPart": "9",
           "ToPart": "108",
           "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         }
@@ -5022,6 +5609,10 @@
     {
       "ID": "717",
       "Master": "28",
+      "BeginX": 3.625000000000023,
+      "BeginY": 6.906250052154062,
+      "EndX": 4.000000000000023,
+      "EndY": 7.625,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5044,6 +5635,7 @@
           "FromPart": "9",
           "ToPart": "106",
           "FromShapeName": "",
+          "ToShapeName": "",
           "DirX": "",
           "DirY": ""
         }
@@ -5052,6 +5644,10 @@
     {
       "ID": "778",
       "Master": "28",
+      "BeginX": 1.8125,
+      "BeginY": 2.125,
+      "EndX": 2.1875,
+      "EndY": 2.125,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5083,6 +5679,10 @@
     {
       "ID": "794",
       "Master": "28",
+      "BeginX": 3.1875,
+      "BeginY": 2.125,
+      "EndX": 3.5625,
+      "EndY": 2.125,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5114,6 +5714,10 @@
     {
       "ID": "818",
       "Master": "28",
+      "BeginX": 4.5625,
+      "BeginY": 2.125,
+      "EndX": 4.9375,
+      "EndY": 2.125,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5145,6 +5749,10 @@
     {
       "ID": "842",
       "Master": "28",
+      "BeginX": 5.9375,
+      "BeginY": 2.125,
+      "EndX": 6.3125,
+      "EndY": 2.125,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5176,6 +5784,10 @@
     {
       "ID": "866",
       "Master": "28",
+      "BeginX": 7.3125,
+      "BeginY": 2.125,
+      "EndX": 7.6875,
+      "EndY": 2.125,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5207,6 +5819,10 @@
     {
       "ID": "890",
       "Master": "28",
+      "BeginX": 8.6875,
+      "BeginY": 2.125,
+      "EndX": 9.0625,
+      "EndY": 2.125,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5238,6 +5854,10 @@
     {
       "ID": "904",
       "Master": "28",
+      "BeginX": 10.0625,
+      "BeginY": 2.125,
+      "EndX": 10.4375,
+      "EndY": 2.125,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5269,6 +5889,10 @@
     {
       "ID": "944",
       "Master": "28",
+      "BeginX": 4.0625,
+      "BeginY": 1.75,
+      "EndX": 4.0625,
+      "EndY": 1.375,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5301,6 +5925,10 @@
       "ID": "945",
       "Text": "Yes",
       "Master": "28",
+      "BeginX": 4.5625,
+      "BeginY": 1,
+      "EndX": 4.9375,
+      "EndY": 1,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5333,6 +5961,10 @@
       "ID": "969",
       "Text": "No",
       "Master": "28",
+      "BeginX": 3.5625,
+      "BeginY": 1,
+      "EndX": 3.1875,
+      "EndY": 1,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5364,6 +5996,10 @@
     {
       "ID": "983",
       "Master": "28",
+      "BeginX": 2.1875,
+      "BeginY": 1,
+      "EndX": 1.8125,
+      "EndY": 1,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5395,6 +6031,10 @@
     {
       "ID": "984",
       "Master": "28",
+      "BeginX": 5.4375,
+      "BeginY": 1.375,
+      "EndX": 5.4375,
+      "EndY": 1.75,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5427,6 +6067,10 @@
       "ID": "53",
       "Name": "Dynamic Connector",
       "Master": "28",
+      "BeginX": 2.124999999999993,
+      "BeginY": 7.625,
+      "EndX": 2.499999999999993,
+      "EndY": 7.625,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5458,6 +6102,10 @@
     {
       "ID": "91",
       "Master": "28",
+      "BeginX": 3.499999999999993,
+      "BeginY": 7.625,
+      "EndX": 3.874999999999993,
+      "EndY": 7.625,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5491,6 +6139,10 @@
       "Name": "Sequence Flow",
       "Text": "Validate",
       "Master": "39",
+      "BeginX": 4.124999999999993,
+      "BeginY": 7.25,
+      "EndX": 4.124999999999993,
+      "EndY": 3.5,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5500,6 +6152,7 @@
           "ToSheet": "371",
           "FromPart": "12",
           "ToPart": "103",
+          "FromShapeName": "",
           "ToShapeName": " (Validate Address)",
           "DirX": "",
           "DirY": ""
@@ -5511,6 +6164,7 @@
           "ToSheet": "68",
           "FromPart": "9",
           "ToPart": "111",
+          "FromShapeName": "",
           "ToShapeName": " (Enter Shipping address)",
           "DirX": "",
           "DirY": ""
@@ -5520,6 +6174,10 @@
     {
       "ID": "140",
       "Master": "28",
+      "BeginX": 4.874999999999993,
+      "BeginY": 7.625,
+      "EndX": 5.25,
+      "EndY": 7.625,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5551,6 +6209,10 @@
     {
       "ID": "156",
       "Master": "28",
+      "BeginX": 6.25,
+      "BeginY": 7.625,
+      "EndX": 6.625,
+      "EndY": 7.625,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5583,6 +6245,10 @@
       "ID": "186",
       "Text": "No",
       "Master": "28",
+      "BeginX": 7.625,
+      "BeginY": 7.625,
+      "EndX": 8,
+      "EndY": 7.625,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5615,6 +6281,10 @@
       "ID": "202",
       "Text": "No",
       "Master": "28",
+      "BeginX": 9,
+      "BeginY": 7.625,
+      "EndX": 9.375,
+      "EndY": 7.625,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5647,6 +6317,10 @@
       "ID": "218",
       "Text": "Yes",
       "Master": "28",
+      "BeginX": 9.875,
+      "BeginY": 7.25,
+      "EndX": 9.875,
+      "EndY": 6.875,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5679,6 +6353,10 @@
       "ID": "256",
       "Text": "Yes",
       "Master": "28",
+      "BeginX": 7.125,
+      "BeginY": 7.25,
+      "EndX": 7.125,
+      "EndY": 6.28125,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5711,6 +6389,10 @@
       "ID": "286",
       "Text": "Yes",
       "Master": "28",
+      "BeginX": 8.5,
+      "BeginY": 7.25,
+      "EndX": 8.5,
+      "EndY": 5.5,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5743,6 +6425,10 @@
       "ID": "311",
       "Text": "No",
       "Master": "28",
+      "BeginX": 10.375,
+      "BeginY": 6.5,
+      "EndX": 10.75,
+      "EndY": 6.5,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5775,6 +6461,10 @@
       "ID": "336",
       "Text": "Yes",
       "Master": "28",
+      "BeginX": 9.875,
+      "BeginY": 6.125,
+      "EndX": 9.875,
+      "EndY": 4.75,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5807,6 +6497,10 @@
       "ID": "396",
       "Text": "Authorize",
       "Master": "39",
+      "BeginX": 6.875,
+      "BeginY": 5.53125,
+      "EndX": 6.874999999999991,
+      "EndY": 2.25,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5816,6 +6510,7 @@
           "ToSheet": "398",
           "FromPart": "12",
           "ToPart": "103",
+          "FromShapeName": "",
           "ToShapeName": " (Authorize transaction)",
           "DirX": "",
           "DirY": ""
@@ -5827,6 +6522,7 @@
           "ToSheet": "233",
           "FromPart": "9",
           "ToPart": "111",
+          "FromShapeName": "",
           "ToShapeName": " (Submit check payment)",
           "DirX": "",
           "DirY": ""
@@ -5837,6 +6533,10 @@
       "ID": "395",
       "Text": "Validation\nConfirmation",
       "Master": "28",
+      "BeginX": 4.624999999999993,
+      "BeginY": 3.5,
+      "EndX": 4.624999999999993,
+      "EndY": 7.25,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5846,6 +6546,7 @@
           "ToSheet": "68",
           "FromPart": "12",
           "ToPart": "3",
+          "FromShapeName": "",
           "ToShapeName": " (Enter Shipping address)",
           "DirX": "",
           "DirY": ""
@@ -5857,6 +6558,7 @@
           "ToSheet": "371",
           "FromPart": "9",
           "ToPart": "105",
+          "FromShapeName": "",
           "ToShapeName": " (Validate Address)",
           "DirX": "",
           "DirY": ""
@@ -5867,6 +6569,10 @@
       "ID": "421",
       "Text": "Authorization\nConfirmation",
       "Master": "28",
+      "BeginX": 7.374999999999991,
+      "BeginY": 2.25,
+      "EndX": 7.375,
+      "EndY": 5.53125,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5899,6 +6605,10 @@
       "ID": "445",
       "Text": "Authorize",
       "Master": "28",
+      "BeginX": 8.25,
+      "BeginY": 4.75,
+      "EndX": 8.249999999999991,
+      "EndY": 2.249999860922493,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5908,6 +6618,7 @@
           "ToSheet": "422",
           "FromPart": "12",
           "ToPart": "103",
+          "FromShapeName": "",
           "ToShapeName": "Task.422 (Authorize transaction)",
           "DirX": "",
           "DirY": ""
@@ -5919,6 +6630,7 @@
           "ToSheet": "262",
           "FromPart": "9",
           "ToPart": "111",
+          "FromShapeName": "",
           "ToShapeName": "Task.262 (Submit credit card payment)",
           "DirX": "",
           "DirY": ""
@@ -5929,6 +6641,10 @@
       "ID": "446",
       "Text": "Authorization\nConfirmation",
       "Master": "28",
+      "BeginX": 8.749999999999991,
+      "BeginY": 2.249999860922493,
+      "EndX": 8.75,
+      "EndY": 4.75,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5938,6 +6654,7 @@
           "ToSheet": "262",
           "FromPart": "12",
           "ToPart": "109",
+          "FromShapeName": "",
           "ToShapeName": "Task.262 (Submit credit card payment)",
           "DirX": "",
           "DirY": ""
@@ -5949,6 +6666,7 @@
           "ToSheet": "422",
           "FromPart": "9",
           "ToPart": "105",
+          "FromShapeName": "",
           "ToShapeName": "Task.422 (Authorize transaction)",
           "DirX": "",
           "DirY": ""
@@ -5959,6 +6677,10 @@
       "ID": "508",
       "Text": "No",
       "Master": "28",
+      "BeginX": 9.875,
+      "BeginY": 8,
+      "EndX": 13.6875,
+      "EndY": 4.53125,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5968,6 +6690,7 @@
           "ToSheet": "495",
           "FromPart": "12",
           "ToPart": "101",
+          "FromShapeName": "",
           "ToShapeName": "End Event (End)",
           "DirX": "",
           "DirY": ""
@@ -5979,6 +6702,7 @@
           "ToSheet": "187",
           "FromPart": "9",
           "ToPart": "100",
+          "FromShapeName": "",
           "ToShapeName": " (Paying using line of credit?)",
           "DirX": "",
           "DirY": ""
@@ -5988,6 +6712,10 @@
     {
       "ID": "525",
       "Master": "28",
+      "BeginX": 11.75,
+      "BeginY": 6.5,
+      "EndX": 12.3125,
+      "EndY": 6.5,
       "PageName": "Page1",
       "Connections": [
         {
@@ -5997,6 +6725,7 @@
           "ToSheet": "510",
           "FromPart": "12",
           "ToPart": "103",
+          "FromShapeName": "",
           "ToShapeName": "Gateway.510 (Line of Credit Approved?)",
           "DirX": "",
           "DirY": ""
@@ -6008,6 +6737,7 @@
           "ToSheet": "312",
           "FromPart": "9",
           "ToPart": "107",
+          "FromShapeName": "",
           "ToShapeName": "Collapsed Sub-Process (Establish Credit Line)",
           "DirX": "",
           "DirY": ""
@@ -6018,6 +6748,10 @@
       "ID": "526",
       "Text": "Yes",
       "Master": "28",
+      "BeginX": 12.8125,
+      "BeginY": 6.875,
+      "EndX": 10.375,
+      "EndY": 7.625,
       "PageName": "Page1",
       "Connections": [
         {
@@ -6027,6 +6761,7 @@
           "ToSheet": "187",
           "FromPart": "12",
           "ToPart": "101",
+          "FromShapeName": "",
           "ToShapeName": " (Paying using line of credit?)",
           "DirX": "",
           "DirY": ""
@@ -6038,6 +6773,7 @@
           "ToSheet": "510",
           "FromPart": "9",
           "ToPart": "100",
+          "FromShapeName": "",
           "ToShapeName": "Gateway.510 (Line of Credit Approved?)",
           "DirX": "",
           "DirY": ""
@@ -6048,6 +6784,10 @@
       "ID": "527",
       "Text": "No",
       "Master": "28",
+      "BeginX": 13.3125,
+      "BeginY": 6.5,
+      "EndX": 13.6875,
+      "EndY": 4.53125,
       "PageName": "Page1",
       "Connections": [
         {
@@ -6057,6 +6797,7 @@
           "ToSheet": "495",
           "FromPart": "12",
           "ToPart": "101",
+          "FromShapeName": "",
           "ToShapeName": "End Event (End)",
           "DirX": "",
           "DirY": ""
@@ -6068,6 +6809,7 @@
           "ToSheet": "510",
           "FromPart": "9",
           "ToPart": "101",
+          "FromShapeName": "",
           "ToShapeName": "Gateway.510 (Line of Credit Approved?)",
           "DirX": "",
           "DirY": ""
@@ -6077,6 +6819,10 @@
     {
       "ID": "552",
       "Master": "28",
+      "BeginX": 10.375,
+      "BeginY": 4.375,
+      "EndX": 13.53125,
+      "EndY": 4.375,
       "PageName": "Page1",
       "Connections": [
         {
@@ -6086,6 +6832,7 @@
           "ToSheet": "495",
           "FromPart": "12",
           "ToPart": "102",
+          "FromShapeName": "",
           "ToShapeName": "End Event (End)",
           "DirX": "",
           "DirY": ""
@@ -6097,6 +6844,7 @@
           "ToSheet": "471",
           "FromPart": "9",
           "ToPart": "107",
+          "FromShapeName": "",
           "ToShapeName": "Task.471 (Submit Line of Credit Payment)",
           "DirX": "",
           "DirY": ""
@@ -6106,6 +6854,10 @@
     {
       "ID": "568",
       "Master": "28",
+      "BeginX": 9,
+      "BeginY": 5.125,
+      "EndX": 9.375,
+      "EndY": 5.125,
       "PageName": "Page1",
       "Connections": [
         {
@@ -6115,6 +6867,7 @@
           "ToSheet": "555",
           "FromPart": "12",
           "ToPart": "102",
+          "FromShapeName": "",
           "ToShapeName": " (End)",
           "DirX": "",
           "DirY": ""
@@ -6126,6 +6879,7 @@
           "ToSheet": "262",
           "FromPart": "9",
           "ToPart": "107",
+          "FromShapeName": "",
           "ToShapeName": "Task.262 (Submit credit card payment)",
           "DirX": "",
           "DirY": ""
@@ -6135,6 +6889,10 @@
     {
       "ID": "582",
       "Master": "28",
+      "BeginX": 7.625,
+      "BeginY": 5.90625,
+      "EndX": 8,
+      "EndY": 5.90625,
       "PageName": "Page1",
       "Connections": [
         {
@@ -6144,6 +6902,7 @@
           "ToSheet": "569",
           "FromPart": "12",
           "ToPart": "102",
+          "FromShapeName": "",
           "ToShapeName": " (End)",
           "DirX": "",
           "DirY": ""
@@ -6155,6 +6914,7 @@
           "ToSheet": "233",
           "FromPart": "9",
           "ToPart": "107",
+          "FromShapeName": "",
           "ToShapeName": " (Submit check payment)",
           "DirX": "",
           "DirY": ""
@@ -6164,6 +6924,10 @@
     {
       "ID": "583",
       "Master": "28",
+      "BeginX": 10.125,
+      "BeginY": 1.125,
+      "EndX": 10.125,
+      "EndY": 4,
       "PageName": "Page1",
       "Connections": [
         {
@@ -6173,6 +6937,7 @@
           "ToSheet": "471",
           "FromPart": "12",
           "ToPart": "109",
+          "FromShapeName": "",
           "ToShapeName": "Task.471 (Submit Line of Credit Payment)",
           "DirX": "",
           "DirY": ""
@@ -6184,6 +6949,7 @@
           "ToSheet": "447",
           "FromPart": "9",
           "ToPart": "105",
+          "FromShapeName": "",
           "ToShapeName": " (Authorize Transaction)",
           "DirX": "",
           "DirY": ""
@@ -6193,6 +6959,10 @@
     {
       "ID": "584",
       "Master": "28",
+      "BeginX": 9.625,
+      "BeginY": 4,
+      "EndX": 9.624999999999991,
+      "EndY": 1.125,
       "PageName": "Page1",
       "Connections": [
         {
@@ -6202,6 +6972,7 @@
           "ToSheet": "447",
           "FromPart": "12",
           "ToPart": "103",
+          "FromShapeName": "",
           "ToShapeName": " (Authorize Transaction)",
           "DirX": "",
           "DirY": ""
@@ -6213,6 +6984,7 @@
           "ToSheet": "471",
           "FromPart": "9",
           "ToPart": "111",
+          "FromShapeName": "",
           "ToShapeName": "Task.471 (Submit Line of Credit Payment)",
           "DirX": "",
           "DirY": ""

@@ -11,10 +11,10 @@ public class EdgeShape
 {
     public string? ID { get; set; }
     public string? Text { get; set; }
-    public double? PinX { get; set; }
-    public double? PinY { get; set; }
     public string? FromNodeID { get; set; }
     public string? ToNodeID { get; set; }
+    public string? FromNodeText { get; set; }
+    public string? ToNodeText { get; set; }
 }
 
 public class NetworkModel

@@ -1,0 +1,122 @@
+{
+  "Nodes": [
+    {
+      "ID": "653",
+      "Text": "Amani Birke"
+    },
+    {
+      "ID": "652",
+      "Text": "President",
+      "PinX": 6.375,
+      "PinY": 6.75
+    },
+    {
+      "ID": "662",
+      "Text": "Darvin Vance"
+    },
+    {
+      "ID": "661",
+      "Text": "VP of Marketing",
+      "PinX": 6.375,
+      "PinY": 4.3
+    },
+    {
+      "ID": "671",
+      "Text": "Isabel Wolve"
+    },
+    {
+      "ID": "670",
+      "Text": "VP of Production",
+      "PinX": 8.625,
+      "PinY": 4.3
+    },
+    {
+      "ID": "680",
+      "Text": "Jane Smith"
+    },
+    {
+      "ID": "679",
+      "Text": "VP of Sales",
+      "PinX": 4.125,
+      "PinY": 4.3
+    },
+    {
+      "ID": "689",
+      "Text": "Jane Smith"
+    },
+    {
+      "ID": "688",
+      "Text": "Global Sales Manager",
+      "PinX": 4.4375,
+      "PinY": 3.075
+    },
+    {
+      "ID": "698",
+      "Text": "Robert Smith"
+    },
+    {
+      "ID": "697",
+      "Text": "Consultant",
+      "PinX": 4.4375,
+      "PinY": 0.725
+    },
+    {
+      "ID": "707",
+      "Text": "Vacant Position",
+      "PinY": 0.4291664123535156
+    },
+    {
+      "ID": "706",
+      "Text": "Title",
+      "PinX": 4.4375,
+      "PinY": 1.85
+    },
+    {
+      "ID": "716",
+      "Text": "Andrea Roberts"
+    },
+    {
+      "ID": "715",
+      "Text": "Global Manager of Marketing",
+      "PinX": 6.6875,
+      "PinY": 3.075
+    },
+    {
+      "ID": "725",
+      "Text": "Robert Sidiqqe"
+    },
+    {
+      "ID": "724",
+      "Text": "Manager of Production",
+      "PinX": 8.9375,
+      "PinY": 3.075
+    },
+    {
+      "ID": "734",
+      "Text": "Antonio Bonderoz"
+    },
+    {
+      "ID": "733",
+      "Text": "Production Operator",
+      "PinX": 8.9375,
+      "PinY": 1.85
+    },
+    {
+      "ID": "743",
+      "Text": "Leslie Hernandez"
+    },
+    {
+      "ID": "742",
+      "Text": "Assistant",
+      "PinX": 7.8125,
+      "PinY": 5.75
+    },
+    {
+      "ID": "555",
+      "Text": "ABC Manufacturing Company",
+      "PinX": 2.3125,
+      "PinY": 0.3125
+    }
+  ],
+  "Edges": []
+}

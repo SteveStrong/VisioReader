@@ -1,0 +1,219 @@
+{
+  "Nodes": [
+    {
+      "ID": "7",
+      "Text": "E-Commerce Shopping \u2013 Process Flow Diagram",
+      "PinX": 6.875000000000006,
+      "PinY": 3.625
+    },
+    {
+      "ID": "4",
+      "Text": "Customer",
+      "PinY": 1.6875
+    },
+    {
+      "ID": "254",
+      "Text": "Order Entry System",
+      "PinX": 0.2556,
+      "PinY": 0.625
+    },
+    {
+      "ID": "306",
+      "Text": "Back Office (Order Fullfillment)",
+      "PinX": 0.2556,
+      "PinY": 1.40625
+    },
+    {
+      "ID": "13",
+      "Text": "Start",
+      "PinX": 1.375,
+      "PinY": 14.125
+    },
+    {
+      "ID": "26",
+      "Text": "Nativate to the start page of the shopping site",
+      "PinX": 2.458333333333334,
+      "PinY": 14.125
+    },
+    {
+      "ID": "50",
+      "Text": "Search for items",
+      "PinX": 3.933333333333334,
+      "PinY": 15
+    },
+    {
+      "ID": "73",
+      "Text": "Review Recommended Items",
+      "PinX": 3.933333333333334,
+      "PinY": 14.125
+    },
+    {
+      "ID": "96",
+      "Text": "Review Special",
+      "PinX": 3.933333333333334,
+      "PinY": 13.25
+    },
+    {
+      "ID": "122",
+      "Text": "Identify Item for purchase",
+      "PinX": 5.3125,
+      "PinY": 14.125
+    },
+    {
+      "ID": "148",
+      "Text": "Add item to the shopping cart",
+      "PinX": 6.73958333333333,
+      "PinY": 14.125
+    },
+    {
+      "ID": "186",
+      "Text": "Apply Coupon or Promotional discount",
+      "PinX": 8.166666666666666,
+      "PinY": 14.125
+    },
+    {
+      "ID": "210",
+      "Text": "More items",
+      "PinX": 9.59375,
+      "PinY": 14.125
+    },
+    {
+      "ID": "227",
+      "Text": "Checkout Process",
+      "PinX": 11.02083333333333,
+      "PinY": 14.125
+    },
+    {
+      "ID": "263",
+      "Text": "Order Entry System",
+      "PinX": 11,
+      "PinY": 11.625
+    },
+    {
+      "ID": "265",
+      "Text": "Review Order Confirmation",
+      "PinX": 12.44791666666667,
+      "PinY": 14.125
+    },
+    {
+      "ID": "289",
+      "Text": "End",
+      "PinX": 13.53125,
+      "PinY": 14.125
+    },
+    {
+      "ID": "315",
+      "Text": "Start",
+      "PinX": 1.375,
+      "PinY": 9.75
+    },
+    {
+      "ID": "328",
+      "Text": "Review Order",
+      "PinX": 2.40625,
+      "PinY": 9.75
+    },
+    {
+      "ID": "352",
+      "Text": "Is Order Valid?",
+      "PinX": 3.78125,
+      "PinY": 9.75
+    },
+    {
+      "ID": "368",
+      "Text": "Accept Order",
+      "PinX": 5.15625,
+      "PinY": 9.75
+    },
+    {
+      "ID": "416",
+      "Text": "Can order issues be resolved?",
+      "PinX": 3.78125,
+      "PinY": 8.625
+    },
+    {
+      "ID": "432",
+      "Text": "Reject Order",
+      "PinX": 2.40625,
+      "PinY": 8.625
+    },
+    {
+      "ID": "456",
+      "Text": "End",
+      "PinX": 1.375,
+      "PinY": 8.625
+    },
+    {
+      "ID": "471",
+      "Text": "Package the Order",
+      "PinX": 6.53125,
+      "PinY": 9.75
+    },
+    {
+      "ID": "495",
+      "Text": "Ship the Order",
+      "PinX": 7.90625,
+      "PinY": 9.75
+    },
+    {
+      "ID": "519",
+      "Text": "Generate Shipment Confirmation",
+      "PinX": 9.28125,
+      "PinY": 9.75
+    },
+    {
+      "ID": "543",
+      "Text": "Notify the customer about shipment",
+      "PinX": 10.65625,
+      "PinY": 9.75
+    },
+    {
+      "ID": "567",
+      "Text": "End",
+      "PinX": 11.6875,
+      "PinY": 9.75
+    }
+  ],
+  "Edges": [
+    {
+      "ID": "226",
+      "Text": "Yes",
+      "PinX": 9.59375,
+      "PinY": 14.5,
+      "FromNodeID": "26",
+      "ToNodeID": "210"
+    },
+    {
+      "ID": "391",
+      "Text": "Yes",
+      "PinX": 4.28125,
+      "PinY": 9.75,
+      "FromNodeID": "368",
+      "ToNodeID": "352"
+    },
+    {
+      "ID": "431",
+      "Text": "No",
+      "PinX": 3.78125,
+      "PinY": 9.375,
+      "FromNodeID": "416",
+      "ToNodeID": "352"
+    },
+    {
+      "ID": "455",
+      "Text": "No",
+      "PinX": 3.28125,
+      "PinY": 8.625,
+      "FromNodeID": "432",
+      "ToNodeID": "416"
+    },
+    {
+      "ID": "470",
+      "Text": "Yes",
+      "PinX": 4.28125,
+      "PinY": 8.625,
+      "FromNodeID": "368",
+      "ToNodeID": "416"
+    }
+  ]
+}

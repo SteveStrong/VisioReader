@@ -62,13 +62,11 @@ public class Shape1D
 
         // Populate the new ConnectionPoint list with shape names
         if (Connections == null)
-            return;
-
-        foreach (var connection in Connections)
+            return;        foreach (var connection in Connections)
         {
             if (!string.IsNullOrEmpty(connection.FromSheet) && shape2DMap.ContainsKey(connection.FromSheet))
             {
-                connection.FromShapeName = shape2DMap[connection.FromSheet].Name;
+                connection.FromShapeName = shape2DMap[connection.FromSheet].Name ?? "";
 
                 // Include shape text if available
                 if (!string.IsNullOrEmpty(shape2DMap[connection.FromSheet].Text))
@@ -79,7 +77,7 @@ public class Shape1D
 
             if (!string.IsNullOrEmpty(connection.ToSheet) && shape2DMap.ContainsKey(connection.ToSheet))
             {
-                connection.ToShapeName = shape2DMap[connection.ToSheet].Name;
+                connection.ToShapeName = shape2DMap[connection.ToSheet].Name ?? "";
 
                 // Include shape text if available
                 if (!string.IsNullOrEmpty(shape2DMap[connection.ToSheet].Text))

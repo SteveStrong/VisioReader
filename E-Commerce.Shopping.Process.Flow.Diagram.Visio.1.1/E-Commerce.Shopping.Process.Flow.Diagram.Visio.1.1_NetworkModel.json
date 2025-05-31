@@ -1,0 +1,436 @@
+{
+  "Nodes": [
+    {
+      "ID": "608",
+      "Text": "Order Entry",
+      "PinY": 0.625
+    },
+    {
+      "ID": "704",
+      "Text": "Back Office",
+      "PinY": 1.25
+    },
+    {
+      "ID": "398",
+      "Text": "Authorize transaction",
+      "PinX": 7.124999999999991,
+      "PinY": 1.875
+    },
+    {
+      "ID": "422",
+      "Text": "Authorize transaction",
+      "PinX": 8.499999999999991,
+      "PinY": 1.874999860922493
+    },
+    {
+      "ID": "421",
+      "Text": "Review Recommended items",
+      "PinX": 4.500000000000023,
+      "PinY": 6.718750052154062
+    },
+    {
+      "ID": "447",
+      "Text": "Authorize Transaction",
+      "PinX": 9.874999999999991,
+      "PinY": 0.75
+    },
+    {
+      "ID": "495",
+      "Text": "End",
+      "PinX": 13.6875,
+      "PinY": 4.375
+    },
+    {
+      "ID": "510",
+      "Text": "Line of Credit Approved?",
+      "PinX": 12.8125,
+      "PinY": 6.5
+    },
+    {
+      "ID": "555",
+      "Text": "End",
+      "PinX": 9.53125,
+      "PinY": 5.125
+    },
+    {
+      "ID": "540",
+      "Text": "Apply coupon or promo discount",
+      "PinX": 8.625000000000021,
+      "PinY": 6.718750052154062
+    },
+    {
+      "ID": "569",
+      "Text": "End",
+      "PinX": 8.15625,
+      "PinY": 5.90625
+    },
+    {
+      "ID": "634",
+      "Text": "Checkout process",
+      "PinX": 11.375,
+      "PinY": 6.718750052154062
+    },
+    {
+      "ID": "659",
+      "Text": "Review Order\nConfirmation",
+      "PinX": 12.75,
+      "PinY": 6.718750052154062
+    },
+    {
+      "ID": "719",
+      "Text": "Create new order entry record",
+      "PinX": 11.375,
+      "PinY": 4.187500104308123
+    },
+    {
+      "ID": "686",
+      "Text": "End",
+      "PinX": 13.78125,
+      "PinY": 6.718750052154062
+    },
+    {
+      "ID": "742",
+      "Text": "Start",
+      "PinX": 1.65625,
+      "PinY": 2.125
+    },
+    {
+      "ID": "755",
+      "Text": "Review Order",
+      "PinX": 2.6875,
+      "PinY": 2.125
+    },
+    {
+      "ID": "779",
+      "Text": "Is Order Valid",
+      "PinX": 4.0625,
+      "PinY": 2.125
+    },
+    {
+      "ID": "795",
+      "Text": "Accept Order",
+      "PinX": 5.4375,
+      "PinY": 2.125
+    },
+    {
+      "ID": "819",
+      "Text": "Package Order",
+      "PinX": 6.8125,
+      "PinY": 2.125
+    },
+    {
+      "ID": "843",
+      "Text": "Ship Order",
+      "PinX": 8.1875,
+      "PinY": 2.125
+    },
+    {
+      "ID": "867",
+      "Text": "Generate Shipment Confirmation",
+      "PinX": 9.5625,
+      "PinY": 2.125
+    },
+    {
+      "ID": "891",
+      "Text": "End",
+      "PinX": 10.59375,
+      "PinY": 2.125
+    },
+    {
+      "ID": "905",
+      "Text": "Resolve order issues",
+      "PinX": 5.4375,
+      "PinY": 1
+    },
+    {
+      "ID": "929",
+      "Text": "Can order issues be resolved?",
+      "PinX": 4.0625,
+      "PinY": 1
+    },
+    {
+      "ID": "946",
+      "Text": "Reject Order",
+      "PinX": 2.6875,
+      "PinY": 1
+    },
+    {
+      "ID": "970",
+      "Text": "End",
+      "PinX": 1.65625,
+      "PinY": 1
+    },
+    {
+      "ID": "7",
+      "Text": "Checkout Process",
+      "PinY": 4.0625
+    },
+    {
+      "ID": "4",
+      "Text": "Customer",
+      "PinY": 2.1875
+    },
+    {
+      "ID": "16",
+      "Text": "Address Validation",
+      "PinY": 0.6875
+    },
+    {
+      "ID": "366",
+      "Text": "Bank"
+    },
+    {
+      "ID": "370",
+      "Text": "Credit Line Management",
+      "PinY": 0.5625
+    },
+    {
+      "ID": "17",
+      "Text": "Start",
+      "PinX": 1.968749999999993,
+      "PinY": 7.625
+    },
+    {
+      "ID": "30",
+      "Text": "Review Shopping Cart",
+      "PinX": 2.999999999999993,
+      "PinY": 7.625
+    },
+    {
+      "ID": "68",
+      "Text": "Enter Shipping address",
+      "PinX": 4.374999999999993,
+      "PinY": 7.625
+    },
+    {
+      "ID": "371",
+      "Text": "Validate Address",
+      "PinX": 4.374999999999993,
+      "PinY": 3.125
+    },
+    {
+      "ID": "117",
+      "Text": "Select Payment Method",
+      "PinX": 5.75,
+      "PinY": 7.625
+    },
+    {
+      "ID": "141",
+      "Text": "Paying by Check?",
+      "PinX": 7.125,
+      "PinY": 7.625
+    },
+    {
+      "ID": "171",
+      "Text": "Paying by Credit Card",
+      "PinX": 8.5,
+      "PinY": 7.625
+    },
+    {
+      "ID": "187",
+      "Text": "Paying using line of credit?",
+      "PinX": 9.875,
+      "PinY": 7.625
+    },
+    {
+      "ID": "203",
+      "Text": "Credit line exist?",
+      "PinX": 9.875,
+      "PinY": 6.5
+    },
+    {
+      "ID": "233",
+      "Text": "Submit check payment",
+      "PinX": 7.125,
+      "PinY": 5.90625
+    },
+    {
+      "ID": "262",
+      "Text": "Submit credit card payment",
+      "PinX": 8.5,
+      "PinY": 5.125
+    },
+    {
+      "ID": "312",
+      "Text": "Establish Credit Line",
+      "PinX": 11.25,
+      "PinY": 6.5
+    },
+    {
+      "ID": "471",
+      "Text": "Submit Line of Credit Payment",
+      "PinX": 9.875,
+      "PinY": 4.375
+    }
+  ],
+  "Edges": [
+    {
+      "ID": "609",
+      "Text": "Yes",
+      "PinX": 10,
+      "PinY": 7.093750052154062,
+      "FromNodeID": "581",
+      "ToNodeID": "564"
+    },
+    {
+      "ID": "633",
+      "Text": "No",
+      "PinX": 10.5,
+      "PinY": 6.718750052154062,
+      "FromNodeID": "634",
+      "ToNodeID": "564"
+    },
+    {
+      "ID": "718",
+      "Text": "Email Confirmation",
+      "PinX": 11.875,
+      "PinY": 4.187500104308123,
+      "FromNodeID": "659",
+      "ToNodeID": "719"
+    },
+    {
+      "ID": "945",
+      "Text": "Yes",
+      "PinX": 4.5625,
+      "PinY": 1,
+      "FromNodeID": "905",
+      "ToNodeID": "929"
+    },
+    {
+      "ID": "969",
+      "Text": "No",
+      "PinX": 3.5625,
+      "PinY": 1,
+      "FromNodeID": "946",
+      "ToNodeID": "929"
+    },
+    {
+      "ID": "394",
+      "Text": "Validate",
+      "PinX": 4.124999999999993,
+      "PinY": 7.25,
+      "FromNodeID": "371",
+      "ToNodeID": "68"
+    },
+    {
+      "ID": "186",
+      "Text": "No",
+      "PinX": 7.625,
+      "PinY": 7.625,
+      "FromNodeID": "171",
+      "ToNodeID": "141"
+    },
+    {
+      "ID": "202",
+      "Text": "No",
+      "PinX": 9,
+      "PinY": 7.625,
+      "FromNodeID": "187",
+      "ToNodeID": "171"
+    },
+    {
+      "ID": "218",
+      "Text": "Yes",
+      "PinX": 9.875,
+      "PinY": 7.25,
+      "FromNodeID": "203",
+      "ToNodeID": "187"
+    },
+    {
+      "ID": "256",
+      "Text": "Yes",
+      "PinX": 7.125,
+      "PinY": 7.25,
+      "FromNodeID": "233",
+      "ToNodeID": "141"
+    },
+    {
+      "ID": "286",
+      "Text": "Yes",
+      "PinX": 8.5,
+      "PinY": 7.25,
+      "FromNodeID": "262",
+      "ToNodeID": "171"
+    },
+    {
+      "ID": "311",
+      "Text": "No",
+      "PinX": 10.375,
+      "PinY": 6.5,
+      "FromNodeID": "312",
+      "ToNodeID": "203"
+    },
+    {
+      "ID": "336",
+      "Text": "Yes",
+      "PinX": 9.875,
+      "PinY": 6.125,
+      "FromNodeID": "471",
+      "ToNodeID": "203"
+    },
+    {
+      "ID": "396",
+      "Text": "Authorize",
+      "PinX": 6.875,
+      "PinY": 5.53125,
+      "FromNodeID": "398",
+      "ToNodeID": "233"
+    },
+    {
+      "ID": "395",
+      "Text": "Validation\nConfirmation",
+      "PinX": 4.624999999999993,
+      "PinY": 3.5,
+      "FromNodeID": "68",
+      "ToNodeID": "371"
+    },
+    {
+      "ID": "421",
+      "Text": "Authorization\nConfirmation",
+      "PinX": 7.374999999999991,
+      "PinY": 2.25,
+      "FromNodeID": "233",
+      "ToNodeID": "398"
+    },
+    {
+      "ID": "445",
+      "Text": "Authorize",
+      "PinX": 8.25,
+      "PinY": 4.75,
+      "FromNodeID": "422",
+      "ToNodeID": "262"
+    },
+    {
+      "ID": "446",
+      "Text": "Authorization\nConfirmation",
+      "PinX": 8.749999999999991,
+      "PinY": 2.249999860922493,
+      "FromNodeID": "262",
+      "ToNodeID": "422"
+    },
+    {
+      "ID": "508",
+      "Text": "No",
+      "PinX": 9.875,
+      "PinY": 8,
+      "FromNodeID": "495",
+      "ToNodeID": "187"
+    },
+    {
+      "ID": "526",
+      "Text": "Yes",
+      "PinX": 12.8125,
+      "PinY": 6.875,
+      "FromNodeID": "187",
+      "ToNodeID": "510"
+    },
+    {
+      "ID": "527",
+      "Text": "No",
+      "PinX": 13.3125,
+      "PinY": 6.5,
+      "FromNodeID": "495",
+      "ToNodeID": "510"
+    }
+  ]
+}
