@@ -58,35 +58,35 @@
   "Edges": [
     {
       "ID": "4",
-      "Text": "No",
-      "PinX": 4.625000016763803,
-      "PinY": 4.125000041909514,
+      "Signal": "No",
       "FromNodeID": "8",
-      "ToNodeID": "7"
+      "ToNodeID": "7",
+      "FromNodeText": "Form Complete?",
+      "ToNodeText": "Submit the registration form"
     },
     {
       "ID": "6",
-      "Text": "Yes",
-      "PinX": 4.125000016763803,
-      "PinY": 3.750000041909514,
+      "Signal": "Yes",
       "FromNodeID": "8",
-      "ToNodeID": "9"
+      "ToNodeID": "9",
+      "FromNodeText": "Form Complete?",
+      "ToNodeText": "Verify Details of Submission"
     },
     {
       "ID": "14",
-      "Text": "Yes",
-      "PinX": 6.74999993853271,
-      "PinY": 2.624999983236194,
+      "Signal": "Yes",
       "FromNodeID": "13",
-      "ToNodeID": "11"
+      "ToNodeID": "11",
+      "FromNodeText": "Write Acceptance Letter",
+      "ToNodeText": "Accept Submission?"
     },
     {
       "ID": "19",
-      "Text": "No",
-      "PinX": 6.24999993853271,
-      "PinY": 2.999999983236194,
+      "Signal": "No",
       "FromNodeID": "18",
-      "ToNodeID": "11"
+      "ToNodeID": "11",
+      "FromNodeText": "Notify Student on the Rejection",
+      "ToNodeText": "Accept Submission?"
     }
   ]
 }

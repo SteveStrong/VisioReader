@@ -10,7 +10,7 @@ public class NodeShape
 public class EdgeShape
 {
     public string? ID { get; set; }
-    public string? Text { get; set; }
+    public string? Signal { get; set; }
     public string? FromNodeID { get; set; }
     public string? ToNodeID { get; set; }
     public string? FromNodeText { get; set; }

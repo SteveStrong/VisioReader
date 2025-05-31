@@ -159,59 +159,59 @@
   "Edges": [
     {
       "ID": "53",
-      "Text": "Success",
-      "PinX": 10.20428137828593,
-      "PinY": 6.951605673319414,
+      "Signal": "Success",
       "FromNodeID": "52",
-      "ToNodeID": "51"
+      "ToNodeID": "51",
+      "FromNodeText": "Deploy to Production Environment",
+      "ToNodeText": "Execute UAT Testing"
     },
     {
       "ID": "56",
-      "Text": "Failed",
-      "PinX": 8.999999582767497,
-      "PinY": 6.951605673319414,
+      "Signal": "Failed",
       "FromNodeID": "45",
-      "ToNodeID": "51"
+      "ToNodeID": "51",
+      "FromNodeText": "Development and User Testing of User Stories",
+      "ToNodeText": "Execute UAT Testing"
     },
     {
       "ID": "59",
-      "Text": "Success",
-      "PinX": 11.70428137828593,
-      "PinY": 1.471788653361174,
+      "Signal": "Success",
       "FromNodeID": "58",
-      "ToNodeID": "57"
+      "ToNodeID": "57",
+      "FromNodeText": "End",
+      "ToNodeText": "Smoke Testing"
     },
     {
       "ID": "61",
-      "Text": "Smoke Testing Failed",
-      "PinX": 10.70428137828593,
-      "PinY": 1.471788653361174,
+      "Signal": "Smoke Testing Failed",
       "FromNodeID": "48",
-      "ToNodeID": "57"
+      "ToNodeID": "57",
+      "FromNodeText": "Execute System Testing",
+      "ToNodeText": "Smoke Testing"
     },
     {
       "ID": "62",
-      "Text": "System Testing \nSuccessful",
-      "PinX": 8.499999582767497,
-      "PinY": 1.395182980041761,
+      "Signal": "System Testing \nSuccessful",
       "FromNodeID": "127",
-      "ToNodeID": "48"
+      "ToNodeID": "48",
+      "FromNodeText": "Deploy into UAT Environment",
+      "ToNodeText": "Execute System Testing"
     },
     {
       "ID": "123",
-      "Text": "System Testing \nFailed",
-      "PinX": 7.295717787249064,
-      "PinY": 1.395182980041761,
+      "Signal": "System Testing \nFailed",
       "FromNodeID": "45",
-      "ToNodeID": "48"
+      "ToNodeID": "48",
+      "FromNodeText": "Development and User Testing of User Stories",
+      "ToNodeText": "Execute System Testing"
     },
     {
       "ID": "126",
-      "Text": "Deployment Complete",
-      "PinX": 7.9375,
-      "PinY": 5.125,
+      "Signal": "Deployment Complete",
       "FromNodeID": "125",
-      "ToNodeID": "48"
+      "ToNodeID": "48",
+      "FromNodeText": "Deploy into SIT Environment",
+      "ToNodeText": "Execute System Testing"
     }
   ]
 }

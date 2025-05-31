@@ -585,7 +585,7 @@ public class Program
             var edgeShape = new EdgeShape
             {
                 ID = shape1D.ID,
-                Text = shape1D.Text,
+                Signal = shape1D.Text,
                 FromNodeID = null,
                 ToNodeID = null
             };
@@ -596,6 +596,9 @@ public class Program
             if (fromConnection != null)
             {
                 edgeShape.FromNodeID = fromConnection.ToSheet;
+                edgeShape.FromNodeText = ShapeRegistry.Shape2DMap.ContainsKey(fromConnection.ToSheet) 
+                    ? ShapeRegistry.Shape2DMap[fromConnection.ToSheet].Text 
+                    : null;
             }
             
 
@@ -603,6 +606,9 @@ public class Program
             if (toConnection != null && toConnection != fromConnection)
             {
                 edgeShape.ToNodeID = toConnection.ToSheet;
+                edgeShape.ToNodeText = ShapeRegistry.Shape2DMap.ContainsKey(toConnection.ToSheet) 
+                    ? ShapeRegistry.Shape2DMap[toConnection.ToSheet].Text 
+                    : null;
             }
             
                 
@@ -619,7 +625,7 @@ public class Program
             }
             
             networkModel.AddEdge(edgeShape);
-            $"Added edge: {edgeShape.Text} (ID: {edgeShape.ID}, From: {edgeShape.FromNodeID ?? "none"}, To: {edgeShape.ToNodeID ?? "none"})".WriteSuccess(1);
+            $"Added edge: {edgeShape.Signal} (ID: {edgeShape.ID}, From: {edgeShape.FromNodeText ?? "none"}, To: {edgeShape.ToNodeText ?? "none"})".WriteSuccess(1);
             
         }
         

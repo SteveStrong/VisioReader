@@ -177,43 +177,43 @@
   "Edges": [
     {
       "ID": "226",
-      "Text": "Yes",
-      "PinX": 9.59375,
-      "PinY": 14.5,
+      "Signal": "Yes",
       "FromNodeID": "26",
-      "ToNodeID": "210"
+      "ToNodeID": "210",
+      "FromNodeText": "Nativate to the start page of the shopping site",
+      "ToNodeText": "More items"
     },
     {
       "ID": "391",
-      "Text": "Yes",
-      "PinX": 4.28125,
-      "PinY": 9.75,
+      "Signal": "Yes",
       "FromNodeID": "368",
-      "ToNodeID": "352"
+      "ToNodeID": "352",
+      "FromNodeText": "Accept Order",
+      "ToNodeText": "Is Order Valid?"
     },
     {
       "ID": "431",
-      "Text": "No",
-      "PinX": 3.78125,
-      "PinY": 9.375,
+      "Signal": "No",
       "FromNodeID": "416",
-      "ToNodeID": "352"
+      "ToNodeID": "352",
+      "FromNodeText": "Can order issues be resolved?",
+      "ToNodeText": "Is Order Valid?"
     },
     {
       "ID": "455",
-      "Text": "No",
-      "PinX": 3.28125,
-      "PinY": 8.625,
+      "Signal": "No",
       "FromNodeID": "432",
-      "ToNodeID": "416"
+      "ToNodeID": "416",
+      "FromNodeText": "Reject Order",
+      "ToNodeText": "Can order issues be resolved?"
     },
     {
       "ID": "470",
-      "Text": "Yes",
-      "PinX": 4.28125,
-      "PinY": 8.625,
+      "Signal": "Yes",
       "FromNodeID": "368",
-      "ToNodeID": "416"
+      "ToNodeID": "416",
+      "FromNodeText": "Accept Order",
+      "ToNodeText": "Can order issues be resolved?"
     }
   ]
 }

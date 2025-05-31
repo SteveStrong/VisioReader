@@ -266,171 +266,168 @@
   "Edges": [
     {
       "ID": "609",
-      "Text": "Yes",
-      "PinX": 10,
-      "PinY": 7.093750052154062,
+      "Signal": "Yes",
       "FromNodeID": "581",
       "ToNodeID": "564"
     },
     {
       "ID": "633",
-      "Text": "No",
-      "PinX": 10.5,
-      "PinY": 6.718750052154062,
+      "Signal": "No",
       "FromNodeID": "634",
-      "ToNodeID": "564"
+      "ToNodeID": "564",
+      "FromNodeText": "Checkout process"
     },
     {
       "ID": "718",
-      "Text": "Email Confirmation",
-      "PinX": 11.875,
-      "PinY": 4.187500104308123,
+      "Signal": "Email Confirmation",
       "FromNodeID": "659",
-      "ToNodeID": "719"
+      "ToNodeID": "719",
+      "FromNodeText": "Review Order\nConfirmation",
+      "ToNodeText": "Create new order entry record"
     },
     {
       "ID": "945",
-      "Text": "Yes",
-      "PinX": 4.5625,
-      "PinY": 1,
+      "Signal": "Yes",
       "FromNodeID": "905",
-      "ToNodeID": "929"
+      "ToNodeID": "929",
+      "FromNodeText": "Resolve order issues",
+      "ToNodeText": "Can order issues be resolved?"
     },
     {
       "ID": "969",
-      "Text": "No",
-      "PinX": 3.5625,
-      "PinY": 1,
+      "Signal": "No",
       "FromNodeID": "946",
-      "ToNodeID": "929"
+      "ToNodeID": "929",
+      "FromNodeText": "Reject Order",
+      "ToNodeText": "Can order issues be resolved?"
     },
     {
       "ID": "394",
-      "Text": "Validate",
-      "PinX": 4.124999999999993,
-      "PinY": 7.25,
+      "Signal": "Validate",
       "FromNodeID": "371",
-      "ToNodeID": "68"
+      "ToNodeID": "68",
+      "FromNodeText": "Validate Address",
+      "ToNodeText": "Enter Shipping address"
     },
     {
       "ID": "186",
-      "Text": "No",
-      "PinX": 7.625,
-      "PinY": 7.625,
+      "Signal": "No",
       "FromNodeID": "171",
-      "ToNodeID": "141"
+      "ToNodeID": "141",
+      "FromNodeText": "Paying by Credit Card",
+      "ToNodeText": "Paying by Check?"
     },
     {
       "ID": "202",
-      "Text": "No",
-      "PinX": 9,
-      "PinY": 7.625,
+      "Signal": "No",
       "FromNodeID": "187",
-      "ToNodeID": "171"
+      "ToNodeID": "171",
+      "FromNodeText": "Paying using line of credit?",
+      "ToNodeText": "Paying by Credit Card"
     },
     {
       "ID": "218",
-      "Text": "Yes",
-      "PinX": 9.875,
-      "PinY": 7.25,
+      "Signal": "Yes",
       "FromNodeID": "203",
-      "ToNodeID": "187"
+      "ToNodeID": "187",
+      "FromNodeText": "Credit line exist?",
+      "ToNodeText": "Paying using line of credit?"
     },
     {
       "ID": "256",
-      "Text": "Yes",
-      "PinX": 7.125,
-      "PinY": 7.25,
+      "Signal": "Yes",
       "FromNodeID": "233",
-      "ToNodeID": "141"
+      "ToNodeID": "141",
+      "FromNodeText": "Submit check payment",
+      "ToNodeText": "Paying by Check?"
     },
     {
       "ID": "286",
-      "Text": "Yes",
-      "PinX": 8.5,
-      "PinY": 7.25,
+      "Signal": "Yes",
       "FromNodeID": "262",
-      "ToNodeID": "171"
+      "ToNodeID": "171",
+      "FromNodeText": "Submit credit card payment",
+      "ToNodeText": "Paying by Credit Card"
     },
     {
       "ID": "311",
-      "Text": "No",
-      "PinX": 10.375,
-      "PinY": 6.5,
+      "Signal": "No",
       "FromNodeID": "312",
-      "ToNodeID": "203"
+      "ToNodeID": "203",
+      "FromNodeText": "Establish Credit Line",
+      "ToNodeText": "Credit line exist?"
     },
     {
       "ID": "336",
-      "Text": "Yes",
-      "PinX": 9.875,
-      "PinY": 6.125,
+      "Signal": "Yes",
       "FromNodeID": "471",
-      "ToNodeID": "203"
+      "ToNodeID": "203",
+      "FromNodeText": "Submit Line of Credit Payment",
+      "ToNodeText": "Credit line exist?"
     },
     {
       "ID": "396",
-      "Text": "Authorize",
-      "PinX": 6.875,
-      "PinY": 5.53125,
+      "Signal": "Authorize",
       "FromNodeID": "398",
-      "ToNodeID": "233"
+      "ToNodeID": "233",
+      "FromNodeText": "Authorize transaction",
+      "ToNodeText": "Submit check payment"
     },
     {
       "ID": "395",
-      "Text": "Validation\nConfirmation",
-      "PinX": 4.624999999999993,
-      "PinY": 3.5,
+      "Signal": "Validation\nConfirmation",
       "FromNodeID": "68",
-      "ToNodeID": "371"
+      "ToNodeID": "371",
+      "FromNodeText": "Enter Shipping address",
+      "ToNodeText": "Validate Address"
     },
     {
       "ID": "421",
-      "Text": "Authorization\nConfirmation",
-      "PinX": 7.374999999999991,
-      "PinY": 2.25,
+      "Signal": "Authorization\nConfirmation",
       "FromNodeID": "233",
-      "ToNodeID": "398"
+      "ToNodeID": "398",
+      "FromNodeText": "Submit check payment",
+      "ToNodeText": "Authorize transaction"
     },
     {
       "ID": "445",
-      "Text": "Authorize",
-      "PinX": 8.25,
-      "PinY": 4.75,
+      "Signal": "Authorize",
       "FromNodeID": "422",
-      "ToNodeID": "262"
+      "ToNodeID": "262",
+      "FromNodeText": "Authorize transaction",
+      "ToNodeText": "Submit credit card payment"
     },
     {
       "ID": "446",
-      "Text": "Authorization\nConfirmation",
-      "PinX": 8.749999999999991,
-      "PinY": 2.249999860922493,
+      "Signal": "Authorization\nConfirmation",
       "FromNodeID": "262",
-      "ToNodeID": "422"
+      "ToNodeID": "422",
+      "FromNodeText": "Submit credit card payment",
+      "ToNodeText": "Authorize transaction"
     },
     {
       "ID": "508",
-      "Text": "No",
-      "PinX": 9.875,
-      "PinY": 8,
+      "Signal": "No",
       "FromNodeID": "495",
-      "ToNodeID": "187"
+      "ToNodeID": "187",
+      "FromNodeText": "End",
+      "ToNodeText": "Paying using line of credit?"
     },
     {
       "ID": "526",
-      "Text": "Yes",
-      "PinX": 12.8125,
-      "PinY": 6.875,
+      "Signal": "Yes",
       "FromNodeID": "187",
-      "ToNodeID": "510"
+      "ToNodeID": "510",
+      "FromNodeText": "Paying using line of credit?",
+      "ToNodeText": "Line of Credit Approved?"
     },
     {
       "ID": "527",
-      "Text": "No",
-      "PinX": 13.3125,
-      "PinY": 6.5,
+      "Signal": "No",
       "FromNodeID": "495",
-      "ToNodeID": "510"
+      "ToNodeID": "510",
+      "FromNodeText": "End",
+      "ToNodeText": "Line of Credit Approved?"
     }
   ]
 }
