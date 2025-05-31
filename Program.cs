@@ -279,10 +279,10 @@ public class Program
                 Name = shape.Name,
                 Text = shape.Text,
                 Master = shape.Master,
-                // BeginX = double.TryParse(shape.Cells.Find(c => c.Name == "BeginX")?.Value, out var bx) ? bx : null,
-                // BeginY = double.TryParse(shape.Cells.Find(c => c.Name == "BeginY")?.Value, out var by) ? by : null,
-                // EndX = double.TryParse(shape.Cells.Find(c => c.Name == "EndX")?.Value, out var ex) ? ex : null,
-                // EndY = double.TryParse(shape.Cells.Find(c => c.Name == "EndY")?.Value, out var ey) ? ey : null,
+                BeginX = double.TryParse(shape.Cells.Find(c => c.Name == "BeginX")?.Value, out var bx) ? bx : null,
+                BeginY = double.TryParse(shape.Cells.Find(c => c.Name == "BeginY")?.Value, out var by) ? by : null,
+                EndX = double.TryParse(shape.Cells.Find(c => c.Name == "EndX")?.Value, out var ex) ? ex : null,
+                EndY = double.TryParse(shape.Cells.Find(c => c.Name == "EndY")?.Value, out var ey) ? ey : null,
                 // Copy legacy connection-related properties
                 BeginConnectedTo = shape.BeginConnectedTo,
                 EndConnectedTo = shape.EndConnectedTo,
@@ -366,10 +366,10 @@ public class Program
                 Name = shape.Name,
                 Text = shape.Text,
                 Master = shape.Master,
-                // PinX = double.TryParse(shape.Cells.Find(c => c.Name == "PinX")?.Value, out var px) ? px : null,
-                // PinY = double.TryParse(shape.Cells.Find(c => c.Name == "PinY")?.Value, out var py) ? py : null,
-                // Width = double.TryParse(shape.Cells.Find(c => c.Name == "Width")?.Value, out var w) ? w : null,
-                // Height = double.TryParse(shape.Cells.Find(c => c.Name == "Height")?.Value, out var h) ? h : null,
+                PinX = double.TryParse(shape.Cells.Find(c => c.Name == "PinX")?.Value, out var px) ? px : null,
+                PinY = double.TryParse(shape.Cells.Find(c => c.Name == "PinY")?.Value, out var py) ? py : null,
+                Width = double.TryParse(shape.Cells.Find(c => c.Name == "Width")?.Value, out var w) ? w : null,
+                Height = double.TryParse(shape.Cells.Find(c => c.Name == "Height")?.Value, out var h) ? h : null,
                 // Set the page name for 2D shapes as well
                 PageName = shape.PageName
             };            if (shape.ID != null)
