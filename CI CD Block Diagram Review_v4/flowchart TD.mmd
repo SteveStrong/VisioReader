@@ -1,0 +1,101 @@
+flowchart TD
+    %% CI/CD Block Diagram Review Network Model
+    
+    %% Main Components
+    AFCA["AFCA"]
+    ABG["ABG"]
+    APM["APM"]
+    ASE["ASE"]
+    ALTS["ALTS"]
+    ASG["ASG"]
+    3PPMC["3PPMC"]
+    ASM["ASM"]
+    CCU["CCU"]
+    DCT["DCT"]
+    DPS["DPS"]
+    DSE["DSE"]
+    ETF["ETF"]
+    FFCA["FFCA"]
+    HPL["HPL"]
+    HPM["HPM"]
+    HPS["HPS"]
+    HPDS["HPDS"]
+    HMS["HMS"]
+    IMC["IMC"]
+    IPS["IPS"]
+    LPAS["LPAS"]
+    LPM["LPM"]
+    MCC["MCC"]
+    ME["ME"]
+    MHC["MHC"]
+    MK710["MK710 (Qty. 2)"]
+    PDCS["PDCS"]
+    PDSA1["PDSA1"]
+    PDSA2["PDSA2"]
+    RSI["RSI"]
+    SDS["SDS"]
+    SPD["SPD"]
+    SPPMC["SPPMC"]
+    TT["TT"]
+    WDE["WDE"]
+    WMS["WMS"]
+    
+    %% UUT Components
+    UUT_Afterbody["UUT<br/>[Afterbody]"]
+    UUT_Nose["UUT<br/>[Nose]"]
+    UUT_FES["UUT<br/>[FES]"]
+    UUT_Alt["UUT<br/>[Alternator]"]
+    
+    %% Supporting Components
+    Facility["Facility"]
+    Facility_Drain["Facility [Drain]"]
+    Operator["Operator"]
+    MK710_Cables["MK710 [UUT Cables]"]
+    MK710_Alt["MK710<br/>[Alt & Mk660 Re-use Equip]"]
+    MK710_IMU["MK710<br/>[IMU Test Table]"]
+    AMF["AMF"]
+    INF["INF"]
+    Developer["Developer"]
+    HydraulicUnit["MK 5 Hydraulic Filling Unit"]
+    
+    %% Main Connections (sample of key connections from the edge data)
+    AFCA -->|Communication| UUT_Afterbody
+    Facility -->|Cooling Air| ABG
+    RSI -->|UUT Signals| ABG
+    PDSA1 -->|Inhibit Signal| RSI
+    PDSA2 -->|Inhibit Signal| RSI
+    PDSA1 -->|Communication| AMF
+    PDSA2 -->|Communication| AMF
+    RSI -->|DC Power| PDSA1
+    SDS -->|Development| Developer
+    SDS -->|Stowage| Facility
+    SDS -->|TPS Deployment| MCC
+    
+    %% Additional key connections
+    ABG --> UUT_Afterbody
+    APM --> UUT_Nose
+    ASE --> UUT_FES
+    HPL --> UUT_Alt
+    WMS --> Facility_Drain
+    HMS --> UUT_Nose
+    ETF --> UUT_FES
+    DPS --> UUT_Alt
+    SPD --> SPPMC
+    3PPMC --> IMC
+    PDCS --> PDSA1
+    PDSA1 --> PDSA2
+    MK710_Cables --> UUT_Afterbody
+    MK710_Alt --> UUT_Alt
+    MK710_IMU --> INF
+    
+    %% Style classes - High contrast colors for better readability
+    classDef uutNode fill:#ffffff,stroke:#000080,stroke-width:3px,color:#000000
+    classDef facilityNode fill:#ffffff,stroke:#800080,stroke-width:3px,color:#000000
+    classDef testEquipNode fill:#ffffff,stroke:#008000,stroke-width:3px,color:#000000
+    classDef controlNode fill:#ffffff,stroke:#ff4500,stroke-width:3px,color:#000000
+    
+    %% Apply styles
+    class UUT_Afterbody,UUT_Nose,UUT_FES,UUT_Alt uutNode
+    class Facility,Facility_Drain,Operator facilityNode
+    class MK710,MK710_Cables,MK710_Alt,MK710_IMU,HydraulicUnit testEquipNode
+    class AFCA,ABG,APM,ASE,ALTS,ASG,3PPMC,ASM,CCU,DCT,DPS,DSE,ETF,FFCA controlNode
