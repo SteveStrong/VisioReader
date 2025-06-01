@@ -57,6 +57,13 @@
   ],
   "Edges": [
     {
+      "ID": "3",
+      "FromNodeID": "7",
+      "ToNodeID": "8",
+      "FromNodeText": "Submit the registration form",
+      "ToNodeText": "Form Complete?"
+    },
+    {
       "ID": "4",
       "Signal": "No",
       "FromNodeID": "8",
@@ -73,6 +80,13 @@
       "ToNodeText": "Verify Details of Submission"
     },
     {
+      "ID": "12",
+      "FromNodeID": "9",
+      "ToNodeID": "11",
+      "FromNodeText": "Verify Details of Submission",
+      "ToNodeText": "Accept Submission?"
+    },
+    {
       "ID": "14",
       "Signal": "Yes",
       "FromNodeID": "13",
@@ -81,12 +95,40 @@
       "ToNodeText": "Accept Submission?"
     },
     {
+      "ID": "16",
+      "FromNodeID": "17",
+      "ToNodeID": "13",
+      "FromNodeText": "Acceptance Letter",
+      "ToNodeText": "Write Acceptance Letter"
+    },
+    {
       "ID": "19",
       "Signal": "No",
       "FromNodeID": "18",
       "ToNodeID": "11",
       "FromNodeText": "Notify Student on the Rejection",
       "ToNodeText": "Accept Submission?"
+    },
+    {
+      "ID": "63",
+      "FromNodeID": "7",
+      "ToNodeID": "62",
+      "FromNodeText": "Submit the registration form",
+      "ToNodeText": "Start"
+    },
+    {
+      "ID": "65",
+      "FromNodeID": "64",
+      "ToNodeID": "18",
+      "FromNodeText": "End",
+      "ToNodeText": "Notify Student on the Rejection"
+    },
+    {
+      "ID": "66",
+      "FromNodeID": "64",
+      "ToNodeID": "17",
+      "FromNodeText": "End",
+      "ToNodeText": "Acceptance Letter"
     }
   ]
 }

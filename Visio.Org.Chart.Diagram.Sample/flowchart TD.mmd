@@ -1,0 +1,54 @@
+flowchart TD
+    %% ABC Manufacturing Company Organizational Chart
+    
+    %% Company and Leadership
+    Company["ABC Manufacturing Company"]
+    President["Amani Birke<br/>President"]
+    Assistant["Leslie Hernandez<br/>Assistant"]
+    
+    %% Vice Presidents
+    VPSales["Jane Smith<br/>VP of Sales"]
+    VPMarketing["Darvin Vance<br/>VP of Marketing"]
+    VPProduction["Isabel Wolve<br/>VP of Production"]
+    
+    %% Managers
+    GlobalSalesManager["Jane Smith<br/>Global Sales Manager"]
+    GlobalMarketingManager["Andrea Roberts<br/>Global Manager of Marketing"]
+    ProductionManager["Robert Sidiqqe<br/>Manager of Production"]
+    
+    %% Staff and Other Positions
+    Consultant["Robert Smith<br/>Consultant"]
+    ProductionOperator["Antonio Bonderoz<br/>Production Operator"]
+    VacantPosition["Vacant Position<br/>Title"]
+    
+    %% Organizational Hierarchy
+    Company --> President
+    President --> Assistant
+    President --> VPSales
+    President --> VPMarketing
+    President --> VPProduction
+    
+    VPSales --> GlobalSalesManager
+    VPMarketing --> GlobalMarketingManager
+    VPProduction --> ProductionManager
+    
+    GlobalSalesManager --> Consultant
+    GlobalSalesManager --> VacantPosition
+    ProductionManager --> ProductionOperator
+    
+    %% Style classes for different organizational levels - High Contrast
+    classDef company fill:#000080,stroke:#ffffff,stroke-width:4px,color:#ffffff
+    classDef executive fill:#8B0000,stroke:#ffffff,stroke-width:4px,color:#ffffff
+    classDef vp fill:#4B0082,stroke:#ffffff,stroke-width:3px,color:#ffffff
+    classDef manager fill:#006400,stroke:#ffffff,stroke-width:3px,color:#ffffff
+    classDef staff fill:#333333,stroke:#ffffff,stroke-width:3px,color:#ffffff
+    classDef vacant fill:#800000,stroke:#ffffff,stroke-width:3px,color:#ffffff,stroke-dasharray: 5 5
+    
+    %% Apply styles
+    class Company company
+    class President executive
+    class Assistant executive
+    class VPSales,VPMarketing,VPProduction vp
+    class GlobalSalesManager,GlobalMarketingManager,ProductionManager manager
+    class Consultant,ProductionOperator staff
+    class VacantPosition vacant

@@ -176,12 +176,124 @@
   ],
   "Edges": [
     {
+      "ID": "49",
+      "FromNodeID": "13",
+      "ToNodeID": "26",
+      "FromNodeText": "Start",
+      "ToNodeText": "Nativate to the start page of the shopping site"
+    },
+    {
+      "ID": "119",
+      "FromNodeID": "96",
+      "ToNodeID": "26",
+      "FromNodeText": "Review Special",
+      "ToNodeText": "Nativate to the start page of the shopping site"
+    },
+    {
+      "ID": "120",
+      "FromNodeID": "26",
+      "ToNodeID": "50",
+      "FromNodeText": "Nativate to the start page of the shopping site",
+      "ToNodeText": "Search for items"
+    },
+    {
+      "ID": "121",
+      "FromNodeID": "26",
+      "ToNodeID": "73",
+      "FromNodeText": "Nativate to the start page of the shopping site",
+      "ToNodeText": "Review Recommended Items"
+    },
+    {
+      "ID": "145",
+      "FromNodeID": "122",
+      "ToNodeID": "73",
+      "FromNodeText": "Identify Item for purchase",
+      "ToNodeText": "Review Recommended Items"
+    },
+    {
+      "ID": "146",
+      "FromNodeID": "122",
+      "ToNodeID": "50",
+      "FromNodeText": "Identify Item for purchase",
+      "ToNodeText": "Search for items"
+    },
+    {
+      "ID": "147",
+      "FromNodeID": "122",
+      "ToNodeID": "96",
+      "FromNodeText": "Identify Item for purchase",
+      "ToNodeText": "Review Special"
+    },
+    {
+      "ID": "171",
+      "FromNodeID": "148",
+      "ToNodeID": "122",
+      "FromNodeText": "Add item to the shopping cart",
+      "ToNodeText": "Identify Item for purchase"
+    },
+    {
+      "ID": "209",
+      "FromNodeID": "186",
+      "ToNodeID": "148",
+      "FromNodeText": "Apply Coupon or Promotional discount",
+      "ToNodeText": "Add item to the shopping cart"
+    },
+    {
+      "ID": "225",
+      "FromNodeID": "210",
+      "ToNodeID": "186",
+      "FromNodeText": "More items",
+      "ToNodeText": "Apply Coupon or Promotional discount"
+    },
+    {
       "ID": "226",
       "Signal": "Yes",
       "FromNodeID": "26",
       "ToNodeID": "210",
       "FromNodeText": "Nativate to the start page of the shopping site",
       "ToNodeText": "More items"
+    },
+    {
+      "ID": "250",
+      "FromNodeID": "227",
+      "ToNodeID": "210",
+      "FromNodeText": "Checkout Process",
+      "ToNodeText": "More items"
+    },
+    {
+      "ID": "264",
+      "FromNodeID": "263",
+      "ToNodeID": "227",
+      "FromNodeText": "Order Entry System",
+      "ToNodeText": "Checkout Process"
+    },
+    {
+      "ID": "288",
+      "FromNodeID": "265",
+      "ToNodeID": "263",
+      "FromNodeText": "Review Order Confirmation",
+      "ToNodeText": "Order Entry System"
+    },
+    {
+      "ID": "302",
+      "FromNodeID": "289",
+      "ToNodeID": "265",
+      "FromNodeText": "End",
+      "ToNodeText": "Review Order Confirmation"
+    },
+    {
+      "ID": "351",
+      "FromNodeID": "328",
+      "ToNodeID": "315",
+      "FromNodeText": "Review Order",
+      "ToNodeText": "Start"
+    },
+    {
+      "ID": "367",
+      "FromNodeID": "352",
+      "ToNodeID": "328",
+      "FromNodeText": "Is Order Valid?",
+      "ToNodeText": "Review Order"
     },
     {
       "ID": "391",
@@ -208,12 +320,54 @@
       "ToNodeText": "Can order issues be resolved?"
     },
     {
+      "ID": "469",
+      "FromNodeID": "456",
+      "ToNodeID": "432",
+      "FromNodeText": "End",
+      "ToNodeText": "Reject Order"
+    },
+    {
       "ID": "470",
       "Signal": "Yes",
       "FromNodeID": "368",
       "ToNodeID": "416",
       "FromNodeText": "Accept Order",
       "ToNodeText": "Can order issues be resolved?"
+    },
+    {
+      "ID": "494",
+      "FromNodeID": "471",
+      "ToNodeID": "368",
+      "FromNodeText": "Package the Order",
+      "ToNodeText": "Accept Order"
+    },
+    {
+      "ID": "518",
+      "FromNodeID": "495",
+      "ToNodeID": "471",
+      "FromNodeText": "Ship the Order",
+      "ToNodeText": "Package the Order"
+    },
+    {
+      "ID": "542",
+      "FromNodeID": "519",
+      "ToNodeID": "495",
+      "FromNodeText": "Generate Shipment Confirmation",
+      "ToNodeText": "Ship the Order"
+    },
+    {
+      "ID": "566",
+      "FromNodeID": "543",
+      "ToNodeID": "519",
+      "FromNodeText": "Notify the customer about shipment",
+      "ToNodeText": "Generate Shipment Confirmation"
+    },
+    {
+      "ID": "580",
+      "FromNodeID": "567",
+      "ToNodeID": "543",
+      "FromNodeText": "End",
+      "ToNodeText": "Notify the customer about shipment"
     }
   ]
 }

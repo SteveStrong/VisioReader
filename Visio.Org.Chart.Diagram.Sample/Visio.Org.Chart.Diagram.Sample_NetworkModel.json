@@ -118,5 +118,83 @@
       "PinY": 0.3125
     }
   ],
-  "Edges": []
+  "Edges": [
+    {
+      "ID": "22",
+      "FromNodeID": "652",
+      "ToNodeID": "661",
+      "FromNodeText": "President",
+      "ToNodeText": "VP of Marketing"
+    },
+    {
+      "ID": "33",
+      "FromNodeID": "652",
+      "ToNodeID": "670",
+      "FromNodeText": "President",
+      "ToNodeText": "VP of Production"
+    },
+    {
+      "ID": "44",
+      "FromNodeID": "652",
+      "ToNodeID": "679",
+      "FromNodeText": "President",
+      "ToNodeText": "VP of Sales"
+    },
+    {
+      "ID": "55",
+      "FromNodeID": "679",
+      "ToNodeID": "688",
+      "FromNodeText": "VP of Sales",
+      "ToNodeText": "Global Sales Manager"
+    },
+    {
+      "ID": "66",
+      "FromNodeID": "697",
+      "ToNodeID": "679",
+      "FromNodeText": "Consultant",
+      "ToNodeText": "VP of Sales"
+    },
+    {
+      "ID": "83",
+      "FromNodeID": "706",
+      "ToNodeID": "688",
+      "FromNodeText": "Title",
+      "ToNodeText": "Global Sales Manager"
+    },
+    {
+      "ID": "104",
+      "FromNodeID": "724",
+      "ToNodeID": "670",
+      "FromNodeText": "Manager of Production",
+      "ToNodeText": "VP of Production"
+    },
+    {
+      "ID": "115",
+      "FromNodeID": "733",
+      "ToNodeID": "724",
+      "FromNodeText": "Production Operator",
+      "ToNodeText": "Manager of Production"
+    },
+    {
+      "ID": "127",
+      "FromNodeID": "742",
+      "ToNodeID": "652",
+      "FromNodeText": "Assistant",
+      "ToNodeText": "President"
+    },
+    {
+      "ID": "129",
+      "FromNodeID": "715",
+      "ToNodeID": "661",
+      "FromNodeText": "Global Manager of Marketing",
+      "ToNodeText": "VP of Marketing"
+    },
+    {
+      "ID": "650",
+      "FromNodeID": "715",
+      "ToNodeID": "679",
+      "FromNodeText": "Global Manager of Marketing",
+      "ToNodeText": "VP of Sales"
+    }
+  ]
 }

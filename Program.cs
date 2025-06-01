@@ -51,9 +51,8 @@ public class Program
             {
                 // For each connection in the Shape1D
                 if (shape1D.Connections == null)
-                {
                     continue;
-                }
+                
                 foreach (var connection in shape1D.Connections)
                 {
                     // If the ToSheet refers to a Shape2D, add this connection to that shape's IncomingConnections
@@ -77,7 +76,8 @@ public class Program
                 
 
             }
-              var shapeKnowledgeModel = new ShapeKnowledgeModel
+
+            var shapeKnowledgeModel = new ShapeKnowledgeModel
             {
                 Filename = drawingName,
                 Shape1DList = ShapeRegistry.Shape1DMap.Values.ToList(),
@@ -576,8 +576,8 @@ public class Program
         // Add 1D shapes as edges (only if they have text)
         foreach (var shape1D in ShapeRegistry.Shape1DMap.Values)
         {
-            if (string.IsNullOrWhiteSpace(shape1D.Text))
-                continue;
+            // if (string.IsNullOrWhiteSpace(shape1D.Text))
+            //     continue;
 
             if (shape1D.Connections == null || shape1D.Connections.Count == 0)
                 continue;

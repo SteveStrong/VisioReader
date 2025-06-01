@@ -265,6 +265,29 @@
   ],
   "Edges": [
     {
+      "ID": "515",
+      "FromNodeID": "421",
+      "ToNodeID": "492",
+      "FromNodeText": "Review Recommended items"
+    },
+    {
+      "ID": "539",
+      "FromNodeID": "492",
+      "ToNodeID": "516"
+    },
+    {
+      "ID": "563",
+      "FromNodeID": "516",
+      "ToNodeID": "540",
+      "ToNodeText": "Apply coupon or promo discount"
+    },
+    {
+      "ID": "579",
+      "FromNodeID": "540",
+      "ToNodeID": "564",
+      "FromNodeText": "Apply coupon or promo discount"
+    },
+    {
       "ID": "609",
       "Signal": "Yes",
       "FromNodeID": "581",
@@ -278,12 +301,115 @@
       "FromNodeText": "Checkout process"
     },
     {
+      "ID": "657",
+      "FromNodeID": "421",
+      "ToNodeID": "581",
+      "FromNodeText": "Review Recommended items"
+    },
+    {
+      "ID": "683",
+      "FromNodeID": "719",
+      "ToNodeID": "634",
+      "FromNodeText": "Create new order entry record",
+      "ToNodeText": "Checkout process"
+    },
+    {
       "ID": "718",
       "Signal": "Email Confirmation",
       "FromNodeID": "659",
       "ToNodeID": "719",
       "FromNodeText": "Review Order\nConfirmation",
       "ToNodeText": "Create new order entry record"
+    },
+    {
+      "ID": "699",
+      "FromNodeID": "686",
+      "ToNodeID": "659",
+      "FromNodeText": "End",
+      "ToNodeText": "Review Order\nConfirmation"
+    },
+    {
+      "ID": "713",
+      "FromNodeID": "581",
+      "ToNodeID": "385"
+    },
+    {
+      "ID": "714",
+      "FromNodeID": "492",
+      "ToNodeID": "444"
+    },
+    {
+      "ID": "715",
+      "FromNodeID": "492",
+      "ToNodeID": "398",
+      "ToNodeText": "Authorize transaction"
+    },
+    {
+      "ID": "716",
+      "FromNodeID": "444",
+      "ToNodeID": "581"
+    },
+    {
+      "ID": "717",
+      "FromNodeID": "398",
+      "ToNodeID": "581",
+      "FromNodeText": "Authorize transaction"
+    },
+    {
+      "ID": "778",
+      "FromNodeID": "755",
+      "ToNodeID": "742",
+      "FromNodeText": "Review Order",
+      "ToNodeText": "Start"
+    },
+    {
+      "ID": "794",
+      "FromNodeID": "779",
+      "ToNodeID": "755",
+      "FromNodeText": "Is Order Valid",
+      "ToNodeText": "Review Order"
+    },
+    {
+      "ID": "818",
+      "FromNodeID": "795",
+      "ToNodeID": "779",
+      "FromNodeText": "Accept Order",
+      "ToNodeText": "Is Order Valid"
+    },
+    {
+      "ID": "842",
+      "FromNodeID": "819",
+      "ToNodeID": "795",
+      "FromNodeText": "Package Order",
+      "ToNodeText": "Accept Order"
+    },
+    {
+      "ID": "866",
+      "FromNodeID": "843",
+      "ToNodeID": "819",
+      "FromNodeText": "Ship Order",
+      "ToNodeText": "Package Order"
+    },
+    {
+      "ID": "890",
+      "FromNodeID": "867",
+      "ToNodeID": "843",
+      "FromNodeText": "Generate Shipment Confirmation",
+      "ToNodeText": "Ship Order"
+    },
+    {
+      "ID": "904",
+      "FromNodeID": "891",
+      "ToNodeID": "867",
+      "FromNodeText": "End",
+      "ToNodeText": "Generate Shipment Confirmation"
+    },
+    {
+      "ID": "944",
+      "FromNodeID": "929",
+      "ToNodeID": "779",
+      "FromNodeText": "Can order issues be resolved?",
+      "ToNodeText": "Is Order Valid"
     },
     {
       "ID": "945",
@@ -302,12 +428,54 @@
       "ToNodeText": "Can order issues be resolved?"
     },
     {
+      "ID": "983",
+      "FromNodeID": "970",
+      "ToNodeID": "946",
+      "FromNodeText": "End",
+      "ToNodeText": "Reject Order"
+    },
+    {
+      "ID": "984",
+      "FromNodeID": "795",
+      "ToNodeID": "905",
+      "FromNodeText": "Accept Order",
+      "ToNodeText": "Resolve order issues"
+    },
+    {
+      "ID": "53",
+      "FromNodeID": "17",
+      "ToNodeID": "30",
+      "FromNodeText": "Start",
+      "ToNodeText": "Review Shopping Cart"
+    },
+    {
+      "ID": "91",
+      "FromNodeID": "30",
+      "ToNodeID": "68",
+      "FromNodeText": "Review Shopping Cart",
+      "ToNodeText": "Enter Shipping address"
+    },
+    {
       "ID": "394",
       "Signal": "Validate",
       "FromNodeID": "371",
       "ToNodeID": "68",
       "FromNodeText": "Validate Address",
       "ToNodeText": "Enter Shipping address"
+    },
+    {
+      "ID": "140",
+      "FromNodeID": "68",
+      "ToNodeID": "117",
+      "FromNodeText": "Enter Shipping address",
+      "ToNodeText": "Select Payment Method"
+    },
+    {
+      "ID": "156",
+      "FromNodeID": "117",
+      "ToNodeID": "141",
+      "FromNodeText": "Select Payment Method",
+      "ToNodeText": "Paying by Check?"
     },
     {
       "ID": "186",
@@ -414,6 +582,13 @@
       "ToNodeText": "Paying using line of credit?"
     },
     {
+      "ID": "525",
+      "FromNodeID": "510",
+      "ToNodeID": "312",
+      "FromNodeText": "Line of Credit Approved?",
+      "ToNodeText": "Establish Credit Line"
+    },
+    {
       "ID": "526",
       "Signal": "Yes",
       "FromNodeID": "187",
@@ -428,6 +603,41 @@
       "ToNodeID": "510",
       "FromNodeText": "End",
       "ToNodeText": "Line of Credit Approved?"
+    },
+    {
+      "ID": "552",
+      "FromNodeID": "495",
+      "ToNodeID": "471",
+      "FromNodeText": "End",
+      "ToNodeText": "Submit Line of Credit Payment"
+    },
+    {
+      "ID": "568",
+      "FromNodeID": "555",
+      "ToNodeID": "262",
+      "FromNodeText": "End",
+      "ToNodeText": "Submit credit card payment"
+    },
+    {
+      "ID": "582",
+      "FromNodeID": "569",
+      "ToNodeID": "233",
+      "FromNodeText": "End",
+      "ToNodeText": "Submit check payment"
+    },
+    {
+      "ID": "583",
+      "FromNodeID": "471",
+      "ToNodeID": "447",
+      "FromNodeText": "Submit Line of Credit Payment",
+      "ToNodeText": "Authorize Transaction"
+    },
+    {
+      "ID": "584",
+      "FromNodeID": "447",
+      "ToNodeID": "471",
+      "FromNodeText": "Authorize Transaction",
+      "ToNodeText": "Submit Line of Credit Payment"
     }
   ]
 }

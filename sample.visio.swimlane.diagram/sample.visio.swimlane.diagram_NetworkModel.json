@@ -158,12 +158,83 @@
   ],
   "Edges": [
     {
+      "ID": "29",
+      "FromNodeID": "27",
+      "ToNodeID": "28",
+      "FromNodeText": "Start",
+      "ToNodeText": "Capture Business Demand"
+    },
+    {
+      "ID": "31",
+      "FromNodeID": "28",
+      "ToNodeID": "30",
+      "FromNodeText": "Capture Business Demand",
+      "ToNodeText": "Create/Revise User Stories and Define Acceptance Criteria"
+    },
+    {
+      "ID": "33",
+      "FromNodeID": "30",
+      "ToNodeID": "32",
+      "FromNodeText": "Create/Revise User Stories and Define Acceptance Criteria",
+      "ToNodeText": "Review Delivery Plan with Other Teams"
+    },
+    {
+      "ID": "37",
+      "FromNodeID": "32",
+      "ToNodeID": "36",
+      "FromNodeText": "Review Delivery Plan with Other Teams",
+      "ToNodeText": "Risk Mitigation and Planning"
+    },
+    {
+      "ID": "39",
+      "FromNodeID": "38",
+      "ToNodeID": "36",
+      "FromNodeText": "Create and Refine Solution Design",
+      "ToNodeText": "Risk Mitigation and Planning"
+    },
+    {
+      "ID": "44",
+      "FromNodeID": "43",
+      "ToNodeID": "38",
+      "FromNodeText": "Review Solution Design",
+      "ToNodeText": "Create and Refine Solution Design"
+    },
+    {
+      "ID": "46",
+      "FromNodeID": "45",
+      "ToNodeID": "43",
+      "FromNodeText": "Development and User Testing of User Stories",
+      "ToNodeText": "Review Solution Design"
+    },
+    {
+      "ID": "47",
+      "FromNodeID": "30",
+      "ToNodeID": "43",
+      "FromNodeText": "Create/Revise User Stories and Define Acceptance Criteria",
+      "ToNodeText": "Review Solution Design"
+    },
+    {
+      "ID": "49",
+      "Signal": "",
+      "FromNodeID": "125",
+      "ToNodeID": "45",
+      "FromNodeText": "Deploy into SIT Environment",
+      "ToNodeText": "Development and User Testing of User Stories"
+    },
+    {
       "ID": "53",
       "Signal": "Success",
       "FromNodeID": "52",
       "ToNodeID": "51",
       "FromNodeText": "Deploy to Production Environment",
       "ToNodeText": "Execute UAT Testing"
+    },
+    {
+      "ID": "54",
+      "FromNodeID": "51",
+      "ToNodeID": "127",
+      "FromNodeText": "Execute UAT Testing",
+      "ToNodeText": "Deploy into UAT Environment"
     },
     {
       "ID": "56",
@@ -182,6 +253,13 @@
       "ToNodeText": "Smoke Testing"
     },
     {
+      "ID": "60",
+      "FromNodeID": "57",
+      "ToNodeID": "52",
+      "FromNodeText": "Smoke Testing",
+      "ToNodeText": "Deploy to Production Environment"
+    },
+    {
       "ID": "61",
       "Signal": "Smoke Testing Failed",
       "FromNodeID": "48",
@@ -196,6 +274,13 @@
       "ToNodeID": "48",
       "FromNodeText": "Deploy into UAT Environment",
       "ToNodeText": "Execute System Testing"
+    },
+    {
+      "ID": "122",
+      "FromNodeID": "43",
+      "ToNodeID": "43",
+      "FromNodeText": "Review Solution Design",
+      "ToNodeText": "Review Solution Design"
     },
     {
       "ID": "123",

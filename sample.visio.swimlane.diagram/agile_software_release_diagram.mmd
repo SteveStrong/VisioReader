@@ -1,0 +1,68 @@
+---
+title: Agile Software Release Diagram (Swimlane)
+---
+flowchart TD
+    Start([Start])
+    
+    %% Product Owner Activities
+    CaptureBusinessDemand[Capture Business Demand]
+    CreateUserStories[Create/Revise User Stories and Define Acceptance Criteria]
+    ReviewDeliveryPlan[Review Delivery Plan with Other Teams]
+    
+    %% Scrum Master Activities
+    RiskMitigation[Risk Mitigation and Planning]
+    
+    %% Solution Architect Activities
+    CreateSolutionDesign[Create and Refine Solution Design]
+    ReviewSolutionDesign[Review Solution Design]
+    
+    %% Development Team Activities
+    DevelopmentTesting[Development and User Testing of User Stories]
+    DeployToSIT[Deploy into SIT Environment]
+    
+    %% QA Team Activities
+    ExecuteSystemTesting[Execute System Testing]
+    DeployToUAT[Deploy into UAT Environment]
+    ExecuteUATTesting[Execute UAT Testing]
+    DeployToProduction[Deploy to Production Environment]
+    SmokeTesting[Smoke Testing]
+    
+    End([End])
+    
+    %% Flow connections
+    Start --> CaptureBusinessDemand
+    CaptureBusinessDemand --> CreateUserStories
+    CreateUserStories --> ReviewDeliveryPlan
+    ReviewDeliveryPlan --> RiskMitigation
+    RiskMitigation --> CreateSolutionDesign
+    CreateSolutionDesign --> ReviewSolutionDesign
+    ReviewSolutionDesign --> DevelopmentTesting
+    DevelopmentTesting --> DeployToSIT
+    DeployToSIT --> ExecuteSystemTesting
+    ExecuteSystemTesting --> DeployToUAT
+    DeployToUAT --> ExecuteUATTesting
+    ExecuteUATTesting --> DeployToProduction
+    DeployToProduction --> SmokeTesting
+    SmokeTesting --> End
+    
+    %% Feedback loops and error paths
+    DevelopmentTesting -.->|Failed| ExecuteUATTesting
+    DevelopmentTesting -.->|System Testing Failed| ExecuteSystemTesting
+    ExecuteSystemTesting -.->|Smoke Testing Failed| SmokeTesting
+    DeployToProduction -.->|Success| ExecuteUATTesting
+    
+    %% Swimlane styling with high contrast text
+    classDef productOwner fill:#e1f5fe,stroke:#01579b,stroke-width:2px,color:#000000
+    classDef scrumMaster fill:#f3e5f5,stroke:#4a148c,stroke-width:2px,color:#000000
+    classDef architect fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px,color:#000000
+    classDef devTeam fill:#fff3e0,stroke:#e65100,stroke-width:2px,color:#000000
+    classDef qaTeam fill:#fce4ec,stroke:#880e4f,stroke-width:2px,color:#000000
+    classDef startEnd fill:#f5f5f5,stroke:#424242,stroke-width:3px,color:#000000
+    
+    %% Apply styles to nodes
+    class CaptureBusinessDemand,CreateUserStories,ReviewDeliveryPlan productOwner
+    class RiskMitigation scrumMaster
+    class CreateSolutionDesign,ReviewSolutionDesign architect
+    class DevelopmentTesting,DeployToSIT devTeam
+    class ExecuteSystemTesting,DeployToUAT,ExecuteUATTesting,DeployToProduction,SmokeTesting qaTeam
+    class Start,End startEnd

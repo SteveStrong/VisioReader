@@ -1,0 +1,37 @@
+flowchart TD
+    %% Student Enrollment Process
+    
+    %% Node definitions with appropriate shapes
+    Start(("Start"))
+    Submit["Submit the registration form"]
+    FormComplete{"Form Complete?"}
+    VerifyDetails["Verify Details of Submission"]
+    AcceptSubmission{"Accept Submission?"}
+    WriteAcceptance["Write Acceptance Letter"]
+    AcceptanceLetter[/"Acceptance Letter"/]
+    NotifyRejection["Notify Student on the Rejection"]
+    End(("End"))
+    
+    %% Process flow connections
+    Start --> Submit
+    Submit --> FormComplete
+    FormComplete -->|No| Submit
+    FormComplete -->|Yes| VerifyDetails
+    VerifyDetails --> AcceptSubmission
+    AcceptSubmission -->|Yes| WriteAcceptance
+    AcceptSubmission -->|No| NotifyRejection
+    WriteAcceptance --> AcceptanceLetter
+    NotifyRejection --> End
+    AcceptanceLetter --> End
+    
+    %% Style classes for better visualization
+    classDef startEnd fill:#e8f5e8,stroke:#2e7d32,stroke-width:3px,color:#000000
+    classDef process fill:#ffffff,stroke:#1976d2,stroke-width:2px,color:#000000
+    classDef decision fill:#fff3e0,stroke:#f57c00,stroke-width:2px,color:#000000
+    classDef document fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:#000000
+    
+    %% Apply styles
+    class Start,End startEnd
+    class Submit,VerifyDetails,WriteAcceptance,NotifyRejection process
+    class FormComplete,AcceptSubmission decision
+    class AcceptanceLetter document

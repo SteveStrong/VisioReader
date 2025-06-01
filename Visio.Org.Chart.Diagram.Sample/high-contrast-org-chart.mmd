@@ -1,0 +1,46 @@
+flowchart TD
+    %% ABC Manufacturing Company Organizational Chart - High Contrast
+    %% Based on exact nodes and edges from NetworkModel.json
+      %% Define all nodes based on JSON data - combining names with titles
+    Node555["ABC Manufacturing Company"]
+    Node652["Amani Birke<br/>President"]
+    Node742["Leslie Hernandez<br/>Assistant"]
+    
+    Node661["Darvin Vance<br/>VP of Marketing"]
+    Node670["Isabel Wolve<br/>VP of Production"]
+    Node679["Jane Smith<br/>VP of Sales"]
+    
+    Node715["Andrea Roberts<br/>Global Manager of Marketing"]
+    Node724["Robert Sidiqqe<br/>Manager of Production"]
+    Node688["Jane Smith<br/>Global Sales Manager"]
+    
+    Node733["Antonio Bonderoz<br/>Production Operator"]
+    Node697["Robert Smith<br/>Consultant"]
+    Node706["Vacant Position<br/>Title"]
+    
+    %% Define edges based on JSON data
+    Node652 --> Node661
+    Node652 --> Node670
+    Node652 --> Node679
+    Node679 --> Node688
+    Node697 --> Node679
+    Node706 --> Node688
+    Node724 --> Node670
+    Node733 --> Node724
+    Node742 --> Node652
+    Node715 --> Node661
+    Node715 --> Node679
+    
+    %% High contrast styling - Dark backgrounds with white text    classDef company fill:#000080,stroke:#ffffff,stroke-width:4px,color:#ffffff,font-weight:bold
+    classDef president fill:#8B0000,stroke:#ffffff,stroke-width:4px,color:#ffffff,font-weight:bold
+    classDef vp fill:#4B0082,stroke:#ffffff,stroke-width:3px,color:#ffffff,font-weight:bold
+    classDef manager fill:#006400,stroke:#ffffff,stroke-width:3px,color:#ffffff,font-weight:bold
+    classDef staff fill:#333333,stroke:#ffffff,stroke-width:3px,color:#ffffff,font-weight:bold
+    classDef vacant fill:#800000,stroke:#ffffff,stroke-width:3px,color:#ffffff,font-weight:bold,stroke-dasharray: 5 5
+      %% Apply styles to nodes
+    class Node555 company
+    class Node652 president
+    class Node661,Node670,Node679 vp
+    class Node715,Node724,Node688 manager
+    class Node742,Node733,Node697 staff
+    class Node706 vacant
